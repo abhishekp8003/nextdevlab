@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "title": "Business Website",
+    "subtitle": "Perfect for startups & small businesses",
+    "currency": "$",
+    "price": {
+      "monthly": 4999,
+      "yearly": 49999
+    },
+    "subtitleTwo": "100% money-back guarantee",
+    "features": [
+      "Up to 15 Pages Responsive Website",
+      "Custom Design & Branding",
+      "SEO-Optimized Structure",
+      "Mobile & Tablet Friendly",
+      "Fast Loading Speed",
+      "SSL Security Integration",
+      "Basic Support & Maintenance"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Pro Website",
+    "subtitle": "Advanced features for growing businesses",
+    "currency": "$",
+    "price": {
+      "monthly": 9999,
+      "yearly": 99999
+    },
+    "subtitleTwo": "100% money-back guarantee",
+    "features": [
+      "Up to 30 Pages Responsive Website",
+      "Custom UI/UX Design & Animations",
+      "SEO & Performance Optimization",
+      "E-commerce & Payment Integration",
+      "Advanced Lead Forms & CRM Setup",
+      "Multi-Device Compatibility",
+      "Enhanced Security & Backups"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Premium Website",
+    "subtitle": "Enterprise-level solutions for maximum impact",
+    "currency": "$",
+    "price": {
+      "monthly": 24999,
+      "yearly": 249999
+    },
+    "subtitleTwo": "100% money-back guarantee",
+    "features": [
+      "Unlimited Pages Responsive Website",
+      "Enterprise SEO & Marketing Strategy",
+      "API & Third-Party Software Integration",
+      "Ultra-Fast Speed & Cloud Hosting",
+      "24/7 Priority Support & Security",
+      "Enhanced Security & Backups",
+      "Custom Dashboard & Analytics"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Starter Plan",
+    "subtitle": "Ideal for individuals and early-stage startups",
+    "currency": "$",
+    "price": {
+      "monthly": 24999,
+      "yearly": 249999
+    },
+    "subtitleTwo": "100% money-back guarantee",
+    "features": [
+      "Launch and manage 1 app",
+      "Support for up to 10,000 monthly users",
+      "Access to essential app analytics",
+      "Developer-friendly dashboard",
+      "Email support for technical issues"
+    ]
+  }
+  ,
+  {
+    "id": 5,
+    "title": "Professional Plan",
+    "subtitle": "Designed for scaling products and fast-moving teams",
+    "currency": "$",
+    "price": {
+      "monthly": 24999,
+      "yearly": 249999
+    },
+    "subtitleTwo": "100% money-back guarantee",
+    "features": [
+      "Manage up to 3 live applications",
+      "Handle up to 50,000 users seamlessly",
+      "Advanced analytics & performance tracking",
+      "API access for integrations",
+      "Priority email and chat support",
+      "Version control and staging environments"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Enterprise Plan",
+    "subtitle": "Tailored for high-growth companies and enterprise needs",
+    "currency": "$",
+    "price": {
+      "monthly": 24999,
+      "yearly": 249999
+    },
+    "subtitleTwo": "100% money-back guarantee",
+    "features": [
+      "Unlimited apps with full scalability",
+      "Support for unlimited users",
+      "Custom integrations and analytics dashboards",
+      "Role-based access control & team collaboration tools",
+      "Dedicated account manager",
+      "24/7 enterprise-grade support with SLA"
+    ]
+  }
+]

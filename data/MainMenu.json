@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "title": "Home",
+    "url": "/home-01",
+    "hasChildren": false,
+    "clildrens": []
+  },
+  {
+    "id": 2,
+    "title": "Services",
+    "url": "/service-two",
+    "hasChildren": true,
+    "clildrens": [
+      { "id": 1, "title": "Web Serviess", "url": "/services/design/website-design" },
+      { "id": 2, "title": "App Development", "url": "/services/design/mobile-app-design" },
+      {
+        "id": 3,
+        "title": "Marketing",
+        "url": "/services/online-marketing/social-media-marketing"
+      }
+    ]
+  },
+
+  
+  {
+    "id": 3,
+    "title": "About Us",
+    "url": "/about",
+    "hasChildren": false
+  },
+  
+  {
+    "id": 8,
+    "title": "Pricing",
+    "url": "/pricing",
+    "hasChildren": false
+  },
+  
+  {
+    "id": 9,
+    "title": "Career",
+    "url": "/career",
+    "hasChildren": false
+  },
+  
+
+
+  {
+    "id": 4,
+    "title": "Blog",
+    "url": "/blog/blog-1",
+    "hasChildren": true,
+    "clildrens": [
+      { "id": 1, "title": "Blog List", "url": "/blog" },
+      { "id": 2, "title": "Blog List Two", "url": "/blog-list-two" },
+      { "id": 3, "title": "Blog Details", "url"
+      : "/blog/blog-1" }
+    ]
+  },
+ 
+  {
+    "id": 6,
+    "title": "Contact",
+    "url": "/contact",
+    "hasChildren": false
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+{
+  "social": [
+    {"type":  "facebook", "icon": "fa-facebook-f", "url":  "https://www.facebook.com/"},
+    {"type":  "linkedin", "icon": "fa-linkedin-in", "url":  "https://www.linkedin.com/"},
+    {"type":  "instagram", "icon": "fa-instagram", "url":  "https://www.instagram.com/"}
+  ],
+  "services": [
+    {"title":  "Website Development", "url":  "/services/design/website-design"},
+    {"title":  "Mobile App Development", "url":  "/services/design/mobile-app-design"},
+    {"title":  "Social Media Marketing", "url":  "/services/online-marketing/social-media-marketing"}
+  ],
+  "resources": [
+    {"title":  "Blog", "url":  "/blog"},
+    {"title":  "Case Studies", "url":  "/case-study"},
+    {"title":  "Portfolio", "url":  "/portfolio"}
+  ],
+  "support": [
+    {"title":  "Contact", "url":  "/contact"},
+    {"title":  "Privacy Policy", "url":  "/privacy-policy"},
+    {"title":  "Sitemap", "url":  "#"}
+  ]
+}

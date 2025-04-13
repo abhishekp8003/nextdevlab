@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+      "width": 120,
+      "height": 120
+    }
+  },
+  {
+    "id": 2,
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Shopify_logo_2018.svg",
+      "width": 140,
+      "height": 80
+    }
+  },
+  {
+    "id": 3,
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
+      "width": 130,
+      "height": 90
+    }
+  },
+  {
+    "id": 4,
+    "image": {
+      "src": "https://firebase.google.com/downloads/brand-guidelines/PNG/logo-built_white.png",
+      "width": 120,
+      "height": 120
+    }
+  },
+  {
+    "id": 5,
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg",
+      "width": 140,
+      "height": 80
+    }
+  },
+  {
+    "id": 6,
+    "image": {
+      "src": "https://www.mongodb.com/assets/images/global/favicon.ico",
+      "width": 120,
+      "height": 80
+    }
+  },
+  {
+    "id": 7,
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
+      "width": 150,
+      "height": 90
+    }
+  },
+  {
+    "id": 8,
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Kubernetes_logo_without_workmark.svg",
+      "width": 120,
+      "height": 120
+    }
+  },
+  {
+    "id": 9,
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg",
+      "width": 120,
+      "height": 120
+    }
+  },
+  {
+    "id": 10,
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg",
+      "width": 120,
+      "height": 80
+    }
+  }
+]

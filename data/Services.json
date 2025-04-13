@@ -1,0 +1,2286 @@
+[
+  {
+    "id": 1,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-04.svg",
+      "width": "23",
+      "height": "36"
+    },
+    "iconColorClass": "",
+    "title": "Website Development",
+    "description": "At NextDev Labs, we specialize in creating professional, visually appealing, and highly functional websites. Our designs are crafted to be user-friendly and optimized for search engines, ensuring your business stands out online.",
+    "category": "Default",
+    "slug": "design",
+    "process": {
+      "title": "Our Design Process",
+      "description": "NextDev Labs follows a structured design process to deliver a seamless and engaging digital experience. Our approach ensures that every website is crafted with precision and aligned with your business goals.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four-step process",
+          "description": "At NextDev Labs, we begin with an in-depth discovery phase. We research your industry, target audience, and business goals to lay the foundation for a high-performing website. This step ensures we align our design strategy with your brand identity and user needs.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four-step process",
+          "description": "Our team creates wireframes and interactive prototypes to visualize your website’s structure. At NextDev Labs, we ensure a user-centric design that enhances the customer journey, making navigation intuitive and engaging.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four-step process",
+          "description": "We conduct rigorous testing at every stage to guarantee a seamless experience across all devices and browsers. NextDev Labs prioritizes performance, usability, and security to ensure your website meets the highest standards.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four-step process",
+          "description": "With the design finalized, we bring your website to life using the latest technologies and best practices. At NextDev Labs, we focus on fast-loading, mobile-responsive, and SEO-friendly websites to maximize your online presence.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+},
+{
+  "id": 2,
+  "imageLayer": "/images/icons/layer.svg",
+  "imageIcon": {
+    "src": "/images/icons/icon-02.svg",
+    "width": "41",
+    "height": "24"
+  },
+  "iconColorClass": "gradient-color-02",
+  "title": "Application Development",
+  "description": "At NextDev Labs, we develop cutting-edge applications that are not only visually appealing but also highly functional and scalable. Our solutions are tailored to meet business needs while ensuring a seamless user experience.",
+  "category": "Default",
+  "slug": "development",
+  "process": {
+    "title": "Our Development Process",
+    "description": "NextDev Labs follows a structured development process to deliver high-performance applications that drive business growth and enhance user engagement.",
+    "strategies": [
+      {
+        "id": 1,
+        "title": "Discover",
+        "subtitle": "our four-step process",
+        "description": "We start by understanding your business goals, target audience, and technical requirements. At NextDev Labs, our discovery phase ensures that the foundation of your application is aligned with your vision and market needs.",
+        "highlightColor": "extra04-color",
+        "image": "/images/process/process-01.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Prototype",
+        "subtitle": "our four-step process",
+        "description": "Our team creates interactive prototypes and wireframes to visualize the application’s flow and functionality. At NextDev Labs, we ensure a user-centric design approach that enhances engagement and usability.",
+        "highlightColor": "extra05-color",
+        "image": "/images/process/process-02.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Test",
+        "subtitle": "our four-step process",
+        "description": "We rigorously test the application across various devices and environments to ensure performance, security, and usability. NextDev Labs follows an iterative testing approach to deliver a bug-free and optimized solution.",
+        "highlightColor": "extra06-color",
+        "image": "/images/process/process-03.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Build",
+        "subtitle": "our four-step process",
+        "description": "Once the testing phase is complete, our developers bring the application to life using the latest technologies. At NextDev Labs, we focus on building scalable, secure, and high-performing applications tailored to your business needs.",
+        "highlightColor": "extra07-color",
+        "image": "/images/process/process-04.jpg"
+      }
+    ]
+  }
+},
+{
+  "id": 3,
+  "imageLayer": "/images/icons/layer.svg",
+  "imageIcon": {
+    "src": "/images/icons/icon-03.svg",
+    "width": "34",
+    "height": "34"
+  },
+  "iconColorClass": "gradient-color-03",
+  "title": "Marketing",
+  "description": "At NextDev Labs, we craft result-driven marketing strategies that enhance brand visibility, attract the right audience, and drive business growth. Our digital marketing solutions, including Meta campaigns, Google Ads, and branding, are tailored to maximize your online presence.",
+  "category": "Default",
+  "slug": "online-marketing",
+  "process": {
+    "title": "Our Online Marketing Process",
+    "description": "NextDev Labs follows a data-driven marketing approach, utilizing Meta campaigns, Google Ads, and branding strategies to ensure maximum reach, engagement, and conversions for your business.",
+    "strategies": [
+      {
+        "id": 1,
+        "title": "Discover",
+        "subtitle": "our four-step process",
+        "description": "We begin by analyzing your brand, target audience, and market trends. At NextDev Labs, our discovery phase helps us craft a customized marketing strategy that aligns with your business objectives, whether it's SEO, paid advertising, or branding initiatives.",
+        "highlightColor": "extra04-color",
+        "image": "/images/process/process-01.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Prototype",
+        "subtitle": "our four-step process",
+        "description": "We develop a structured marketing framework that includes Meta (Facebook & Instagram) campaigns, Google Ads, and strategic brand positioning. NextDev Labs ensures every campaign is optimized for reach, engagement, and conversions.",
+        "highlightColor": "extra05-color",
+        "image": "/images/process/process-02.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Test",
+        "subtitle": "our four-step process",
+        "description": "We run A/B tests, analyze performance metrics, and optimize ad campaigns in real-time. At NextDev Labs, we continuously refine Meta campaigns, Google Ads, and branding elements to ensure the best ROI for your business.",
+        "highlightColor": "extra06-color",
+        "image": "/images/process/process-03.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Build",
+        "subtitle": "our four-step process",
+        "description": "Once optimized, we execute full-scale marketing campaigns across Meta platforms, Google Ads, and branding channels. NextDev Labs focuses on long-term brand building and sustained digital growth, ensuring that your business reaches the right audience effectively.",
+        "highlightColor": "extra07-color",
+        "image": "/images/process/process-04.jpg"
+      }
+    ]
+  }
+},
+
+
+
+
+ {
+    "id": 4,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-03.svg",
+      "width": "34",
+      "height": "34"
+    },
+    "iconColorClass": "gradient-color-04",
+    "title": "Business",
+    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "category": "Default",
+    "slug": "business",
+    "process": {
+      "title": "Our business process",
+      "description": "Our comprehensive business strategy ensures quality and perfection for our clients.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-02.svg",
+      "width": "41",
+      "height": "24"
+    },
+    "iconColorClass": "gradient-color-06",
+    "title": "Technology",
+    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "category": "Default",
+    "slug": "technology",
+    "process": {
+      "title": "Our technical process",
+      "description": "Our comprehensive technical strategy ensures a perfectly maintained system for your business.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-02.svg",
+      "width": "41",
+      "height": "24"
+    },
+    "iconColorClass": "gradient-color-05",
+    "title": "Content strategy",
+    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "category": "Default",
+    "slug": "content-strategy",
+    "process": {
+      "title": "Our content strategy process",
+      "description": "Our comprehensive content strategy ensures top class content for your business.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+
+
+
+{
+  "id": 7,
+  "imageLayer": "/images/icons/layer.svg",
+  "imageIcon": {
+    "src": "/images/icons/icon-02.svg",
+    "width": "41",
+    "height": "24"
+  },
+  "iconColorClass": "gradient-color-02",
+  "title": "Website design",
+  "description": "We craft visually appealing and user-friendly websites that enhance your brand identity while ensuring optimal performance.",
+  "category": "Design",
+  "slug": "website-design",
+  "process": {
+    "title": "Our website design process",
+    "description": "A structured approach to designing professional, high-performance websites tailored to your business needs.",
+    "strategies": [
+      {
+        "id": 1,
+        "title": "Discover",
+        "subtitle": "Understanding requirements",
+        "description": "We analyze your brand, audience, and objectives to create a design strategy that aligns with your business goals.",
+        "highlightColor": "extra04-color",
+        "image": "/images/process/process-01.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Prototype",
+        "subtitle": "Wireframing & UI Design",
+        "description": "We create wireframes and prototypes to visualize the user interface, ensuring a smooth user experience.",
+        "highlightColor": "extra05-color",
+        "image": "/images/process/process-02.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Test",
+        "subtitle": "User experience validation",
+        "description": "We conduct usability testing to refine the design, ensuring responsiveness, accessibility, and ease of navigation.",
+        "highlightColor": "extra06-color",
+        "image": "/images/process/process-03.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Build",
+        "subtitle": "Finalizing and deploying",
+        "description": "We implement the design with cutting-edge technologies, optimizing for speed, SEO, and performance.",
+        "highlightColor": "extra07-color",
+        "image": "/images/process/process-04.jpg"
+      }
+    ]
+  }
+},
+{
+  "id": 8,
+  "imageLayer": "/images/icons/layer.svg",
+  "imageIcon": {
+    "src": "/images/icons/icon-03.svg",
+    "width": "34",
+    "height": "34"
+  },
+  "iconColorClass": "gradient-color-03",
+  "title": "Mobile app design",
+  "description": "We create sleek, intuitive, and user-friendly mobile app designs that enhance user engagement and brand identity.",
+  "category": "Design",
+  "slug": "mobile-app-design",
+  "process": {
+    "title": "Our app design process",
+    "description": "A strategic approach to designing functional, aesthetically pleasing, and seamless mobile applications.",
+    "strategies": [
+      {
+        "id": 1,
+        "title": "Discover",
+        "subtitle": "Research & Planning",
+        "description": "We study your audience, competitors, and market trends to create an app design that drives engagement.",
+        "highlightColor": "extra04-color",
+        "image": "/images/process/process-01.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Prototype",
+        "subtitle": "Creating app wireframes",
+        "description": "We develop interactive wireframes to establish app flow, layouts, and key user interactions.",
+        "highlightColor": "extra05-color",
+        "image": "/images/process/process-02.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Test",
+        "subtitle": "User experience testing",
+        "description": "We conduct usability testing and refine the UI/UX to ensure smooth navigation and intuitive functionality.",
+        "highlightColor": "extra06-color",
+        "image": "/images/process/process-03.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Build",
+        "subtitle": "Bringing the design to life",
+        "description": "We finalize the design with high-resolution UI elements and prepare assets for development and implementation.",
+        "highlightColor": "extra07-color",
+        "image": "/images/process/process-04.jpg"
+      }
+    ]
+  }
+},
+{
+  "id": 9,
+  "imageLayer": "/images/icons/layer.svg",
+  "imageIcon": {
+    "src": "/images/icons/icon-03.svg",
+    "width": "34",
+    "height": "34"
+  },
+  "iconColorClass": "gradient-color-04",
+  "title": "Application Development",
+  "description": "From content management systems to complex eCommerce platforms, we develop high-performance applications.",
+  "category": "Development",
+  "slug": "application-development",
+  "process": {
+    "title": "Our application development process",
+    "description": "A streamlined development approach that ensures scalable, secure, and high-performing applications.",
+    "strategies": [
+      {
+        "id": 1,
+        "title": "Discover",
+        "subtitle": "Planning & analysis",
+        "description": "We define the project scope, goals, and technical requirements to ensure a structured development process.",
+        "highlightColor": "extra04-color",
+        "image": "/images/process/process-01.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Prototype",
+        "subtitle": "Architecting the solution",
+        "description": "We create wireframes and technical blueprints to establish the application's structure and functionalities.",
+        "highlightColor": "extra05-color",
+        "image": "/images/process/process-02.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Test",
+        "subtitle": "Quality assurance & debugging",
+        "description": "We rigorously test the application for bugs, security vulnerabilities, and performance issues.",
+        "highlightColor": "extra06-color",
+        "image": "/images/process/process-03.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Build",
+        "subtitle": "Deployment & maintenance",
+        "description": "We launch the application with seamless deployment and provide ongoing support for updates and improvements.",
+        "highlightColor": "extra07-color",
+        "image": "/images/process/process-04.jpg"
+      }
+    ]
+  }
+},
+
+  {
+    "id": 10,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-03.svg",
+      "width": "34",
+      "height": "34"
+    },
+    "iconColorClass": "gradient-color-03",
+    "title": "Video production",
+    "description": "From simple Content Management System to complex eCommerce developer, we cover it all.",
+    "category": "Design",
+    "slug": "video-production",
+    "process": {
+      "title": "Our video production process",
+      "description": "Our comprehensive production strategy ensures a perfectly maked video for your business.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-04.svg",
+      "width": "23",
+      "height": "36"
+    },
+    "iconColorClass": "",
+    "title": "Content Managment",
+    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "category": "Development",
+    "slug": "content-management",
+    "process": {
+      "title": "Our content management process",
+      "description": "Our comprehensive content management strategy ensures perfect content for your business.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-02.svg",
+      "width": "41",
+      "height": "24"
+    },
+    "iconColorClass": "gradient-color-02",
+    "title": "Mobile app development",
+    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "category": "Development",
+    "slug": "mobile-app-development",
+    "process": {
+      "title": "Our app development process",
+      "description": "Our comprehensive app development strategy ensures a perfectly crafted developed app for your business.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-03.svg",
+      "width": "34",
+      "height": "34"
+    },
+    "iconColorClass": "gradient-color-03",
+    "title": "eCommerce",
+    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "category": "Development",
+    "slug": "e-commerce",
+    "process": {
+      "title": "Our eCommerce process",
+      "description": "Our comprehensive eCommerce strategy reach more customers for your online business.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-04.svg",
+      "width": "23",
+      "height": "36"
+    },
+    "iconColorClass": "",
+    "title": "SEO",
+    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "category": "Online Marketing",
+    "slug": "search-engine-optimization",
+    "process": {
+      "title": "Our SEO process",
+      "description": "Our seo strategy enhance trafic for your website.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+
+
+
+
+
+  {
+    "id": 15,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-02.svg",
+      "width": "41",
+      "height": "24"
+    },
+    "iconColorClass": "gradient-color-02",
+    "title": "Pay-per click",
+    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "category": "Online Marketing",
+    "slug": "pay-per-click",
+    "process": {
+      "title": "Our pay-per click process",
+      "description": "Our pay-per click service optimized advertising for your business.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-03.svg",
+      "width": "34",
+      "height": "34"
+    },
+    "iconColorClass": "gradient-color-03",
+    "title": "Email marketing",
+    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "category": "Online Marketing",
+    "slug": "email-marketing",
+    "process": {
+      "title": "Our email marketing process",
+      "description": "Our email marketing strategy ensures cost-effective marketing for your business.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-03.svg",
+      "width": "34",
+      "height": "34"
+    },
+    "iconColorClass": "gradient-color-04",
+    "title": "Display marketing",
+    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "category": "Online Marketing",
+    "slug": "display-marketing",
+    "process": {
+      "title": "Our display marketing process",
+      "description": "Our display marketing strategy ensures cost-effective marketing for your business.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-02.svg",
+      "width": "41",
+      "height": "24"
+    },
+    "iconColorClass": "gradient-color-02",
+    "title": "Social media marketing",
+    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "category": "Online Marketing",
+    "slug": "social-media-marketing",
+    "process": {
+      "title": "Our social media marketing process",
+      "description": "Our social media marketing strategy ensures cost-effective marketing for your business.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  {
+    "id": 19,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-04.svg",
+      "width": "23",
+      "height": "36"
+    },
+    "iconColorClass": "",
+    "title": "Digital strategy",
+    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "category": "Business",
+    "slug": "digital-strategy",
+    "process": {
+      "title": "Our digital strategy process",
+      "description": "Our digital strategy ensures a well maintained digital system for your business.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-02.svg",
+      "width": "41",
+      "height": "24"
+    },
+    "iconColorClass": "gradient-color-02",
+    "title": "Business consulting",
+    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "category": "Business",
+    "slug": "business-consulting",
+    "process": {
+      "title": "Our business consulting process",
+      "description": "Our business consulting strategy helps you start and grow a perfect business.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+
+    {
+    "id": 21,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-03.svg",
+      "width": "34",
+      "height": "34"
+    },
+    "iconColorClass": "gradient-color-03",
+    "title": "Content writing",
+    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "category": "Business",
+    "slug": "content-writing",
+    "process": {
+      "title": "Our content writing process",
+      "description": "Our content writing strategy ensures a highly effective content for your business.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-02.svg",
+      "width": "41",
+      "height": "24"
+    },
+    "iconColorClass": "gradient-color-02",
+    "title": "Reporting",
+    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "category": "Business",
+    "slug": "reporting",
+    "process": {
+      "title": "Our reporting process",
+      "description": "Our comprehensive reporting strategy ensures a perfectly organized reports for your business.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "id": 23,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-04.svg",
+      "width": "23",
+      "height": "36"
+    },
+    "iconColorClass": "",
+    "title": "Hosting",
+    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "category": "Technology",
+    "slug": "hosting",
+    "process": {
+      "title": "Our hosting process",
+      "description": "Our comprehensive hosting business ensures a secuired hosted database for your website.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-02.svg",
+      "width": "41",
+      "height": "24"
+    },
+    "iconColorClass": "gradient-color-02",
+    "title": "Big data analysis",
+    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "category": "Technology",
+    "slug": "big-data-analysis",
+    "process": {
+      "title": "Our big data analysis process",
+      "description": "Our big data analysis strategy helps you to grow your business.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-04.svg",
+      "width": "23",
+      "height": "36"
+    },
+    "iconColorClass": "",
+    "title": "Design",
+    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "category": "Content strategy",
+    "slug": "design-1",
+    "process": {
+      "title": "Our design process",
+      "description": "Our comprehensive design strategy ensures a perfectly crafted design for your business.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-02.svg",
+      "width": "41",
+      "height": "24"
+    },
+    "iconColorClass": "gradient-color-02",
+    "title": "Design",
+    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "category": "Content strategy",
+    "slug": "design-2",
+    "process": {
+      "title": "Our design process",
+      "description": "Our comprehensive design strategy ensures a perfectly crafted design for your business.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-03.svg",
+      "width": "34",
+      "height": "34"
+    },
+    "iconColorClass": "gradient-color-03",
+    "title": "Design",
+    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
+    "category": "Content strategy",
+    "slug": "design-3",
+    "process": {
+      "title": "Our design process",
+      "description": "Our comprehensive design strategy ensures a perfectly crafted design for your business.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 28,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-04.svg",
+      "width": "23",
+      "height": "36"
+    },
+    "iconColorClass": "",
+    "title": "Visual branding",
+    "description": "At NextDev Labs, we craft visually compelling brand identities that leave a lasting impression. From logo design to complete brand strategy, we ensure your business stands out with a unique and cohesive visual identity.",
+    "category": "Our capabilities",
+    "slug": "visual-branding",
+    "process": {
+      "title": "Our visual branding process",
+      "description": "NextDev Labs follows a structured approach to create impactful and engaging brand identities tailored to your business.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four-step process",
+          "description": "We start by understanding your brand, its values, and target audience. Through deep research and market analysis, we uncover insights that shape the foundation of your brand identity.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four-step process",
+          "description": "We develop multiple design concepts and prototypes, ensuring they align with your brand’s personality. Our iterative approach allows us to refine and enhance your brand identity.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four-step process",
+          "description": "We test different branding elements across various platforms and gather feedback to optimize their effectiveness. This ensures consistency and impact across digital and print media.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four-step process",
+          "description": "Once finalized, we deploy the brand identity across all necessary channels, providing guidelines for consistent branding and ensuring a strong market presence for your business.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+},
+{
+  "id": 29,
+  "imageLayer": "/images/icons/layer.svg",
+  "imageIcon": {
+    "src": "/images/icons/icon-02.svg",
+    "width": "41",
+    "height": "24"
+  },
+  "iconColorClass": "gradient-color-02",
+  "title": "Interaction",
+  "description": "We create immersive and intuitive digital experiences that enhance user engagement and drive conversions.",
+  "category": "Our capabilities",
+  "slug": "interaction",
+  "process": {
+    "title": "Our interaction process",
+    "description": "We ensure smooth and engaging interactions between users and digital products.",
+    "strategies": [
+      {
+        "id": 1,
+        "title": "Discover",
+        "subtitle": "User research & analysis",
+        "description": "We analyze user behavior, preferences, and needs to design experiences that are seamless and engaging.",
+        "highlightColor": "extra04-color",
+        "image": "/images/process/process-01.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Prototype",
+        "subtitle": "Wireframes & interaction design",
+        "description": "We create wireframes and prototypes to visualize user flows, ensuring a smooth and intuitive interaction experience.",
+        "highlightColor": "extra05-color",
+        "image": "/images/process/process-02.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Test",
+        "subtitle": "Usability testing & feedback",
+        "description": "We conduct usability tests to refine and optimize interactions, improving overall user experience.",
+        "highlightColor": "extra06-color",
+        "image": "/images/process/process-03.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Build",
+        "subtitle": "Final implementation",
+        "description": "We implement refined interaction elements into the product, ensuring seamless usability and high engagement.",
+        "highlightColor": "extra07-color",
+        "image": "/images/process/process-04.jpg"
+      }
+    ]
+  }
+},
+{
+  "id": 30,
+  "imageLayer": "/images/icons/layer.svg",
+  "imageIcon": {
+    "src": "/images/icons/icon-01.svg",
+    "width": "34",
+    "height": "34"
+  },
+  "iconColorClass": "gradient-color-03",
+  "title": "Creative production",
+  "description": "We bring creative ideas to life through high-quality design, animation, and multimedia production.",
+  "category": "Our capabilities",
+  "slug": "creative-production",
+  "process": {
+    "title": "Our creative production process",
+    "description": "We follow a structured approach to deliver stunning visuals and engaging content.",
+    "strategies": [
+      {
+        "id": 1,
+        "title": "Discover",
+        "subtitle": "Understanding creative needs",
+        "description": "We collaborate with clients to define creative objectives, ensuring alignment with brand identity and marketing goals.",
+        "highlightColor": "extra04-color",
+        "image": "/images/process/process-01.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Prototype",
+        "subtitle": "Concept development",
+        "description": "We craft initial concepts, storyboards, and drafts to visualize the creative direction before production.",
+        "highlightColor": "extra05-color",
+        "image": "/images/process/process-02.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Test",
+        "subtitle": "Refining the visuals",
+        "description": "We iterate on designs based on feedback, fine-tuning details to ensure visual excellence and engagement.",
+        "highlightColor": "extra06-color",
+        "image": "/images/process/process-03.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Build",
+        "subtitle": "Final production",
+        "description": "We finalize and deliver high-quality creative assets, ready for use in digital and traditional media platforms.",
+        "highlightColor": "extra07-color",
+        "image": "/images/process/process-04.jpg"
+      }
+    ]
+  }
+},
+
+{
+  "id": 31,
+  "imageLayer": "/images/icons/layer.svg",
+  "imageIcon": {
+    "src": "/images/icons/icon-03.svg",
+    "width": "34",
+    "height": "34"
+  },
+  "iconColorClass": "gradient-color-04",
+  "title": "Development",
+  "description": "At NextDev Labs, we craft scalable and high-performing web and mobile applications, ensuring seamless functionality and superior user experiences.",
+  "category": "Our capabilities",
+  "slug": "development",
+  "process": {
+    "title": "Our development process",
+    "description": "We follow an agile and efficient approach to ensure quality, speed, and scalability in our development projects.",
+    "strategies": [
+      {
+        "id": 1,
+        "title": "Discover",
+        "subtitle": "Understanding your needs",
+        "description": "We analyze your requirements, research industry trends, and define the best technological approach to build a robust solution.",
+        "highlightColor": "extra04-color",
+        "image": "/images/process/process-01.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Prototype",
+        "subtitle": "Creating wireframes & prototypes",
+        "description": "We design wireframes and functional prototypes to visualize the user journey and refine features before development.",
+        "highlightColor": "extra05-color",
+        "image": "/images/process/process-02.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Test",
+        "subtitle": "Ensuring quality and performance",
+        "description": "Our QA team rigorously tests the application for bugs, performance issues, and usability to ensure a flawless experience.",
+        "highlightColor": "extra06-color",
+        "image": "/images/process/process-03.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Build",
+        "subtitle": "Deployment & maintenance",
+        "description": "We deploy the final product and provide ongoing maintenance and updates to keep it optimized for performance and security.",
+        "highlightColor": "extra07-color",
+        "image": "/images/process/process-04.jpg"
+      }
+    ]
+  }
+},
+{
+  "id": 32,
+  "imageLayer": "/images/icons/layer.svg",
+  "imageIcon": {
+    "src": "/images/icons/icon-02.svg",
+    "width": "41",
+    "height": "24"
+  },
+  "iconColorClass": "gradient-color-06",
+  "title": "Digital marketing",
+  "description": "NextDev Labs helps brands scale with data-driven marketing strategies, including Meta campaigns, Google Ads, and targeted branding.",
+  "category": "Our capabilities",
+  "slug": "digital-marketing",
+  "process": {
+    "title": "Our digital marketing process",
+    "description": "We combine creativity and analytics to optimize your online presence and drive measurable growth.",
+    "strategies": [
+      {
+        "id": 1,
+        "title": "Discover",
+        "subtitle": "Market research & strategy",
+        "description": "We analyze your audience, competitors, and market trends to build a tailored digital marketing plan.",
+        "highlightColor": "extra04-color",
+        "image": "/images/process/process-01.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Prototype",
+        "subtitle": "Creating compelling campaigns",
+        "description": "We craft engaging ad creatives, targeted campaigns, and persuasive messaging to maximize ROI.",
+        "highlightColor": "extra05-color",
+        "image": "/images/process/process-02.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Test",
+        "subtitle": "A/B testing & optimization",
+        "description": "We continuously test different ad variations and optimize campaigns for better performance and conversions.",
+        "highlightColor": "extra06-color",
+        "image": "/images/process/process-03.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Build",
+        "subtitle": "Scaling & growth",
+        "description": "Once optimized, we scale high-performing campaigns and ensure sustained digital growth for your brand.",
+        "highlightColor": "extra07-color",
+        "image": "/images/process/process-04.jpg"
+      }
+    ]
+  }
+},
+{
+  "id": 33,
+  "imageLayer": "/images/icons/layer.svg",
+  "imageIcon": {
+    "src": "/images/icons/icon-02.svg",
+    "width": "41",
+    "height": "24"
+  },
+  "iconColorClass": "gradient-color-05",
+  "title": "SEO optimization",
+  "description": "NextDev Labs enhances your website’s visibility with technical SEO, on-page and off-page strategies, and search engine-friendly content.",
+  "category": "Our capabilities",
+  "slug": "seo-optimization",
+  "process": {
+    "title": "Our SEO optimization process",
+    "description": "We implement proven SEO techniques to improve search rankings and organic traffic.",
+    "strategies": [
+      {
+        "id": 1,
+        "title": "Discover",
+        "subtitle": "SEO audit & analysis",
+        "description": "We conduct in-depth audits to identify technical issues and opportunities for SEO improvements.",
+        "highlightColor": "extra04-color",
+        "image": "/images/process/process-01.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Prototype",
+        "subtitle": "Content & keyword strategy",
+        "description": "We research high-impact keywords and optimize your website content for better search engine rankings.",
+        "highlightColor": "extra05-color",
+        "image": "/images/process/process-02.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Test",
+        "subtitle": "Performance tracking & refinement",
+        "description": "We monitor SEO performance and fine-tune strategies to maximize search visibility and user engagement.",
+        "highlightColor": "extra06-color",
+        "image": "/images/process/process-03.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Build",
+        "subtitle": "Link-building & authority growth",
+        "description": "We implement link-building, site authority, and long-term SEO strategies to ensure sustained rankings.",
+        "highlightColor": "extra07-color",
+        "image": "/images/process/process-04.jpg"
+      }
+    ]
+  }
+},
+{
+  "id": 34,
+  "imageLayer": "/images/icons/layer.svg",
+  "imageIcon": {
+    "src": "/images/icons/icon-02.svg",
+    "width": "41",
+    "height": "24"
+  },
+  "iconColorClass": "gradient-color-05",
+  "title": "Discuss",
+  "description": "We start with an open discussion to understand your project goals, challenges, and expectations.",
+  "category": "Our ways",
+  "slug": "discuss",
+  "process": {
+    "title": "Our discussion process",
+    "description": "A structured discussion phase that helps align our vision with your requirements for a clear project roadmap.",
+    "strategies": [
+      {
+        "id": 1,
+        "title": "Understanding Your Needs",
+        "subtitle": "Deep dive into requirements",
+        "description": "We engage in detailed conversations to understand your vision, target audience, and business objectives.",
+        "highlightColor": "extra04-color",
+        "image": "/images/process/process-01.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Identifying Key Challenges",
+        "subtitle": "Addressing pain points",
+        "description": "We analyze potential roadblocks and discuss how to overcome them with tailored solutions.",
+        "highlightColor": "extra05-color",
+        "image": "/images/process/process-02.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Strategic Planning",
+        "subtitle": "Defining project scope",
+        "description": "We outline project scope, define deliverables, and set realistic timelines for execution.",
+        "highlightColor": "extra06-color",
+        "image": "/images/process/process-03.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Finalizing the Roadmap",
+        "subtitle": "Aligning expectations",
+        "description": "We establish a clear action plan and ensure all stakeholders are aligned before moving forward.",
+        "highlightColor": "extra07-color",
+        "image": "/images/process/process-04.jpg"
+      }
+    ]
+  }
+},
+{
+  "id": 35,
+  "imageLayer": "/images/icons/layer.svg",
+  "imageIcon": {
+    "src": "/images/icons/icon-02.svg",
+    "width": "41",
+    "height": "24"
+  },
+  "iconColorClass": "gradient-color-05",
+  "title": "Mapping",
+  "description": "We create a structured plan, mapping out workflows, features, and interactions for seamless execution.",
+  "category": "Our ways",
+  "slug": "mapping",
+  "process": {
+    "title": "Our mapping process",
+    "description": "A comprehensive mapping phase that ensures a well-structured and logical approach to the project.",
+    "strategies": [
+      {
+        "id": 1,
+        "title": "Wireframing & UX Flow",
+        "subtitle": "Structuring user experience",
+        "description": "We design wireframes and flowcharts to outline navigation, interactions, and user journeys.",
+        "highlightColor": "extra04-color",
+        "image": "/images/process/process-01.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Defining Features & Functionalities",
+        "subtitle": "Detailing every aspect",
+        "description": "We map out core features, ensuring seamless integration of essential functionalities.",
+        "highlightColor": "extra05-color",
+        "image": "/images/process/process-02.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Technical Blueprint",
+        "subtitle": "Laying the foundation",
+        "description": "We define the technology stack, APIs, and databases required for efficient execution.",
+        "highlightColor": "extra06-color",
+        "image": "/images/process/process-03.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Timeline & Milestone Planning",
+        "subtitle": "Ensuring structured execution",
+        "description": "We break the project into manageable phases with clear deliverables and deadlines.",
+        "highlightColor": "extra07-color",
+        "image": "/images/process/process-04.jpg"
+      }
+    ]
+  }
+},
+{
+  "id": 36,
+  "imageLayer": "/images/icons/layer.svg",
+  "imageIcon": {
+    "src": "/images/icons/icon-02.svg",
+    "width": "41",
+    "height": "24"
+  },
+  "iconColorClass": "gradient-color-05",
+  "title": "Execution",
+  "description": "We bring ideas to life through precise execution, ensuring top-notch quality and efficiency.",
+  "category": "Our ways",
+  "slug": "execution",
+  "process": {
+    "title": "Our execution process",
+    "description": "We execute the mapped-out plan with precision, following an agile approach for optimal results.",
+    "strategies": [
+      {
+        "id": 1,
+        "title": "Agile Development",
+        "subtitle": "Building in iterations",
+        "description": "We follow agile methodologies to develop in phases, allowing flexibility and continuous improvement.",
+        "highlightColor": "extra04-color",
+        "image": "/images/process/process-01.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Testing & Quality Assurance",
+        "subtitle": "Ensuring reliability",
+        "description": "Our rigorous testing process ensures that the product is secure, fast, and user-friendly.",
+        "highlightColor": "extra05-color",
+        "image": "/images/process/process-02.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Deployment & Optimization",
+        "subtitle": "Launching with precision",
+        "description": "We deploy the solution with performance optimization, ensuring a seamless user experience.",
+        "highlightColor": "extra06-color",
+        "image": "/images/process/process-03.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Post-Launch Support",
+        "subtitle": "Maintaining efficiency",
+        "description": "We provide continuous monitoring, updates, and support to keep your solution running smoothly.",
+        "highlightColor": "extra07-color",
+        "image": "/images/process/process-04.jpg"
+      }
+    ]
+  }
+},
+
+  {
+    "id": 37,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-02.svg",
+      "width": "41",
+      "height": "24"
+    },
+    "iconColorClass": "gradient-color-05",
+    "title": "Exceed clients’ and colleagues’ expectations",
+    "description": "Ut id orci ultricies, gravida arcu ac, elementum eros. Curabitur tortor ipsum, imperdiet eget odio ac, faucibus ultricies nisl. Maecenas scelerisque dignissim elit.",
+    "category": "Our values",
+    "slug": "our-values-1",
+    "process": {
+      "title": "Our execution process",
+      "description": "Our comprehensive design strategy ensures a perfectly crafted design for your business.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-02.svg",
+      "width": "41",
+      "height": "24"
+    },
+    "iconColorClass": "gradient-color-05",
+    "title": "Take ownership and question the status quo in a constructive manner",
+    "description": "Ut id orci ultricies, gravida arcu ac, elementum eros. Curabitur tortor ipsum, imperdiet eget odio ac, faucibus ultricies nisl. Maecenas scelerisque dignissim elit.",
+    "category": "Our values",
+    "slug": "our-values-2",
+    "process": {
+      "title": "Our execution process",
+      "description": "Our comprehensive design strategy ensures a perfectly crafted design for your business.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-02.svg",
+      "width": "41",
+      "height": "24"
+    },
+    "iconColorClass": "gradient-color-05",
+    "title": "Be brave, curious and experiment – learn from all successes and failures",
+    "description": "Ut id orci ultricies, gravida arcu ac, elementum eros. Curabitur tortor ipsum, imperdiet eget odio ac, faucibus ultricies nisl. Maecenas scelerisque dignissim elit.",
+    "category": "Our values",
+    "slug": "our-values-3",
+    "process": {
+      "title": "Our execution process",
+      "description": "Our comprehensive design strategy ensures a perfectly crafted design for your business.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-02.svg",
+      "width": "41",
+      "height": "24"
+    },
+    "iconColorClass": "gradient-color-05",
+    "title": "Act in a way that makes all of us proud",
+    "description": "Ut id orci ultricies, gravida arcu ac, elementum eros. Curabitur tortor ipsum, imperdiet eget odio ac, faucibus ultricies nisl. Maecenas scelerisque dignissim elit.",
+    "category": "Our values",
+    "slug": "our-values-4",
+    "process": {
+      "title": "Our execution process",
+      "description": "Our comprehensive design strategy ensures a perfectly crafted design for your business.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-02.svg",
+      "width": "41",
+      "height": "24"
+    },
+    "iconColorClass": "gradient-color-05",
+    "title": "Build an inclusive, transparent and socially responsible culture",
+    "description": "Ut id orci ultricies, gravida arcu ac, elementum eros. Curabitur tortor ipsum, imperdiet eget odio ac, faucibus ultricies nisl. Maecenas scelerisque dignissim elit.",
+    "category": "Our values",
+    "slug": "our-values-5",
+    "process": {
+      "title": "Our execution process",
+      "description": "Our comprehensive design strategy ensures a perfectly crafted design for your business.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 42,
+    "imageLayer": "/images/icons/layer.svg",
+    "imageIcon": {
+      "src": "/images/icons/icon-02.svg",
+      "width": "41",
+      "height": "24"
+    },
+    "iconColorClass": "gradient-color-05",
+    "title": "Exceed clients’ and colleagues’ expectations",
+    "description": "Ut id orci ultricies, gravida arcu ac, elementum eros. Curabitur tortor ipsum, imperdiet eget odio ac, faucibus ultricies nisl. Maecenas scelerisque dignissim elit.",
+    "category": "Our values",
+    "slug": "our-values-6",
+    "process": {
+      "title": "Our execution process",
+      "description": "Our comprehensive design strategy ensures a perfectly crafted design for your business.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four step process",
+          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+  }
+]

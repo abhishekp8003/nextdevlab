@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "Abhishek Patil",
+    "image": "/images/team/team-01.jpg",
+    "designation": "CEO",
+    "department": ["Management"],
+    "socials": [
+      { "type": "facebook", "url": "#" },
+      { "type": "linkedin", "url": "#" },
+      { "type": "instagram", "url": "#" }
+    ],
+    "introduction": "Abhishek Patil is the Co-Founder & CEO of NextDev Labs, driving innovation and excellence in technology. With 10+ years of experience, including a successful tenure at Cognizant, he brings deep technical expertise and a strategic vision for digital transformation. Passionate about building cutting-edge solutions, Abhishek leads with a forward-thinking approach, empowering businesses to scale and succeed in the digital era"
+  },
+  {
+    "id": 2,
+    "name": "Mayur Patil",
+    "image": "/images/team/team-02.jpg",
+    "designation": "CFO",
+    "department": ["Management", "CFO"],
+    "socials": [
+      { "type": "facebook", "url": "#" },
+      { "type": "linkedin", "url": "#" },
+      { "type": "instagram", "url": "#" }
+    ],
+    "introduction": "Mayur Patil, Co-Founder of Next Dev, is a graduate of NIT Nagpur with a strong technical background and a passion for innovation. His expertise in software development, system architecture, and strategic planning plays a pivotal role in driving the company’s growth. With a vision for cutting-edge solutions, Mayur is committed to building scalable and impactful digital products"
+  },
+  {
+    "id": 3,
+    "name": "Nakul Joshi",
+    "image": "/images/team/team-03.jpg",
+    "designation": "Designer",
+    "department": [ "Designer"],
+    "socials": [
+      { "type": "facebook", "url": "#" },
+      { "type": "linkedin", "url": "#" },
+      { "type": "instagram", "url": "#" }
+    ],
+    "introduction": " Nakul Joshi is a Graphic, UI & UX Designer with 10+ years of experience crafting intuitive and visually compelling designs. Specializing in branding, web & mobile UI/UX, wireframing, and prototyping, he blends creativity with functionality to enhance user experiences. Passionate about innovation and detail, Nakul transforms ideas into impactful digital solutions."  
+  },
+  {
+    "id": 4,
+    "name": "Pushkar Sabe",
+    "image": "/images/team/team-04.jpg",
+    "designation": "backend engineer",
+    "department": [ "backend engineer"],
+    "socials": [
+      { "type": "facebook", "url": "#" },
+      { "type": "linkedin", "url": "#" },
+      { "type": "instagram", "url": "#" }
+    ],
+    "introduction": "Pushkar Sabe is a Backend Engineer with 5+ years of experience in building scalable, secure, and high-performance applications. Skilled in server-side development, databases, APIs, and cloud solutions, he ensures seamless backend functionality and efficiency. Passionate about clean code and optimization, Pushkar thrives on solving complex challenges and driving robust digital solutions"
+  },
+  {
+    "id": 5,
+    "name": "Aman Panchal",
+    "image": "/images/team/team-05.jpg",
+    "designation": "Full Stack Developer",
+    "department": [ "Full stack developer"],
+    "socials": [
+      { "type": "facebook", "url": "#" },
+      { "type": "linkedin", "url": "#" },
+      { "type": "instagram", "url": "#" }
+    ],
+    "introduction": "Aman Pachal is a Full-Stack Engineer with expertise in both frontend and backend development. Skilled in modern frameworks, databases, and cloud technologies, he builds seamless, scalable, and high-performance applications. With a passion for innovation and clean code, Aman delivers robust digital solutions that enhance user experiences"
+  },
+  {
+    "id": 6,
+    "name": "Jaymin Rao",
+    "image": "/images/team/team-06.jpg",
+    "designation": "Full Stack Developer",
+    "department": [ "Full stack developer"],
+    "socials": [
+      { "type": "facebook", "url": "#" },
+      { "type": "linkedin", "url": "#" },
+      { "type": "instagram", "url": "#" }
+    ],
+    "introduction": "Jaymin Rao is a Full-Stack Engineer skilled in frontend and backend development, creating scalable and high-performance applications. With expertise in modern frameworks, databases, and cloud technologies, he builds seamless digital experiences. Passionate about clean code and innovation, Jaymin thrives on solving complex technical challenges"
+  }
+]

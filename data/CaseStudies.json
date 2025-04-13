@@ -1,0 +1,311 @@
+[
+  {
+    "id": 1,
+    "title": "SV Tours",
+    "subtitle": "featured case study",
+    "description": "A premium travel agency. SV Tours needed a visually stunning and high-performing website to streamline bookings and showcase their unique travel experiences. We developed an intuitive platform with a seamless booking engine, dynamic package displays, and an interactive itinerary planner to enhance customer engagement and boost conversions.",
+    "image": "/images/featured/featured-image-01.jpg",
+    "counter": [
+      {
+        "title": "ROI increase",
+        "amount": 70
+      },
+      {
+        "title": "Monthly website visits",
+        "amount": 120
+      }
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=Pj_geat9hvI",
+    "projectBreif1": {
+      "image": "/images/featured/featured-brief-01.jpg",
+      "description": [
+        "SV Tours aimed to enhance its online presence and provide customers with an effortless booking experience. They required a website that was not only visually appealing but also robust in functionality, integrating real-time availability and seamless transactions.",
+        "We crafted a bespoke travel booking platform featuring an elegant UI, real-time package updates, and an itinerary planner that allows users to customize their trips with ease."
+      ]
+    },
+    "projectBreif2": {
+      "image": "",
+      "description": [
+        "SV Tours wanted a competitive edge in the travel industry, necessitating a platform with seamless navigation, quick loading speeds, and secure payment gateways.",
+        "To meet these needs, we implemented a scalable architecture, ensured mobile optimization, and integrated secure payment solutions to provide users with a frictionless experience."
+      ]
+    },
+    "solution": {
+      "image": "",
+      "description": [
+        "We designed and developed a visually immersive website that reflects SV Tours' brand essence. The platform offers a smooth user journey from browsing destinations to booking and checkout.",
+        "Key features include dynamic travel packages, a multi-step booking process, AI-powered itinerary suggestions, and integration with third-party travel APIs for real-time updates."
+      ]
+    },
+    "process": {
+      "title": "Our design process",
+      "description": "Our comprehensive design strategy ensures a perfectly crafted experience tailored for SV Tours' clientele.",
+      "strategies": [
+        {
+          "id": 1,
+          "title": "Discover",
+          "subtitle": "our four-step process",
+          "description": "We conducted in-depth research on SV Tours’ target audience, market trends, and competitors to define the optimal design and functionality.",
+          "highlightColor": "extra04-color",
+          "image": "/images/process/process-01.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Prototype",
+          "subtitle": "our four-step process",
+          "description": "We created wireframes and interactive prototypes to visualize the website’s structure, ensuring an intuitive and seamless user experience.",
+          "highlightColor": "extra05-color",
+          "image": "/images/process/process-02.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Test",
+          "subtitle": "our four-step process",
+          "description": "Rigorous testing was conducted to optimize performance, security, and responsiveness across multiple devices and platforms.",
+          "highlightColor": "extra06-color",
+          "image": "/images/process/process-03.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Build",
+          "subtitle": "our four-step process",
+          "description": "We developed and deployed the final product with a high-performance backend, optimized frontend, and a user-friendly CMS for easy content updates.",
+          "highlightColor": "extra07-color",
+          "image": "/images/process/process-04.jpg"
+        }
+      ]
+    }
+},
+{
+  "id": 2,
+  "title": "SagarSanskar Global Kart",
+  "subtitle": "featured case study",
+  "description": "SagarSanskar Global Kart, an innovative e-commerce platform, sought a seamless, high-performance website to showcase and sell their diverse range of products. We developed a user-friendly marketplace with a robust backend, secure payment gateways, and a smooth shopping experience.",
+  "image": "/images/featured/featured-image-03.jpg",
+  "counter": [
+    {
+      "title": "ROI increase",
+      "amount": 35
+    },
+    {
+      "title": "Monthly website visits",
+      "amount": 90
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=Pj_geat9hvI",
+  "projectBreif1": {
+    "image": "/images/featured/featured-brief-02.jpg",
+    "description": [
+      "SagarSanskar Global Kart aimed to build a scalable e-commerce platform that enhances user engagement and simplifies online shopping.",
+      "We designed an intuitive and responsive website featuring product filtering, real-time inventory updates, and a seamless checkout process to drive higher conversions."
+    ]
+  },
+  "projectBreif2": {
+    "image": "",
+    "description": [
+      "To ensure smooth operations, we implemented a secure and scalable backend supporting high traffic volumes and multiple payment methods.",
+      "Our solution integrated an advanced product management system, enabling sellers to list, update, and manage inventory efficiently."
+    ]
+  },
+  "solution": {
+    "image": "",
+    "description": [
+      "We developed a feature-rich platform for SagarSanskar Global Kart, ensuring an optimal shopping experience through personalized recommendations and fast-loading pages.",
+      "Key features include an AI-powered search engine, automated order tracking, multi-vendor management, and a user-friendly admin dashboard."
+    ]
+  },
+  "process": {
+    "title": "Our design process",
+    "description": "Our structured approach ensured a seamless and high-performing e-commerce solution for SagarSanskar Global Kart.",
+    "strategies": [
+      {
+        "id": 1,
+        "title": "Discover",
+        "subtitle": "our four-step process",
+        "description": "We analyzed the e-commerce landscape, identified customer pain points, and devised a strategic plan to create a seamless online shopping experience.",
+        "highlightColor": "extra04-color",
+        "image": "/images/process/process-01.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Prototype",
+        "subtitle": "our four-step process",
+        "description": "Wireframes and prototypes were designed to refine the platform’s user journey, ensuring a smooth and intuitive interface.",
+        "highlightColor": "extra05-color",
+        "image": "/images/process/process-02.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Test",
+        "subtitle": "our four-step process",
+        "description": "We conducted extensive testing, including performance optimization and security audits, to ensure a stable and secure shopping experience.",
+        "highlightColor": "extra06-color",
+        "image": "/images/process/process-03.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Build",
+        "subtitle": "our four-step process",
+        "description": "We launched the final version of the e-commerce platform, featuring a robust infrastructure, advanced analytics, and seamless third-party integrations.",
+        "highlightColor": "extra07-color",
+        "image": "/images/process/process-04.jpg"
+      }
+    ]
+  }
+},
+{
+  "id": 3,
+  "title": "LearnGuru360",
+  "subtitle": "featured case study",
+  "description": "LearnGuru360 is a cutting-edge Learning Management System (LMS) designed to provide an interactive and seamless online education experience. The client required a scalable platform to facilitate online courses, manage student progress, and integrate assessments. We developed a robust LMS with an intuitive interface, real-time analytics, and multi-device compatibility to enhance user engagement.",
+  "image": "/images/featured/featured-image-04.jpg",
+  "counter": [
+    {
+      "title": "ROI increase",
+      "amount": 15
+    },
+    {
+      "title": "Monthly website visits",
+      "amount": 60
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=Pj_geat9hvI",
+  "projectBreif1": {
+    "image": "/images/featured/featured-brief-03.jpg",
+    "description": [
+      "LearnGuru360 was conceptualized to bridge the gap between educators and learners through an all-in-one online learning platform. Our team conducted extensive research to understand the client’s needs, ensuring a dynamic solution that supports video lectures, quizzes, and real-time feedback.",
+      "The platform allows instructors to create and manage courses effortlessly, track student performance, and provide personalized learning paths."
+    ]
+  },
+  "projectBreif2": {
+    "image": "",
+    "description": [
+      "To enhance accessibility, we designed a responsive LMS that works seamlessly on desktops, tablets, and mobile devices. Features such as progress tracking, discussion forums, and certification issuance were integrated to provide a comprehensive learning experience.",
+      "Security measures, including role-based access control and encrypted data storage, were implemented to ensure a safe and secure learning environment."
+    ]
+  },
+  "solution": {
+    "image": "",
+    "description": [
+      "Our team built a fully functional LMS with an easy-to-use content management system, enabling educators to upload and organize course materials efficiently.",
+      "With automated assessments, progress reports, and AI-driven recommendations, LearnGuru360 delivers an unparalleled learning experience for students and teachers alike."
+    ]
+  },
+  "process": {
+    "title": "Our design process",
+    "description": "Our comprehensive design strategy ensures a perfectly crafted learning platform for educators and students.",
+    "strategies": [
+      {
+        "id": 1,
+        "title": "Discover",
+        "subtitle": "our four step process",
+        "description": "We analyzed market trends, competitor platforms, and educator requirements to conceptualize an intuitive and scalable LMS.",
+        "highlightColor": "extra04-color",
+        "image": "/images/process/process-01.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Prototype",
+        "subtitle": "our four step process",
+        "description": "Wireframes and prototypes were developed to refine the platform’s UI/UX, ensuring a seamless user experience for students and instructors.",
+        "highlightColor": "extra05-color",
+        "image": "/images/process/process-02.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Test",
+        "subtitle": "our four step process",
+        "description": "The LMS underwent rigorous testing for performance, security, and usability, ensuring a reliable and efficient platform for online education.",
+        "highlightColor": "extra06-color",
+        "image": "/images/process/process-03.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Build",
+        "subtitle": "our four step process",
+        "description": "We deployed the platform with a robust backend, cloud storage, and seamless integrations, allowing educators to launch courses effortlessly.",
+        "highlightColor": "extra07-color",
+        "image": "/images/process/process-04.jpg"
+      }
+    ]
+  }
+},
+{
+  "id": 4,
+  "title": "BusinessXstream",
+  "subtitle": "featured case study",
+  "description": "BusinessXstream is an advanced franchise listing platform that simplifies the process of finding and managing franchise opportunities. The client required a scalable, user-friendly solution to connect franchisors with potential franchisees. We developed a comprehensive platform with advanced search filters, real-time analytics, and seamless communication tools to enhance the franchise discovery experience.",
+  "image": "/images/featured/featured-image-05.jpg",
+  "counter": [
+    {
+      "title": "ROI increase",
+      "amount": 15
+    },
+    {
+      "title": "Monthly website visits",
+      "amount": 60
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=Pj_geat9hvI",
+  "projectBreif1": {
+    "image": "/images/featured/featured-brief-04.jpg",
+    "description": [
+      "BusinessXstream was designed to bridge the gap between franchisors and franchisees by providing an intuitive and data-driven listing platform. Our team conducted in-depth market research to understand industry needs and implemented features like interactive listings, lead management, and franchise performance tracking.",
+      "The platform enables franchisors to showcase their business opportunities effectively while allowing franchise seekers to filter and compare opportunities based on industry, location, and investment range."
+    ]
+  },
+  "projectBreif2": {
+    "image": "",
+    "description": [
+      "To improve user engagement, we designed an easy-to-navigate platform with an AI-powered recommendation engine that suggests relevant franchise opportunities. We also incorporated secure messaging tools to facilitate direct communication between franchisors and potential franchisees.",
+      "Advanced data security, role-based access control, and cloud-based hosting ensure a seamless and secure browsing experience for all users."
+    ]
+  },
+  "solution": {
+    "image": "",
+    "description": [
+      "Our team developed a feature-rich platform that streamlines franchise discovery and management. With real-time analytics, automated lead generation, and integration with third-party CRM systems, BusinessXstream offers an end-to-end solution for franchise businesses.",
+      "The platform supports multi-device accessibility, ensuring a smooth user experience across desktops, tablets, and mobile devices."
+    ]
+  },
+  "process": {
+    "title": "Our design process",
+    "description": "Our comprehensive design strategy ensures an optimized platform for franchise listing and management.",
+    "strategies": [
+      {
+        "id": 1,
+        "title": "Discover",
+        "subtitle": "our four step process",
+        "description": "We analyzed the franchise industry landscape, identified user needs, and defined the core functionalities for a high-performing listing platform.",
+        "highlightColor": "extra04-color",
+        "image": "/images/process/process-01.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Prototype",
+        "subtitle": "our four step process",
+        "description": "We developed interactive wireframes and prototypes to refine the platform's UI/UX, ensuring an intuitive and engaging user experience.",
+        "highlightColor": "extra05-color",
+        "image": "/images/process/process-02.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Test",
+        "subtitle": "our four step process",
+        "description": "The platform underwent extensive testing for performance, security, and usability to ensure a smooth and reliable user experience.",
+        "highlightColor": "extra06-color",
+        "image": "/images/process/process-03.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Build",
+        "subtitle": "our four step process",
+        "description": "We deployed a robust, cloud-based platform with seamless integrations and automated lead tracking, providing a complete solution for franchise businesses.",
+        "highlightColor": "extra07-color",
+        "image": "/images/process/process-04.jpg"
+      }
+    ]
+  }
+}
+
+]

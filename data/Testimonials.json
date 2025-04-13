@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "client": {
+      "id": 1,
+      "image": "/images/testimonial/client-02.png",
+      "fullName": "Ravi Kumar",
+      "designation": "Innovative Tech Solutions"
+    },
+    "description": "NextDev Labs created an outstanding website for us! Their team leveraged cutting-edge technologies like React.js and Node.js to deliver a scalable and high-performance solution. The collaboration was seamless, and the project was completed within the agreed timeline. We highly recommend their services."
+  },
+  {
+    "id": 2,
+    "client": {
+      "id": 2,
+      "image": "/images/testimonial/client-01.png",
+      "fullName": "Sneha Patel",
+      "designation": "SmartBiz Solutions"
+    },
+    "description": "We had an amazing experience working with NextDev Labs. They developed a dynamic web portal tailored to our business needs, utilizing modern frameworks that ensure future-proofing. Their professionalism and dedication to delivering quality work are commendable. We look forward to future collaborations."
+  }
+]
