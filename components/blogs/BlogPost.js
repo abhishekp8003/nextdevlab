@@ -61,7 +61,7 @@ const BlogPost = ({post, postType = 'default'}) => {
                     </div>
                     <div className="thumbnail">
                         <Link href={`/blog/${post.slug}`}>
-                            <a>
+                            <div>
                                 <Image
                                     width={850}
                                     height={450}
@@ -75,16 +75,16 @@ const BlogPost = ({post, postType = 'default'}) => {
 
                                     }}
                                 />
-                            </a>
+                            </div>
                         </Link>
                     </div>
                     <div className="content">
                         <p>{post.postdata.excerpt}</p>
                         <Link href={`/blog/${post.slug}`}>
-                            <a className="axil-button btn-large btn-transparent">
+                            <div className="axil-button btn-large btn-transparent">
                                 <span className="button-text">Read More</span>
                                 <span className="button-icon"/>
-                            </a>
+                            </div>
                         </Link>
                     </div>
                 </div>
@@ -127,7 +127,7 @@ const BlogPost = ({post, postType = 'default'}) => {
                                             href={`/blog/${post.slug}`}
                                             key={`gallery-item-${index}`}
                                         >
-                                            <a>
+                                            <div>
                                                 <Image
                                                     width={850}
                                                     height={450}
@@ -135,7 +135,7 @@ const BlogPost = ({post, postType = 'default'}) => {
                                                     src={item}
                                                     alt="Blog Images"
                                                 />
-                                            </a>
+                                            </div>
                                         </Link>
                                     );
                                 })}
@@ -146,10 +146,10 @@ const BlogPost = ({post, postType = 'default'}) => {
                     <div className="content">
                         <p>{post.postdata.excerpt}</p>
                         <Link href={`/blog/${post.slug}`}>
-                            <a className="axil-button btn-large btn-transparent">
+                            <div className="axil-button btn-large btn-transparent">
                                 <span className="button-text">Read More</span>
                                 <span className="button-icon"></span>
-                            </a>
+                            </div>
                         </Link>
                     </div>
                 </div>
@@ -246,7 +246,7 @@ const BlogPost = ({post, postType = 'default'}) => {
                     </div>
                     <div className="thumbnail position-relative">
                         <Link href={`/blog/${post.slug}`}>
-                            <a>
+                            <div>
                                 <Image
                                     width={850}
                                     height={450}
@@ -254,24 +254,24 @@ const BlogPost = ({post, postType = 'default'}) => {
                                     src={post.postdata.thumbnail.large}
                                     alt="Blog Images"
                                 />
-                            </a>
+                            </div>
                         </Link>
                         <div className="video-button position-to-top">
-                            <a className="play__btn video-btn"
+                            <div className="play__btn video-btn"
                                href="https://www.youtube.com/watch?v=Pj_geat9hvI"
                                data-bs-toggle="modal"
                                data-bs-target="#exampleModal">
                                 <span className="triangle"/>
-                            </a>
+                            </div>
                         </div>
                     </div>
                     <div className="content">
                         <p>{post.postdata.excerpt}</p>
                         <Link href={`/blog/${post.slug}`}>
-                            <a className="axil-button btn-large btn-transparent">
+                            <div className="axil-button btn-large btn-transparent">
                                 <span className="button-text">Read More</span>
                                 <span className="button-icon"/>
-                            </a>
+                            </div>
                         </Link>
                     </div>
                 </div>

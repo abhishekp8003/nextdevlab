@@ -79,9 +79,9 @@ const BlogSidebar = ({ categories, tags, recentPost }) => {
             <div className="small-post" key={`recent-post-${index}`}>
               <div className="thumbnail flex-shrink-0">
                 <Link href={`/blog/${post.slug}`}>
-                  <a>
+                  <div>
                     <Image width={100} height={80} src={post.postdata.thumbnail.large} alt="Blog Image" />
-                  </a>
+                  </div>
                 </Link>
               </div>
               <div className="content">

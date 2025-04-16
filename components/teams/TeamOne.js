@@ -19,9 +19,9 @@ const TeamOne = () => {
                             </div>
                             <div className="total-team-button">
                                 <Link href="/team">
-                                    <a>
+                                    <div>
                                         <span>20+</span>
-                                    </a>
+                                    </div>
                                 </Link>
                             </div>
                         </div>
@@ -38,10 +38,10 @@ const TeamOne = () => {
                                 />
                                 <div className="axil-button-group mt--40">
                                     <Link href="/team">
-                                        <a className="axil-button btn-large btn-transparent">
+                                        <div className="axil-button btn-large btn-transparent">
                                             <span className="button-text">Our Team</span>
                                             <span className="button-icon"></span>
-                                        </a>
+                                        </div>
                                     </Link>
                                     <a className="axil-button axil-link-button" href="#">
                                         Careers

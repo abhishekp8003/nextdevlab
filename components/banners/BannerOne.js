@@ -27,7 +27,7 @@ const BannerOne = () => {
                     <br /> messages based on their behaviors.
                   </p>
                   <Link href="/portfolio">
-                    <a
+                    <div
                       className="axil-button btn-large btn-transparent"
                       data-aos="aos-fade-in-up"
                       data-aos-duration="1000"
@@ -35,7 +35,7 @@ const BannerOne = () => {
                     >
                       <span className="button-text">View Showcase</span>
                       <span className="button-icon" />
-                    </a>
+                    </div>
                   </Link>
                 </div>
               </div>

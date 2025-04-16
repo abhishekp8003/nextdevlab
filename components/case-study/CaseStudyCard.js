@@ -12,7 +12,7 @@ const CaseStudyCard = ({column, data}) => {
                 <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5}>
                     <div className="thumbnail">
                         <Link href={`/projects/${slugify(data.title)}`}>
-                            <a>
+                            <div>
                                 <Image
                                     width={data.thumbnail.width}
                                     height={data.thumbnail.height}
@@ -20,7 +20,7 @@ const CaseStudyCard = ({column, data}) => {
                                     src={data.thumbnail.src}
                                     alt="Axil Case Study Images"
                                 />
-                            </a>
+                            </div>
                         </Link>
                     </div>
                 </Tilt>
@@ -35,9 +35,9 @@ const CaseStudyCard = ({column, data}) => {
                         </span>
                         <h4 className="title">
                             <Link href={`/projects/${slugify(data.title)}`}>
-                                <a>
+                                <div>
                                     <SplitText>{data.title}</SplitText>
-                                </a>
+                                </div>
                             </Link>
                         </h4>
                     </div>

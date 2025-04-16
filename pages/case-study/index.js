@@ -44,7 +44,7 @@ const CaseStudy = () => {
                                 >
                                     <div className="thumbnail">
                                         <Link href={`/case-study/${slugify(caseStudy.title)}`}>
-                                            <a>
+                                            <div>
                                                 <Tilt tiltMaxAngleX={9} tiltMaxAngleY={9}>
                                                     <Image
                                                         width={661}
@@ -55,7 +55,7 @@ const CaseStudy = () => {
                                                         priority
                                                     />
                                                 </Tilt>
-                                            </a>
+                                            </div>
                                         </Link>
                                     </div>
                                 </div>
@@ -76,10 +76,10 @@ const CaseStudy = () => {
                                             </h2>
                                             <p className="subtitle-2">{caseStudy.description}</p>
                                             <Link href={`/case-study/${slugify(caseStudy.title)}`}>
-                                                <a className="axil-button btn-large btn-transparent">
+                                                <div className="axil-button btn-large btn-transparent">
                                                     <span className="button-text">Read Case Study</span>
                                                     <span className="button-icon"/>
-                                                </a>
+                                                </div>
                                             </Link>
                                         </div>
                                         <div className="axil-counterup-area d-flex flex-wrap separator-line-vertical">

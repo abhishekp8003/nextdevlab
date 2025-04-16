@@ -40,11 +40,11 @@ const CaseStudyThree = () => {
                                     </span>
                                     <h4 className="title">
                                         <Link href={`/projects/${slugify(CaseStudyData[6].title)}`}>
-                                            <a>
+                                            <div>
                                                 <SplitText>
                                                     {CaseStudyData[6].title}
                                                 </SplitText>
-                                            </a>
+                                            </div>
                                         </Link>
                                     </h4>
                                 </div>

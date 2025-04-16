@@ -36,7 +36,7 @@ const BrandOne = ({
                 {brands?.map((brand, index) => (
                   <li key={`brand-${index}`}>
                     <Link href="#">
-                      <a>
+                      <div>
                         <img
                           style={{
                             width: brand.image.width,
@@ -46,7 +46,7 @@ const BrandOne = ({
                           src={brand.image.src}
                           alt="Brand Logo Images"
                         />
-                      </a>
+                      </div>
                     </Link>
                   </li>
                 ))}

@@ -91,14 +91,14 @@ const MobileMenu = () => {
                 <div className="mobileheader">
                     <div className="logo">
                         <Link href="/home-01">
-                            <a>
+                            <div>
                                 <Image
                                     width={250}
                                     height={60}
                                     src="/images/logo/keystoke.svg"
                                     alt="Logo images"
                                 />
-                            </a>
+                            </div>
                         </Link>
                     </div>
                     <button

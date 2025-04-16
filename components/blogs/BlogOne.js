@@ -36,9 +36,9 @@ const BlogOne = ({posts}) => {
                                             <span className="category">Lifestyle</span>
                                             <h5 className="title">
                                                 <Link href={`/blog/${post.slug}`}>
-                                                    <a className="text-ellipsis">
+                                                    <div className="text-ellipsis">
                                                         {post.postdata.title.substring(0, 50)}
-                                                    </a>
+                                                    </div>
                                                 </Link>
                                             </h5>
                                             <p>{post?.postdata?.excerpt?.substring(0, 70)}</p>

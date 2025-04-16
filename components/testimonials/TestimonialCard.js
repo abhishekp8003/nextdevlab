@@ -37,9 +37,9 @@ const TestimonialCard = (
                     <div className="description">
                         <p className="subtitle-3">{data.description}</p>
                         <Link href="#">
-                            <a className="axil-link-button">
+                            <div className="axil-link-button">
                                 Read Project Case Study
-                            </a>
+                            </div>
                         </Link>
                     </div>
                 </div>

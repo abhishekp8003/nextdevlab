@@ -9,15 +9,15 @@ const TeamMember = ({team}) => {
                 <div className="inner">
                     <div className="thumbnail paralax-image">
                         <Link href={`/team/${team.id}`}>
-                            <a>
+                            <div>
                                 <Image width={600} height={560} className="w-100" src={team.image} alt="Team Images"/>
-                            </a>
+                            </div>
                         </Link>
                     </div>
                     <div className="content">
                         <h4 className="title">
                             <Link href={`/team/${team.id}`}>
-                                <a>{team.name}</a>
+                                <div>{team.name}</div>
                             </Link>
                         </h4>
                         <p className="subtitle">{team.designation}</p>

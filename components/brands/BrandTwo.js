@@ -122,14 +122,14 @@ const BrandTwo = () => {
                         return (
                           <div key={`brand-${index}`}>
                             <Link href="#">
-                              <a>
+                              <div>
                                 <Image
                                   width={brand.image.width}
                                   height={brand.image.width}
                                   src={brand.image.src}
                                   alt="Client Images"
                                 />
-                              </a>
+                              </div>
                             </Link>
                           </div>
                         );

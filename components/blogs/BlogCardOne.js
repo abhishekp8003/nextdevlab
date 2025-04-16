@@ -18,7 +18,7 @@ const BlogCardOne = ({column, data, index, activeIndex}) => {
                                 <span className="category">{data.category}</span>
                                 <h5 className="title">
                                     <Link href={`/blog/${data.slug}`}>
-                                        <a>{data.title}</a>
+                                        <div>{data.title}</div>
                                     </Link>
                                 </h5>
                                 <p>

@@ -102,9 +102,9 @@ const About = () => {
                                     </span>
                                     <h2 className="title">
                                         <Link href={`/case-study/${slugify(CaseStudyData[0].title)}`}>
-                                        <a>
+                                        <div>
                                             Elevating Businesses with Scalable Digital Solutions{" "}
-                                        </a>
+                                        </div>
                                         </Link>
                                     </h2>
                                     <p className="subtitle-2">
@@ -113,10 +113,10 @@ const About = () => {
                                         digital experience.
                                     </p>
                                     <Link href={`/case-study/${slugify(CaseStudyData[0].title)}`}>
-                                        <a className="axil-button btn-large btn-transparent">
+                                        <div className="axil-button btn-large btn-transparent">
                                         <span className="button-text">Read Case Study</span>
                                         <span className="button-icon"/>
-                                        </a>
+                                        </div>
                                     </Link>
                                     </div>
 

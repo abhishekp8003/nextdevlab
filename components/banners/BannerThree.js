@@ -50,9 +50,9 @@ const BannerThree = () => {
                                         <span className="button-icon"/>
                                     </a>
                                     <Link href="/about">
-                                        <a className="axil-button axil-link-button">
+                                        <div className="axil-button axil-link-button">
                                             About Me
-                                        </a>
+                                        </div>
                                     </Link>
                                 </div>
                                 <div className="scroll-down_btn">

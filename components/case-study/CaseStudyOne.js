@@ -37,10 +37,10 @@ const CaseStudyOne = () => {
                             data-aos-duration="1000"
                         >
                             <Link href="/portfolio">
-                                <a className="axil-button btn-large btn-xxl btn-transparent">
+                                <div className="axil-button btn-large btn-xxl btn-transparent">
                                     <span className="button-text">Discover More Projects</span>
                                     <span className="button-icon"/>
-                                </a>
+                                </div>
                             </Link>
                         </div>
                     </div>

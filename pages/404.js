@@ -24,10 +24,10 @@ const ErrorPage = () => {
                                                 But do not worry, you can always go back to [NextDev Labs](https://nextdev.co.in) and explore more!
                                         </p>
                                         <Link href="/home-01">
-                                            <a className="axil-button btn-large btn-transparent">
+                                            <div className="axil-button btn-large btn-transparent">
                                                 <span className="button-text">Go Back</span>
                                                 <span className="button-icon"/>
-                                            </a>
+                                            </div>
                                         </Link>
 
                                         <div className="text-image">

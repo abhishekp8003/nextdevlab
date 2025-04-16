@@ -17,14 +17,14 @@ const BannerTwo = () => {
                                     Technology & design studio
                                 </h1>
                                 <Link href="/portfolio">
-                                    <a className="axil-button btn-large btn-transparent"
+                                    <div className="axil-button btn-large btn-transparent"
                                        data-aos="aos-fade-in-up"
                                        data-aos-duration="1000"
                                        data-aos-delay="200"
                                     >
                                         <span className="button-text">View Showcase</span>
                                         <span className="button-icon"/>
-                                    </a>
+                                    </div>
                                 </Link>
                             </div>
                         </div>

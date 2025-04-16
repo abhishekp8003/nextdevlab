@@ -67,10 +67,10 @@ const Footer = ({footerSetting = {}}) => {
                                                 </div>
                                                 <div className="button-wrapper">
                                                     <Link href="/contact">
-                                                        <a className="axil-button btn-large btn-solid bgextra07-color">
+                                                        <div className="axil-button btn-large btn-solid bgextra07-color">
                                                             <span className="button-text">Let&rsquo;s Talk</span>
                                                             <span className="button-icon"/>
-                                                        </a>
+                                                        </div>
                                                     </Link>
                                                 </div>
                                             </div>
@@ -119,9 +119,9 @@ const Footer = ({footerSetting = {}}) => {
                                                 <>
                                                     <div className="logo">
                                                         <Link href="/home-01">
-                                                            <a>
+                                                            <div>
                                                                 <Logo variant="two" fillTextColor="#fff"/>
-                                                            </a>
+                                                            </div>
                                                         </Link>
                                                     </div>
                                                     <div className="axil-ft-address">

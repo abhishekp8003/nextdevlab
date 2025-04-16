@@ -25,14 +25,14 @@ const PortfolioCard = ({data, index, activeIndex, changeActive}) => {
                 <Tilt tiltMaxAngleX={9} tiltMaxAngleY={9}>
                     <div className="thumb">
                         <Link href={`/portfolio/${slugify(data.title)}`}>
-                            <a>
+                            <div>
                                 <img
                                     // width={400}
                                     // height={380}
                                     src={data.image}
                                     alt={`${data.title} portfolio image`}
                                 />
-                            </a>
+                            </div>
                         </Link>
                     </div>
                 </Tilt>
@@ -41,7 +41,7 @@ const PortfolioCard = ({data, index, activeIndex, changeActive}) => {
                     <div className="hover-action">
                         <h4 className="title">
                             <Link href={`/portfolio/${slugify(data.title)}`}>
-                                <a>{data.title}</a>
+                                <div>{data.title}</div>
                             </Link>
                         </h4>
                         <span className="category">

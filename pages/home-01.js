@@ -19,6 +19,7 @@ import SectionTitle from '../components/common/SectionTitle';
 import Faq from '../components/faq/Faq';
 import GoogleReivews from '../components/googleReviews/GoogleReviews';
 import ContactButtons from '../components/ContactButton/ContactButton';
+import PopupComponent from '../components/PopupComponent/PopupComponent';
 
 
 const HomeOne = ({posts}) => {
@@ -30,6 +31,7 @@ const HomeOne = ({posts}) => {
 
         <main className="page-wrapper">
           <BannerOne />
+          <PopupComponent/>
           <ContactButtons phoneNumber={"+919767826126"} />
           <ServiceOne />
           <SliderOne />

@@ -64,9 +64,9 @@ const ServiceCardOne = (
                                 data-hover="Learn More"
                                 href={`/services/${camelCaseToDashed(data.category)}/${data.slug}`}
                             >
-                                <a className="axil-button">
+                                <div className="axil-button">
                                     Learn More
-                                </a>
+                                </div>
                             </Link>
                         </div>
                     </div>
