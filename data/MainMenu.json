@@ -49,8 +49,8 @@
   {
     "id": 4,
     "title": "Blog",
-    "url": "/blog/blog-1",
-    "hasChildren": true,
+    "url": "/blog",
+    "hasChildren": false,
     "clildrens": [
       { "id": 1, "title": "Blog List", "url": "/blog" },
       { "id": 2, "title": "Blog List Two", "url": "/blog-list-two" },
@@ -66,6 +66,8 @@
     "hasChildren": false
   }
 ]
+
+
 
 
 

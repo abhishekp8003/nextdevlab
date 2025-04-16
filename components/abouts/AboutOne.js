@@ -39,7 +39,7 @@ const AboutOne = () => {
                       data-aos-delay="500"
                     >
                       Our team of experts blends creativity with technology to deliver scalable, user-friendly, and SEO-optimized solutions. 
-                      Whether you're a startup or an established enterprise, we empower your brand with digital excellence.
+                      Whether you are  a startup or an established enterprise, we empower your brand with digital excellence.
                     </p>
 
               </div>

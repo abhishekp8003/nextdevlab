@@ -4,7 +4,7 @@ title: "Why Integrating AI and Machine Learning into Your Business Strategy is C
 excerpt: "Artificial Intelligence (AI) and Machine Learning (ML) are not just buzzwords; they are transformative technologies that can elevate businesses to new heights. When strategically integrated into your business operations, AI and ML enable smarter decision-making, improved efficiency, and a competitive edge. Whether you’re a small business looking to scale or a large enterprise aiming to stay ahead, here’s why adopting these technologies is crucial for your business growth:"
 authorId: 1
 thumbnail: {
-	large: "/images/blog/blog-list-11.jpg",
+	large: "/images/blog/Blog 12.jpg",
     gallery: [
         "/images/blog/blog-list-02.jpg",
         "/images/blog/blog-list-03.jpg"

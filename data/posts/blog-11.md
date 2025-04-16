@@ -4,7 +4,7 @@ title: "How AI and Machine Learning Can Supercharge Your Business Analytics"
 excerpt: "In today's competitive business landscape, leveraging Artificial Intelligence (AI) and Machine Learning (ML) technologies has become essential for staying ahead of the curve. These game-changing technologies enable businesses to gain actionable insights, improve decision-making, and optimize processes with unparalleled efficiency. By adopting AI and ML, businesses can harness the power of advanced analytics to drive growth and streamline operations. Here’s how AI and ML can supercharge your business analytics:"
 authorId: 4
 thumbnail: {
-	large: "/images/blog/blog-list-10.jpg" 
+	large: "/images/blog/Blog 11.png" 
 }
 categories: ["Agency news"]
 tags: ["design", "development"]

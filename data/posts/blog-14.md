@@ -4,7 +4,7 @@ title: "How developers are taking the guesswork out of animation coding"
 excerpt: "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
 authorId: 1
 thumbnail: {
-	large: "/images/blog/blog-list-12.jpg" 
+	large: "/images/blog/Blog 14.jpg" 
 }
 categories: ["Agency news"]
 tags: ["design", "beauty", "camera"]

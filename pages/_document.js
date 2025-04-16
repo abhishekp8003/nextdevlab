@@ -22,21 +22,30 @@
 
 // export default Document;
 import { Html, Head, Main, NextScript } from 'next/document';
+import Script from 'next/script';
 
 const Document = () => {
   return (
     <Html lang="en">
       <Head>
         {/* Favicon */}
-        <link 
-          rel="icon" 
-          type="image/x-icon" 
-          href={`${process.env.NODE_ENV === 'production' ? process.env.NEXT_PUBLIC_BASEPATH ?? '' : ''}/favicon.ico`} 
+        <link
+          rel="icon"
+          type="image/x-icon"
+          href={`${
+            process.env.NODE_ENV === "production"
+              ? process.env.NEXT_PUBLIC_BASEPATH ?? ""
+              : ""
+          }/favicon.ico`}
         />
 
         {/* Fonts Optimization */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="true"
+        />
         <link
           href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
           rel="stylesheet"
@@ -48,9 +57,13 @@ const Document = () => {
         <meta name="author" content="NextDev Labs" />
 
         {/* Google Analytics - Ensures tracking across all pages */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=QR1JTGFsRLWCKRzn7LHLNw"></script>
-        <script dangerouslySetInnerHTML={{
-          __html: `
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=QR1JTGFsRLWCKRzn7LHLNw"
+        ></Script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
@@ -58,7 +71,8 @@ const Document = () => {
               page_path: window.location.pathname,
             });
           `,
-        }} />
+          }}
+        />
       </Head>
       <body>
         <Main />

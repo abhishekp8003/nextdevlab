@@ -4,7 +4,7 @@ title: "Why Progressive Web Apps (PWA) Are the Future of Business Websites"
 excerpt: "In an era where users demand speed, accessibility, and seamless experiences, Progressive Web Apps (PWAs) have emerged as a game-changer. A PWA combines the best of websites and mobile apps, offering fast loading, offline access, and an app-like experience without requiring downloads. Businesses leveraging PWAs gain a competitive edge by enhancing user engagement, reducing costs, and improving scalability."
 authorId: 1
 thumbnail: {
-	large: "/images/blog/blog-list-03.jpg" 
+	large: "/images/blog/Blog 5.png" 
 }
 categories: ["Uncategorized"]
 tags: ["design", "beauty", "camera"]

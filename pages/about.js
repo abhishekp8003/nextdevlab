@@ -109,7 +109,7 @@ const About = () => {
                                     </h2>
                                     <p className="subtitle-2">
                                         At NextDev Labs, we specialize in building high-performance websites and applications  
-                                        that drive growth. Discover how we transformed our client's vision into a powerful  
+                                        that drive growth. Discover how we transformed our clients vision into a powerful  
                                         digital experience.
                                     </p>
                                     <Link href={`/case-study/${slugify(CaseStudyData[0].title)}`}>

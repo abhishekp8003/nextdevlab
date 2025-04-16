@@ -22,9 +22,9 @@ const TestimonialCard = (
                 <div className="inner">
                     <div className="clint-info-wrapper">
                         <div className="thumb">
-                            <Image
-                                width={60}
-                                height={60}
+                            <img
+                                // width={60}
+                                // height={60}
                                 src={data.client.image}
                                 alt={data.client.fullName}
                             />

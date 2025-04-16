@@ -5,7 +5,7 @@ excerpt: "In a world where businesses handle vast amounts of data and complex wo
 
 authorId: 1
 thumbnail: {
-	large: "/images/blog/blog-list-02.jpg" 
+	large: "/images/blog/Blog 4.png" 
 }
 categories: ["New ideas"]
 tags: ["craft", "web development"]

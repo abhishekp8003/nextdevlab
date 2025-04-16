@@ -69,6 +69,11 @@ const BlogPost = ({post, postType = 'default'}) => {
                                     src={post.postdata.thumbnail.large}
                                     alt="Blog Images"
                                     priority={true}
+                                    style={{
+                                        objectFit: "cover",
+                                        objectPosition: "center",   
+
+                                    }}
                                 />
                             </a>
                         </Link>

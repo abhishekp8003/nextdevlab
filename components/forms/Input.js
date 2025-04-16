@@ -2,11 +2,11 @@ import { useEffect, useRef, useState } from "react";
 
 const Input = ({
   type = "text",
-  name ="",
+  name = "",
   label,
   isClear = false,
   formData,
-  setFormData, // <-- make sure this is passed from parent
+  setFormData, 
 }) => {
   const [isFocused, setIsFocused] = useState(false);
   const inputElement = useRef(null);

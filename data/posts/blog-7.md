@@ -4,7 +4,7 @@ title: "How AI Chatbots Improve Customer Support & Sales"
 excerpt: "Artificial Intelligence (AI) chatbots are transforming the way businesses interact with customers. By offering instant responses, personalized experiences, and cost-effective support, AI chatbots are becoming an indispensable tool for improving customer satisfaction and boosting sales. With their ability to operate 24/7, AI chatbots provide businesses with the flexibility and scalability needed to meet the growing demands of today’s digital landscape."
 authorId: 1
 thumbnail: {
-	large: "/images/blog/blog-list-05.jpg" 
+	large: "/images/blog/Blog 7.png" 
 }
 categories: ["Blog"]
 tags: ["design", "beauty", "camera"]

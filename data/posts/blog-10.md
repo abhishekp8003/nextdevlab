@@ -3,7 +3,7 @@ id: 10
 title: "In today’s fast-paced digital world, your website is often the first point of contact between your business and potential customers. A user-friendly design plays a pivotal role in shaping the first impression and determining whether visitors stay or leave. Whether you’re running an eCommerce store or a service-based business, investing in great website design can be the difference between thriving or struggling in the competitive online space."
 authorId: 1
 thumbnail: {
-	large: "/images/blog/blog-list-08.jpg" 
+	large: "/images/blog/Blog 10.png" 
 }
 categories: ["Agency news"]
 tags: ["beauty", "camera"]

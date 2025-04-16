@@ -4,7 +4,7 @@ title: "WordPress vs. React: Which is Better for Your Business Website?"
 excerpt: "Choosing between WordPress and React depends on your business needs. Both platforms have their own strengths, and selecting the right one can impact your website's scalability, performance, and user experience."
 authorId: 1
 thumbnail: {
-	large: "/images/blog/blog-list-01.jpg" 
+	large: "/images/blog/Blog 1.png" 
 }
 categories: ["Agency news"]
 tags: ["design", "beauty", "camera"]

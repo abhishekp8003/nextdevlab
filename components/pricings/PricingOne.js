@@ -3,7 +3,7 @@ import { useState } from "react";
 import PricingData from "../../data/Pricings.json";
 import SectionTitle from "../common/SectionTitle";
 import PricingTable from "./PricingTable";
-import Script from "next/script";
+
 const PricingOne = () => {
   const [pricings, setPricings] = useState(PricingData.slice(0, 6));
 
@@ -47,12 +47,7 @@ const PricingOne = () => {
           <i className="icon icon-shape-15"></i>
         </div>
       </div>
-      <Script
-        src="https://cdn.trustindex.io/loader.js?71119ce443c813742b46b3c9c55"
-        strategy="lazyOnload" // Loads script when page is idle
-        defer
-        async
-      />
+    
     </div>
   );
 };

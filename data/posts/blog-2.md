@@ -4,7 +4,7 @@ title: "Shopify vs. Custom E-commerce: Which One Should You Choose?"
 excerpt: "If you’re launching an eCommerce store, deciding between Shopify and a custom-built website is crucial for long-term success."
 authorId: 1
 thumbnail: {
-	large: "/images/blog/blog-list-02.jpg" 
+	large: "/images/blog/Blog 2.png" 
 }
 categories: ["Blog"]
 tags: ["development", "chicago", "chicago"]

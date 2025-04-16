@@ -4,7 +4,7 @@ title: "Why Branding Is More Than Just a Logo"
 excerpt: "Branding goes beyond just a visual identity—it is the soul of a business, shaping how customers perceive and connect with it. A strong brand builds trust, credibility, and loyalty, influencing every aspect of a company’s success. Businesses that invest in branding stand out in a crowded market, attract their ideal customers, and create long-term value."
 authorId: 1
 thumbnail: {
-	large: "/images/blog/blog-list-02.jpg" 
+	large: "/images/blog/Blog 6.png" 
 }
 categories: ["Marketing & branding"]
 tags: ["design", "beauty", "camera"]

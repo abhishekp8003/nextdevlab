@@ -4,7 +4,7 @@ title: "Why Your Business Needs a Custom Mobile App"
 excerpt: "In today’s digital era, having a custom mobile app is no longer a luxury—it’s a necessity. A mobile app strengthens customer engagement, builds brand loyalty, and creates a direct communication channel with users. Businesses that invest in mobile apps gain a competitive edge, improve customer retention, and drive long-term growth."
 authorId: 1
 thumbnail: {
-	large: "/images/blog/blog-list-03.jpg" 
+	large: "/images/blog/Blog3.png" 
 }
 categories: ["Information technology"]
 tags: ["graphic design", "film production", "culinary"]

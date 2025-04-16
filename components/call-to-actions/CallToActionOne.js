@@ -9,7 +9,7 @@ const CallToActionOne = () => {
                         <div className="axil-call-to-action">
                             <SectionTitle
                                 title="Need a successful project?"
-                                subtitle="Let's work together"
+                                subtitle="Let us work together"
                                 color="extra04-color"
                                 alignment="center"
                             />

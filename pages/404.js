@@ -20,8 +20,8 @@ const ErrorPage = () => {
                                         <h1 className="title mb--20">Page not Found</h1>
                                         <p className="subtitle-2 mb--30">
                                                     404 | Page Not Found  
-                                                Oops! It looks like the page you're looking for doesn't exist.  
-                                                But don’t worry, you can always go back to [NextDev Labs](https://nextdev.co.in) and explore more!
+                                                Oops! It looks like the page you are looking for does not exist.  
+                                                But do not worry, you can always go back to [NextDev Labs](https://nextdev.co.in) and explore more!
                                         </p>
                                         <Link href="/home-01">
                                             <a className="axil-button btn-large btn-transparent">

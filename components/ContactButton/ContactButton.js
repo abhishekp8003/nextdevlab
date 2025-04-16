@@ -31,7 +31,7 @@ const styles = {
     display: "flex",
     gap: "15px",
         marginTop: "20px",
-        position: "fixed",
+        // position: "fixed",
         bottom: "150px",
         zIndex: "2322323",
 

@@ -4,7 +4,7 @@ title: "Why Digital Marketing is Essential for Business Growth"
 excerpt: "In today’s digital age, traditional marketing methods are no longer enough to drive business growth. Digital marketing allows businesses to connect with wider audiences, track real-time performance, and drive meaningful engagement. It’s an essential tool for scaling a business, improving lead generation, and delivering a personalized experience to customers. From global reach to cost-effective campaigns, digital marketing is the foundation for sustainable growth."
 authorId: 1
 thumbnail: {
-	large: "/images/blog/blog-list-06.jpg" 
+	large: "/images/blog/Blog 8.png" 
 }
 categories: ["Blog"]
 tags: ["design", "beauty", "camera"]

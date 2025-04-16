@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import SectionTitle from "../common/SectionTitle";
 
 const Faq = () => {
   const faqData = [
@@ -136,8 +137,16 @@ const Faq = () => {
   };
 
   return (
-    <div>
-      {/* Navigation Buttons */}
+    <div style={{
+      marginTop : "50px"
+    }}>
+      <SectionTitle
+        title="FAQ"
+        // subtitle="what's going on"
+        // description="In vel varius turpis, non dictum sem. Aenean in efficitur ipsum, in egestas ipsum. Mauris in mi ac tellus."
+        color="extra04-color"
+        alignment="center"
+      />
       <div style={{ textAlign: "center", marginBottom: "20px" }}>
         {faqData.map((cat, index) => (
           <button
@@ -150,6 +159,7 @@ const Faq = () => {
               borderRadius: "8px",
               border: "1px solid #ccc",
               background: "#f0f0f0",
+              margin: "10px"
             }}
           >
             {cat.category}
@@ -157,7 +167,6 @@ const Faq = () => {
         ))}
       </div>
 
-      {/* Slider */}
       <div
         ref={sliderRef}
         style={{
