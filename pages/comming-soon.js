@@ -1,9 +1,9 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import Image from 'next/image';
-import CountDownTimer from '../components/timer/CountDownTimer';
+import Link from 'next/link';
 import Logo from '../components/common/Logo';
 import ThemeSwitcher from '../components/layouts/ThemeSwitcher';
+import CountDownTimer from '../components/timer/CountDownTimer';
 
 const CommingSoon = () => {
     return (
@@ -22,8 +22,8 @@ const CommingSoon = () => {
                                 <div className="col-xl-8 col-lg-10 col-12">
                                     <div className="content">
                                         <div className="logo pt--30">
-                                            <Link href="/home-01">
-                                                <a>
+                                            <Link legacyBehavior            href="/home-01">
+                                                <a legacyBehavior >
                                                     <Logo/>
                                                 </a>
                                             </Link>
@@ -45,7 +45,7 @@ const CommingSoon = () => {
                                             <div className="axil-newsletter mt--40 mt_md--20 mt_sm--20">
                                                 <form className="newsletter-form" action="#">
                                                     <input type="email" placeholder="Email"/>
-                                                    <a className="axil-button btn-transparent" href="#">
+                                                    <a legacyBehavior  className="axil-button btn-transparent" href="#">
                                                         <span className="button-text">Notify Me</span>
                                                         <span className="button-icon"></span>
                                                     </a>

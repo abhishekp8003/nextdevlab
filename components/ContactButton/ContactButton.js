@@ -6,7 +6,7 @@ const ContactButtons = ({ phoneNumber }) => {
   return (
     <div style={styles.container}>
       {/* Call Button */}
-      <a
+      <a legacyBehavior 
         href={`tel:${phoneNumber}`}
         style={{ ...styles.button, ...styles.call }}
       >
@@ -14,7 +14,7 @@ const ContactButtons = ({ phoneNumber }) => {
       </a>
 
       {/* WhatsApp Button */}
-      <a
+      <a legacyBehavior 
         href={`https://wa.me/${formattedPhone}`}
         target="_blank"
         rel="noopener noreferrer"

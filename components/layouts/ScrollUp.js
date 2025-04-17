@@ -22,7 +22,7 @@ const ScrollUp = () => {
   });
 
   return (
-    <a
+    <a legacyBehavior 
       id="scrollUp"
       href="#top"
       onClick={scrollUp}

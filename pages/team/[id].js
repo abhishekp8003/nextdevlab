@@ -60,7 +60,7 @@ const TeamDetails = ({teamData}) => {
                                         <ul className="social-share d-flex justify-content-start liststyle flex-wrap">
                                             {teamData.socials?.map((social, index) => (
                                                 <li key={`social-${index}`}>
-                                                    <a href={social.url}>
+                                                    <a legacyBehavior  href={social.url}>
                                                         <i
                                                             className={`fab fa-${socialIcon(social.type)}`}
                                                         />

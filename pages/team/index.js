@@ -1,13 +1,12 @@
 import Head from 'next/head';
-import {useEffect, useState} from 'react';
+import Image from "next/image";
+import { useEffect, useState } from 'react';
 import SectionTitle from '../../components/common/SectionTitle';
-import VideoPlayer from '../../components/common/VideoPlayer';
 import CounterTwo from '../../components/counters/CounterTwo';
 import Layout from '../../components/layouts/Layout';
 import TeamMember from '../../components/teams/TeamMember';
 import TeamData from '../../data/Team.json';
-import {flatDeep} from '../../helpers/utilities';
-import Image from "next/image";
+import { flatDeep } from '../../helpers/utilities';
 
 const Team = () => {
     const [isWindow, setIsWindow] = useState(false);
@@ -124,7 +123,7 @@ const Team = () => {
                     role="tablist"
                   >
                     <li className="nav-item">
-                      <a
+                      <a legacyBehavior 
                         className={`nav-link ${
                           activeDepartment === 0 ? "active" : ""
                         }`}
@@ -140,7 +139,7 @@ const Team = () => {
                     </li>
                     {departments?.map((department, index) => (
                       <li className="nav-item" key={`department-${index}`}>
-                        <a
+                        <a legacyBehavior 
                           className={`nav-link ${
                             activeDepartment === index + 1 ? "active" : ""
                           }`}
@@ -239,7 +238,7 @@ Join us as we push boundaries, build connections, and pave the way for a brighte
                                 alt="Video Bg Images"
                             />
                             <div className="video-button position-to-top">
-                                <a
+                                <a legacyBehavior 
                                     className="play__btn video-btn"
                                     href="https://www.youtube.com/watch?v=Pj_geat9hvI"
                                     data-bs-toggle="modal"

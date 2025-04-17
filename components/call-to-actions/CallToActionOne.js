@@ -14,7 +14,7 @@ const CallToActionOne = () => {
                                 alignment="center"
                             />
                             <div className="text-center">
-                                <a className="axil-button btn-large btn-transparent" href="#">
+                                <a legacyBehavior  className="axil-button btn-large btn-transparent" href="#">
                                     <span className="button-text">Estimate Project</span>
                                     <span className="button-icon"/>
                                 </a>
@@ -24,7 +24,7 @@ const CallToActionOne = () => {
                                     </span>
                                     <span>
                                       <i className="fal fa-phone-alt"/>
-                                      <a href="tel:91-9726726126">+91-9726726126</a>
+                                      <a legacyBehavior  href="tel:91-9726726126">+91-9726726126</a>
                                     </span>
                                 </div>
                             </div>

@@ -1,8 +1,7 @@
-import Image from 'next/image';
+import Link from "next/link";
 import { useEffect, useState } from 'react';
 import BrandData from '../../data/Brands.json';
 import SectionTitle from '../common/SectionTitle';
-import Link from "next/link";
 
 const BrandOne = ({
   title = "We’ve built solutions for...",
@@ -35,8 +34,8 @@ const BrandOne = ({
               <ul className="brand-list liststyle d-flex flex-wrap justify-content-center">
                 {brands?.map((brand, index) => (
                   <li key={`brand-${index}`}>
-                    <Link href="#">
-                      <div>
+                    <Link legacyBehavior            href="#">
+                      <a legacyBehavior >
                         <img
                           style={{
                             width: brand.image.width,
@@ -46,7 +45,7 @@ const BrandOne = ({
                           src={brand.image.src}
                           alt="Brand Logo Images"
                         />
-                      </div>
+                      </a>
                     </Link>
                   </li>
                 ))}

@@ -1,7 +1,7 @@
-import Link from 'next/link';
 import Image from 'next/image';
+import Link from 'next/link';
 import Router from 'next/router';
-import {useEffect} from 'react';
+import { useEffect } from 'react';
 import MainMenu from './MainMenu';
 
 const MobileMenu = () => {
@@ -90,15 +90,15 @@ const MobileMenu = () => {
             <div className="inner">
                 <div className="mobileheader">
                     <div className="logo">
-                        <Link href="/home-01">
-                            <div>
+                        <Link legacyBehavior            href="/home-01">
+                            <a legacyBehavior >
                                 <Image
                                     width={250}
                                     height={60}
                                     src="/images/logo/keystoke.svg"
                                     alt="Logo images"
                                 />
-                            </div>
+                            </a>
                         </Link>
                     </div>
                     <button

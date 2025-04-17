@@ -1,13 +1,13 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import Image from 'next/image';
-import {useEffect, useState} from 'react';
+import Link from 'next/link';
+import { useEffect, useState } from 'react';
+import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
 import CallToActionOne from '../../components/call-to-actions/CallToActionOne';
 import VideoPlayer from '../../components/common/VideoPlayer';
 import Layout from '../../components/layouts/Layout';
 import PortfolioData from '../../data/Portfolio.json';
-import {slugify} from '../../helpers/utilities';
-import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
+import { slugify } from '../../helpers/utilities';
 
 export async function getStaticPaths() {
     return {
@@ -73,11 +73,11 @@ const PortfolioDetails = ({portfolio}) => {
                           __html: portfolio.description,
                         }}
                       />
-                      <Link href="#">
-                        <div className="axil-button btn-large btn-transparent">
+                      <Link legacyBehavior            href="#">
+                        <a legacyBehavior  className="axil-button btn-large btn-transparent">
                           <span className="button-text">Launch The Site </span>
                           <span className="button-icon" />
-                        </div>
+                        </a>
                       </Link>
                     </div>
                   </div>
@@ -194,7 +194,7 @@ const PortfolioDetails = ({portfolio}) => {
                         alt="POrtfolio Images"
                       />
                       {/* <div className="video-button position-to-top">
-                                            <a
+                                            <a legacyBehavior 
                                                 className="play__btn video-btn"
                                                 href="https://www.youtube.com/watch?v=Pj_geat9hvI"
                                                 data-bs-toggle="modal"

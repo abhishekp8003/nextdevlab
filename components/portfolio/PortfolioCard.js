@@ -1,8 +1,7 @@
-import {motion} from 'framer-motion';
-import Image from 'next/image';
+import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Tilt from 'react-parallax-tilt';
-import {slugify} from '../../helpers/utilities';
+import { slugify } from '../../helpers/utilities';
 
 const PortfolioCard = ({data, index, activeIndex, changeActive}) => {
     const item = {
@@ -24,15 +23,15 @@ const PortfolioCard = ({data, index, activeIndex, changeActive}) => {
             <div className="inner">
                 <Tilt tiltMaxAngleX={9} tiltMaxAngleY={9}>
                     <div className="thumb">
-                        <Link href={`/portfolio/${slugify(data.title)}`}>
-                            <div>
+                        <Link legacyBehavior            href={`/portfolio/${slugify(data.title)}`}>
+                            <a legacyBehavior >
                                 <img
                                     // width={400}
                                     // height={380}
                                     src={data.image}
                                     alt={`${data.title} portfolio image`}
                                 />
-                            </div>
+                            </a>
                         </Link>
                     </div>
                 </Tilt>
@@ -40,8 +39,8 @@ const PortfolioCard = ({data, index, activeIndex, changeActive}) => {
                 <div className="port-overlay-info">
                     <div className="hover-action">
                         <h4 className="title">
-                            <Link href={`/portfolio/${slugify(data.title)}`}>
-                                <div>{data.title}</div>
+                            <Link legacyBehavior            href={`/portfolio/${slugify(data.title)}`}>
+                                <a legacyBehavior >{data.title}</a>
                             </Link>
                         </h4>
                         <span className="category">

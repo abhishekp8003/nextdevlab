@@ -39,7 +39,7 @@ const PortfolioTwo = () => {
             </div>
 
             <div className="view-all-portfolio-button mt--60 text-center move-up wow">
-              <a className="axil-button btn-large btn-transparent" href="#">
+              <a legacyBehavior  className="axil-button btn-large btn-transparent" href="#">
                 <span className="button-text">Discover More Projects</span>
                 <span className="button-icon"></span>
               </a>

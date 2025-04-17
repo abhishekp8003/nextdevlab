@@ -1,7 +1,7 @@
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 import Layout from "../components/layouts/Layout";
-import Image from "next/image";
 
 const ErrorPage = () => {
     return (
@@ -23,11 +23,11 @@ const ErrorPage = () => {
                                                 Oops! It looks like the page you are looking for does not exist.  
                                                 But do not worry, you can always go back to [NextDev Labs](https://nextdev.co.in) and explore more!
                                         </p>
-                                        <Link href="/home-01">
-                                            <div className="axil-button btn-large btn-transparent">
+                                        <Link legacyBehavior            href="/home-01">
+                                            <a legacyBehavior  className="axil-button btn-large btn-transparent">
                                                 <span className="button-text">Go Back</span>
                                                 <span className="button-icon"/>
-                                            </div>
+                                            </a>
                                         </Link>
 
                                         <div className="text-image">

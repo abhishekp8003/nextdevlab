@@ -10,7 +10,8 @@ const SEO = {
     type: "website",
     locale: "en_US",
     url: "https://yourwebsite.com/",
-    title: "🚀 NextDev Labs - Top Web Development & SEO Agency",
+    title:
+      "NextDev Labs: End-to-End Solutions for Web Apps, Marketing & Successy",
     description:
       "💡 Unlock growth with NextDev Labs! Premium web & app development, branding, and SEO strategies to dominate the digital world.",
     site_name: "NextDev Labs",

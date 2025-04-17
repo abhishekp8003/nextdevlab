@@ -1,6 +1,5 @@
-import Link from "next/link";
 import Image from "next/image";
-import { useEffect } from "react";
+import Link from "next/link";
 
 const BlogSidebar = ({ categories, tags, recentPost }) => {
   return (
@@ -23,7 +22,7 @@ const BlogSidebar = ({ categories, tags, recentPost }) => {
           <ul className="category-list">
             {categories?.map((category, categoryIndex) => (
               <li key={`category-${categoryIndex}`}>
-                <Link href={`/blog/category/${category.slug}`}>
+                <Link legacyBehavior            href={`/blog/category/${category.slug}`}>
                   {category.title}
                 </Link>
               </li>
@@ -38,32 +37,32 @@ const BlogSidebar = ({ categories, tags, recentPost }) => {
             <span>Follow:</span>
             <ul className="social-list d-flex">
               <li>
-                <a href="#">
+                <a legacyBehavior  href="#">
                   <i className="fab fa-facebook-f"/>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a legacyBehavior  href="#">
                   <i className="fa-brands fa-x-twitter"/>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a legacyBehavior  href="#">
                   <i className="fab fa-instagram"/>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a legacyBehavior  href="#">
                   <i className="fab fa-linkedin-in"/>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a legacyBehavior  href="#">
                   <i className="fab fa-instagram"/>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a legacyBehavior  href="#">
                   <i className="fab fa-youtube"/>
                 </a>
               </li>
@@ -78,16 +77,16 @@ const BlogSidebar = ({ categories, tags, recentPost }) => {
           {recentPost?.map((post, index) => (
             <div className="small-post" key={`recent-post-${index}`}>
               <div className="thumbnail flex-shrink-0">
-                <Link href={`/blog/${post.slug}`}>
-                  <div>
+                <Link legacyBehavior            href={`/blog/${post.slug}`}>
+                  <a legacyBehavior >
                     <Image width={100} height={80} src={post.postdata.thumbnail.large} alt="Blog Image" />
-                  </div>
+                  </a>
                 </Link>
               </div>
               <div className="content">
                 <h6>
-                  <Link href={`/blog/${post.slug}`}>
-                    <a>{post.postdata.title}</a>
+                  <Link legacyBehavior            href={`/blog/${post.slug}`}>
+                    <a legacyBehavior >{post.postdata.title}</a>
                   </Link>
                 </h6>
                 <ul className="blog-meta">
@@ -106,7 +105,7 @@ const BlogSidebar = ({ categories, tags, recentPost }) => {
           <ul className="tags-list">
             {tags?.map((tag, tagIndex) => (
               <li key={`tag-${tagIndex}`}>
-                <Link href={`/blog/tag/${tag.slug}`}>{tag.title}</Link>
+                <Link legacyBehavior            href={`/blog/tag/${tag.slug}`}>{tag.title}</Link>
               </li>
             ))}
           </ul>

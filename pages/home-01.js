@@ -31,16 +31,23 @@ const HomeOne = ({posts}) => {
 
         <main className="page-wrapper">
           <BannerOne />
-          <PopupComponent/>
+          <PopupComponent />
           <ContactButtons phoneNumber={"+919767826126"} />
           <ServiceOne />
           <SliderOne />
           <AboutOne />
           <PortfolioOne />
-          <CounterOne /> <GoogleReivews />
+          <CounterOne />
+          <GoogleReivews />
           <TestimonialOne />
           <TeamOne />
-          <PricingOne />
+
+          <PricingOne heading1="Web Development" first={0} second={3}
+            heading2= "App Development"
+          third ={3} fourth ={6}
+          />
+          
+        
           <BrandOne />
           <BlogOne posts={posts.slice(0, 2)} />
           <Faq />

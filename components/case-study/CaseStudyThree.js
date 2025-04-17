@@ -2,10 +2,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Tilt from 'react-parallax-tilt';
 import CaseStudyData from '../../data/CaseStudy.json';
+import { slugify } from '../../helpers/utilities';
 import SectionTitle from '../common/SectionTitle';
-import {SplitText} from '../common/SplitText';
+import { SplitText } from '../common/SplitText';
 import CaseStudyCard from './CaseStudyCard';
-import {slugify} from '../../helpers/utilities';
 
 const CaseStudyThree = () => {
     return (
@@ -39,12 +39,12 @@ const CaseStudyThree = () => {
                                       )}
                                     </span>
                                     <h4 className="title">
-                                        <Link href={`/projects/${slugify(CaseStudyData[6].title)}`}>
-                                            <div>
+                                        <Link legacyBehavior            href={`/projects/${slugify(CaseStudyData[6].title)}`}>
+                                            <a legacyBehavior >
                                                 <SplitText>
                                                     {CaseStudyData[6].title}
                                                 </SplitText>
-                                            </div>
+                                            </a>
                                         </Link>
                                     </h4>
                                 </div>

@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import {useEffect, useState} from 'react';
-import {useInView} from 'react-intersection-observer';
+import { useEffect, useState } from 'react';
+import { useInView } from 'react-intersection-observer';
 import BannerSix from '../../components/banners/BannerSix';
 import CallToActionOne from '../../components/call-to-actions/CallToActionOne';
 import Layout from '../../components/layouts/Layout';
@@ -88,7 +88,7 @@ const Services = () => {
                     <nav className="axil-scroll-nav navbar navbar-example2">
                         <ul className="nav nav-pills justify-content-center sidebar__inner">
                             <li className="nav-item">
-                                <a
+                                <a legacyBehavior 
                                     className={`nav-link smoth-animation ${
                                         activeServiceSection === "section1" ? "active" : ""
                                     }`}
@@ -98,7 +98,7 @@ const Services = () => {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a
+                                <a legacyBehavior 
                                     className={`nav-link smoth-animation ${
                                         activeServiceSection === "section2" ? "active" : ""
                                     }`}
@@ -108,7 +108,7 @@ const Services = () => {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a
+                                <a legacyBehavior 
                                     className={`nav-link smoth-animation ${
                                         activeServiceSection === "section3" ? "active" : ""
                                     }`}
@@ -118,7 +118,7 @@ const Services = () => {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a
+                                <a legacyBehavior 
                                     className={`nav-link smoth-animation ${
                                         activeServiceSection === "section4" ? "active" : ""
                                     }`}
@@ -128,7 +128,7 @@ const Services = () => {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a
+                                <a legacyBehavior 
                                     className={`nav-link smoth-animation ${
                                         activeServiceSection === "section5" ? "active" : ""
                                     }`}
@@ -138,7 +138,7 @@ const Services = () => {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a
+                                <a legacyBehavior 
                                     className={`nav-link smoth-animation ${
                                         activeServiceSection === "section6" ? "active" : ""
                                     }`}

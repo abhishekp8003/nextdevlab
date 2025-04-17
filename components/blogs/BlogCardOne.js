@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Tilt from "react-parallax-tilt";
 import Link from "next/link";
+import Tilt from "react-parallax-tilt";
 
 const BlogCardOne = ({column, data, index, activeIndex}) => {
     return (
@@ -17,8 +17,8 @@ const BlogCardOne = ({column, data, index, activeIndex}) => {
                             <div className="inner">
                                 <span className="category">{data.category}</span>
                                 <h5 className="title">
-                                    <Link href={`/blog/${data.slug}`}>
-                                        <div>{data.title}</div>
+                                    <Link legacyBehavior            href={`/blog/${data.slug}`}>
+                                        <a legacyBehavior >{data.title}</a>
                                     </Link>
                                 </h5>
                                 <p>

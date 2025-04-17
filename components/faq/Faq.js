@@ -137,35 +137,19 @@ const Faq = () => {
   };
 
   return (
-    <div style={{
-      marginTop : "50px"
-    }}>
+    <div
+      style={{
+        marginTop: "50px",
+      }}
+    >
       <SectionTitle
-        title="FAQ"
+        title="Frequently asked questions"
         // subtitle="what's going on"
         // description="In vel varius turpis, non dictum sem. Aenean in efficitur ipsum, in egestas ipsum. Mauris in mi ac tellus."
         color="extra04-color"
         alignment="center"
       />
-      <div style={{ textAlign: "center", marginBottom: "20px" }}>
-        {faqData.map((cat, index) => (
-          <button
-            key={index}
-            onClick={() => scrollTo(index)}
-            style={{
-              margin: "0 10px",
-              padding: "8px 16px",
-              cursor: "pointer",
-              borderRadius: "8px",
-              border: "1px solid #ccc",
-              background: "#f0f0f0",
-              margin: "10px"
-            }}
-          >
-            {cat.category}
-          </button>
-        ))}
-      </div>
+     
 
       <div
         ref={sliderRef}
@@ -206,7 +190,7 @@ const Faq = () => {
                 return (
                   <div className="card" key={questionId}>
                     <div className="card-header" id={`heading-${questionId}`}>
-                      <a
+                      <a legacyBehavior 
                         href="#"
                         className="btn btn-link d-block text-start collapsed"
                         data-bs-toggle="collapse"

@@ -1,6 +1,6 @@
 import CounterData from '../../data/Counters.json';
-import CounterCardOne from "./CounterCardOne";
 import SectionTitle from "../common/SectionTitle";
+import CounterCardOne from "./CounterCardOne";
 
 const CounterTwo = () => {
     const counterClass = (i) => {
@@ -26,7 +26,7 @@ const CounterTwo = () => {
                             alignment="left"
                         />
                         <div className="view-all-portfolio-button mt--40">
-                            <a className="axil-button btn-large btn-transparent" href="#">
+                            <a legacyBehavior  className="axil-button btn-large btn-transparent" href="#">
                                 <span className="button-text">Careers</span>
                                 <span className="button-icon"></span>
                             </a>

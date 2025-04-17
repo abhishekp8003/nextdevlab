@@ -31,7 +31,7 @@ const TermsOfUse = () => {
 
                                         <h3>About NextDev Labs</h3>
                                         <p className="subtitle-2 mb--40">
-                                            NextDev Labs is a web development agency providing digital solutions, including website and application development. For any inquiries regarding these terms, please contact us at <a href="#">info@nextdev.co.in</a>.
+                                            NextDev Labs is a web development agency providing digital solutions, including website and application development. For any inquiries regarding these terms, please contact us at <a legacyBehavior  href="#">info@nextdev.co.in</a>.
                                         </p>
 
                                         <h3>Use of Our Services</h3>

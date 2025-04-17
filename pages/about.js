@@ -1,15 +1,15 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import Image from 'next/image';
+import Link from 'next/link';
 import CountUp from 'react-countup';
-import {useInView} from 'react-intersection-observer';
+import { useInView } from 'react-intersection-observer';
 import BannerSeven from '../components/banners/BannerSeven';
 import Layout from '../components/layouts/Layout';
 import ServiceThree from '../components/services/ServiceThree';
 import WorkingProcess from '../components/services/WorkingProcess';
 import TeamOne from '../components/teams/TeamOne';
 import CaseStudyData from '../data/CaseStudies.json';
-import {slugify} from '../helpers/utilities';
+import { slugify } from '../helpers/utilities';
 
 const About = () => {
     const [ref, inView] = useInView({
@@ -101,10 +101,10 @@ const About = () => {
                                         Featured Case Study
                                     </span>
                                     <h2 className="title">
-                                        <Link href={`/case-study/${slugify(CaseStudyData[0].title)}`}>
-                                        <div>
+                                        <Link legacyBehavior            href={`/case-study/${slugify(CaseStudyData[0].title)}`}>
+                                        <a legacyBehavior >
                                             Elevating Businesses with Scalable Digital Solutions{" "}
-                                        </div>
+                                        </a>
                                         </Link>
                                     </h2>
                                     <p className="subtitle-2">
@@ -112,11 +112,11 @@ const About = () => {
                                         that drive growth. Discover how we transformed our clients vision into a powerful  
                                         digital experience.
                                     </p>
-                                    <Link href={`/case-study/${slugify(CaseStudyData[0].title)}`}>
-                                        <div className="axil-button btn-large btn-transparent">
+                                    <Link legacyBehavior            href={`/case-study/${slugify(CaseStudyData[0].title)}`}>
+                                        <a legacyBehavior  className="axil-button btn-large btn-transparent">
                                         <span className="button-text">Read Case Study</span>
                                         <span className="button-icon"/>
-                                        </div>
+                                        </a>
                                     </Link>
                                     </div>
 

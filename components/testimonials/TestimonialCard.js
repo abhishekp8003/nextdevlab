@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from "next/link";
 
 const TestimonialCard = (
@@ -36,10 +35,10 @@ const TestimonialCard = (
                     </div>
                     <div className="description">
                         <p className="subtitle-3">{data.description}</p>
-                        <Link href="#">
-                            <div className="axil-link-button">
+                        <Link legacyBehavior            href="#">
+                            <a legacyBehavior  className="axil-link-button">
                                 Read Project Case Study
-                            </div>
+                            </a>
                         </Link>
                     </div>
                 </div>

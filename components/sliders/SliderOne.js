@@ -1,13 +1,13 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import CountUp from 'react-countup';
-import {useInView} from 'react-intersection-observer';
+import { useInView } from 'react-intersection-observer';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
-import SliderTwoData from '../../data/SliderTwo.json';
 import CaseStudyData from '../../data/CaseStudies.json';
-import Link from 'next/link';
-import {slugify} from '../../helpers/utilities';
+import SliderTwoData from '../../data/SliderTwo.json';
+import { slugify } from '../../helpers/utilities';
 
 const SliderOne = () => {
     const [ref, inView] = useInView({
@@ -56,16 +56,16 @@ const SliderOne = () => {
                                                   {item.subtitle}
                                                 </span>
                                                 <h2 className="title">
-                                                    <Link href={`/case-study/${slugify(CaseStudyData[0].title)}`}>
-                                                        <div>{item.title}</div>
+                                                    <Link legacyBehavior            href={`/case-study/${slugify(CaseStudyData[0].title)}`}>
+                                                        <a legacyBehavior >{item.title}</a>
                                                     </Link>
                                                 </h2>
                                                 <p className="subtitle-2">{item.description}</p>
-                                                <Link href={`/case-study/${slugify(CaseStudyData[0].title)}`}>
-                                                    <div className="axil-button btn-large btn-transparent">
+                                                <Link legacyBehavior            href={`/case-study/${slugify(CaseStudyData[0].title)}`}>
+                                                    <a legacyBehavior  className="axil-button btn-large btn-transparent">
                                                         <span className="button-text">{item.buttonText}</span>
                                                         <span className="button-icon"/>
-                                                    </div>
+                                                    </a>
                                                 </Link>
                                             </div>
                                             <div

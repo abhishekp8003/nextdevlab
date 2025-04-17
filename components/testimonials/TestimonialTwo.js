@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import { useState } from 'react';
 import TestimonialData from '../../data/Testimonials.json';
 import SectionTitle from '../common/SectionTitle';
 import TestimonialCard from './TestimonialCard';
@@ -46,19 +46,19 @@ const TestimonialTwo = () => {
                         <div className="axil-followers">
                             <ul className="followers-list">
                                 <li className="dribbble">
-                                    <a href="https://dribbble.com/" target="_blank" rel="noreferrer">
+                                    <a legacyBehavior  href="https://dribbble.com/" target="_blank" rel="noreferrer">
                                         <i className="fab fa-dribbble"/>
                                         <span>60k Followers</span>
                                     </a>
                                 </li>
                                 <li className="behance">
-                                    <a href="https://www.behance.net/" target="_blank" rel="noreferrer">
+                                    <a legacyBehavior  href="https://www.behance.net/" target="_blank" rel="noreferrer">
                                         <i className="fab fa-behance"/>
                                         <span>30k Followers</span>
                                     </a>
                                 </li>
                                 <li className="linkedin">
-                                    <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+                                    <a legacyBehavior  href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
                                         <i className="fab fa-linkedin-in"/>
                                         <span>13k Connections</span>
                                     </a>

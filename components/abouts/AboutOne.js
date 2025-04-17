@@ -54,7 +54,7 @@ const AboutOne = () => {
                   <span className="text">Or call us now</span>
                   <span>
                     <i className="fal fa-phone-alt"></i>{" "}
-                    <a href="tel:+919767826126">+91 97678 26126</a>
+                    <a legacyBehavior  href="tel:+919767826126">+91 97678 26126</a>
 
                   </span>
                 </div>

@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import {useEffect} from 'react';
 import Link from "next/link";
+import { useEffect } from 'react';
 
 const BannerThree = () => {
     const startMarqueeAnimation = () => {
@@ -42,21 +42,21 @@ const BannerThree = () => {
                                      data-aos="aos-fade-in-up"
                                      data-aos-duration="1000"
                                      data-aos-delay="200">
-                                    <a href="https://dribbble.com/axilweb/"
+                                    <a legacyBehavior  href="https://dribbble.com/axilweb/"
                                        target="_blank"
                                        rel="noreferrer"
                                        className="axil-button btn-large btn-transparent">
                                         <span className="button-text">Latest Work On Dribbble</span>
                                         <span className="button-icon"/>
                                     </a>
-                                    <Link href="/about">
-                                        <div className="axil-button axil-link-button">
+                                    <Link legacyBehavior            href="/about">
+                                        <a legacyBehavior  className="axil-button axil-link-button">
                                             About Me
-                                        </div>
+                                        </a>
                                     </Link>
                                 </div>
                                 <div className="scroll-down_btn">
-                                    <a id="scrollDown"
+                                    <a legacyBehavior  id="scrollDown"
                                        className="axil-scrollbown smoth-animation"
                                        href="#sectionBottom">
                                         <span/>

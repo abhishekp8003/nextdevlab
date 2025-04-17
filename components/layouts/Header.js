@@ -1,11 +1,11 @@
 import Link from 'next/link';
-import {useEffect, useState} from 'react';
+import { useEffect, useState } from 'react';
+import Logo from '../common/Logo';
 import HeaderSearch from './HeaderSearch';
 import MainMenu from './MainMenu';
 import MobileMenu from './MobileMenu';
 import SideNav from './SideNav';
 import ThemeSwitcher from './ThemeSwitcher';
-import Logo from '../common/Logo';
 
 const Header = ({headerSetting = {}}) => {
     const [headerSettings, setHeaderSettings] = useState({});
@@ -99,10 +99,10 @@ const Header = ({headerSetting = {}}) => {
                         <div className="row align-items-center">
                             <div className={headerSettings.leftColumn}>
                                 <div className="logo">
-                                    <Link href="/home-01">
-                                        <div>
+                                    <Link legacyBehavior            href="/home-01">
+                                        <a legacyBehavior >
                                             <Logo variant={headerSettings.style === 'four' ? 'two' : 'one'}/>
-                                        </div>
+                                        </a>
                                     </Link>
                                 </div>
                             </div>
@@ -157,22 +157,22 @@ const Header = ({headerSetting = {}}) => {
                                             <div className="d-none d-md-block">
                                                 <ul className="axil-social-icons d-flex liststyle align-items-center">
                                                     <li>
-                                                        <a href="#">
+                                                        <a legacyBehavior  href="#">
                                                             <i className="fab fa-facebook-f"/>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="#">
+                                                        <a legacyBehavior  href="#">
                                                             <i className="fab fa-twitter"/>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="#">
+                                                        <a legacyBehavior  href="#">
                                                             <i className="fab fa-pinterest-p"/>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="#">
+                                                        <a legacyBehavior  href="#">
                                                             <i className="fab fa-linkedin-in"/>
                                                         </a>
                                                     </li>
@@ -182,11 +182,11 @@ const Header = ({headerSetting = {}}) => {
 
                                         {headerSettings.style === "four" && (
                                             <div className="ax-header-button ml--40 ml_lg--10 d-none d-sm-block">
-                                                <Link href="/contact">
-                                                   <div className="axil-button btn-solid btn-extra02-color">
+                                                <Link legacyBehavior            href="/contact">
+                                                    <a legacyBehavior  className="axil-button btn-solid btn-extra02-color">
                                                         <span className="button-text">Let&lsquo;s Talk</span>
                                                         <span className="button-icon"/>
-                                                    </div>
+                                                    </a>
                                                 </Link>
                                             </div>
                                         )}

@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import {useEffect, useState} from 'react';
-import Logo from '../common/Logo';
+import { useEffect, useState } from 'react';
 import FooterMenu from '../../data/FooterMenu';
+import Logo from '../common/Logo';
 
 const Footer = ({footerSetting = {}}) => {
     const [footerSettings, setFooterSettings] = useState({});
@@ -44,7 +44,7 @@ const Footer = ({footerSetting = {}}) => {
                                             <ul className="ft-social-share d-flex justify-content-center liststyle flex-wrap">
                                                 {FooterMenu.social?.map((socialItem, index) => (
                                                     <li key={`social-${index}`}>
-                                                        <a href={socialItem.url} target="_blank" rel="noreferrer">
+                                                        <a legacyBehavior  href={socialItem.url} target="_blank" rel="noreferrer">
                                                             <i className={`fab ${socialItem.icon}`}/>
                                                         </a>
                                                     </li>
@@ -66,11 +66,11 @@ const Footer = ({footerSetting = {}}) => {
                                                     </h2>
                                                 </div>
                                                 <div className="button-wrapper">
-                                                    <Link href="/contact">
-                                                        <div className="axil-button btn-large btn-solid bgextra07-color">
+                                                    <Link legacyBehavior            href="/contact">
+                                                        <a legacyBehavior  className="axil-button btn-large btn-solid bgextra07-color">
                                                             <span className="button-text">Let&rsquo;s Talk</span>
                                                             <span className="button-icon"/>
-                                                        </div>
+                                                        </a>
                                                     </Link>
                                                 </div>
                                             </div>
@@ -108,7 +108,7 @@ const Footer = ({footerSetting = {}}) => {
                                                     <div className="axil-newsletter">
                                                         <form className="newsletter-form" action="#">
                                                             <input type="email" placeholder="Email"/>
-                                                            <a className="axil-button btn-transparent" href="mailto:info@nextdev.co.in">
+                                                            <a legacyBehavior  className="axil-button btn-transparent" href="mailto:info@nextdev.co.in">
                                                                 <span className="button-text">Subscribe</span>
                                                                 <span className="button-icon"/>
                                                             </a>
@@ -118,10 +118,10 @@ const Footer = ({footerSetting = {}}) => {
                                             ) : (
                                                 <>
                                                     <div className="logo">
-                                                        <Link href="/home-01">
-                                                            <div>
+                                                        <Link legacyBehavior            href="/home-01">
+                                                            <a legacyBehavior >
                                                                 <Logo variant="two" fillTextColor="#fff"/>
-                                                            </div>
+                                                            </a>
                                                         </Link>
                                                     </div>
                                                     <div className="axil-ft-address">
@@ -132,11 +132,11 @@ const Footer = ({footerSetting = {}}) => {
 
                                                             <p>
                                                                 <span>T.</span>
-                                                                <a href="tel:+919726726126">+91-97678 26126</a>
+                                                                <a legacyBehavior  href="tel:+919726726126">+91-97678 26126</a>
                                                             </p>
                                                             <p>
                                                                 <span>E.</span>
-                                                                <a href="mailto:info@nextdev.co.in">info@nextdev.co.in</a>
+                                                                <a legacyBehavior  href="mailto:info@nextdev.co.in">info@nextdev.co.in</a>
                                                             </p>
                                                         </div>
                                                     </div>
@@ -164,7 +164,7 @@ const Footer = ({footerSetting = {}}) => {
                                                 >
                                                     {FooterMenu.services?.map((menuItem, index) => (
                                                         <li key={`footer-service-${index}`}>
-                                                            <Link href={menuItem.url}>{menuItem.title}</Link>
+                                                            <Link legacyBehavior            href={menuItem.url}>{menuItem.title}</Link>
                                                         </li>
                                                     ))}
                                                 </ul>
@@ -191,7 +191,7 @@ const Footer = ({footerSetting = {}}) => {
                                                 >
                                                     {FooterMenu.resources?.map((menuItem, index) => (
                                                         <li key={`footer-resource-${index}`}>
-                                                            <Link href={menuItem.url}>{menuItem.title}</Link>
+                                                            <Link legacyBehavior            href={menuItem.url}>{menuItem.title}</Link>
                                                         </li>
                                                     ))}
                                                 </ul>
@@ -222,7 +222,7 @@ const Footer = ({footerSetting = {}}) => {
                                                 >
                                                     {FooterMenu.support?.map((menuItem, index) => (
                                                         <li key={`footer-support-${index}`}>
-                                                            <Link href={menuItem.url}>{menuItem.title}</Link>
+                                                            <Link legacyBehavior            href={menuItem.url}>{menuItem.title}</Link>
                                                         </li>
                                                     ))}
                                                 </ul>
@@ -251,12 +251,12 @@ const Footer = ({footerSetting = {}}) => {
                                         }`}
                                     >
                                         <li>
-                                            <Link data-hover="Privacy Policy" href="/privacy-policy">
+                                            <Link legacyBehavior            data-hover="Privacy Policy" href="/privacy-policy">
                                                 Privacy Policy
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/termsofuse">Terms of Use</Link>
+                                            <Link legacyBehavior            href="/termsofuse">Terms of Use</Link>
                                         </li>
                                     </ul>
                                 </div>

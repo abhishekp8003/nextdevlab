@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import Tilt from 'react-parallax-tilt';
 import Link from "next/link";
+import Tilt from 'react-parallax-tilt';
 
 const BannerOne = () => {
     return (
@@ -26,8 +26,9 @@ const BannerOne = () => {
                     Create live segments and target the right people for
                     <br /> messages based on their behaviors.
                   </p>
-                  <Link href="/portfolio">
-                    <div
+                  <Link legacyBehavior href="/portfolio">
+                    <a
+                      legacyBehavior
                       className="axil-button btn-large btn-transparent"
                       data-aos="aos-fade-in-up"
                       data-aos-duration="1000"
@@ -35,7 +36,7 @@ const BannerOne = () => {
                     >
                       <span className="button-text">View Showcase</span>
                       <span className="button-icon" />
-                    </div>
+                    </a>
                   </Link>
                 </div>
               </div>
@@ -45,9 +46,11 @@ const BannerOne = () => {
                     <div className="thumbnail paralax-image">
                       <div
                         className="light-image"
-                        style={{
-                        //   border: "1px solid green",
-                        }}
+                        style={
+                          {
+                            //   border: "1px solid green",
+                          }
+                        }
                       >
                         <Image
                           width={500}

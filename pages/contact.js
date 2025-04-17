@@ -1,11 +1,11 @@
 'use client'
 
 import Head from "next/head";
+import Image from "next/image";
 import Breadcrumb from "../components/breadcrumb/Breadcrumb";
 import SectionTitle from "../components/common/SectionTitle";
 import ContactFormThree from "../components/forms/ContactFormThree";
 import Layout from "../components/layouts/Layout";
-import Image from "next/image";
 
 
 
@@ -64,7 +64,7 @@ const Contact = () => {
                                                 <p>Our customer care service is open from 10:00 AM to 6:00 PM, all week.
                                                 </p>
                                                 <p>
-                                                    <a className="axil-link" href="tel:+91-9726726126">
+                                                    <a legacyBehavior  className="axil-link" href="tel:+91-9726726126">
                                                         +91-9726726126
                                                     </a>
                                                 </p>
@@ -88,7 +88,7 @@ const Contact = () => {
                                                     standard business hours.
                                                 </p>
                                                 <p>
-                                                    <a
+                                                    <a legacyBehavior 
                                                         className="axil-link"
                                                         href="mailto:info@nextdev.co.in"
                                                     >
@@ -147,7 +147,7 @@ const Contact = () => {
                                         <p>
                                         763, Juni bhajiali, Raviwar Peth, Pune, Maharashtra 411002 <br/> India
                                         </p>
-                                        <a className="axil-button btn-transparent" href="#">
+                                        <a legacyBehavior  className="axil-button btn-transparent" href="#">
                                             <span className="button-text">View on Map</span>
                                             <span className="button-icon"></span>
                                         </a>
@@ -174,7 +174,7 @@ const Contact = () => {
                                         <p>
                                             15 , daulat nagar , Jalgaon , Maharashtra 425001 <br/> India
                                         </p>
-                                        <a className="axil-button btn-transparent" href="#">
+                                        <a legacyBehavior  className="axil-button btn-transparent" href="#">
                                             <span className="button-text">View on Map</span>
                                             <span className="button-icon"></span>
                                         </a>

@@ -15,14 +15,14 @@ const BannerFive = () => {
                                         data-aos-duration="1000">
                                         Technology <br/> & design studio
                                     </h1>
-                                    <Link href="/portfolio">
-                                        <div className="axil-button btn-large btn-transparent"
+                                    <Link legacyBehavior            href="/portfolio">
+                                        <a legacyBehavior  className="axil-button btn-large btn-transparent"
                                            data-aos="aos-fade-in-up"
                                            data-aos-duration="1000"
                                            data-aos-delay="300">
                                             <span className="button-text">View Showcase</span>
                                             <span className="button-icon"/>
-                                        </div>
+                                        </a>
                                     </Link>
                                 </div>
                             </div>
@@ -37,7 +37,7 @@ const BannerFive = () => {
                         <div className="callto-action-wrapper text-center">
                             <span className="text">Or call us now</span>
                             <span>
-                               <i className="fal fa-phone-alt"/> <a href="tel:+919767826126">+91 97678 26126</a>
+                               <i className="fal fa-phone-alt"/> <a legacyBehavior  href="tel:+919767826126">+91 97678 26126</a>
 
                             </span>
                         </div>

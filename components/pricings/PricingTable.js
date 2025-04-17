@@ -41,7 +41,7 @@ const PricingTable = ({ column, pricingTableClass, buttonClass, data }) => {
               </div>
             </div>
             <div className="pricing-get-button">
-              <a
+              <a legacyBehavior 
                 className={`axil-bu
                 tton btn-large ${buttonClass}`}
                 href="#"

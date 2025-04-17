@@ -1,14 +1,14 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import {useEffect, useState} from 'react';
+import { useEffect, useState } from 'react';
 import Tilt from 'react-parallax-tilt';
+import BannerSix from '../../components/banners/BannerSix';
 import CallToActionOne from '../../components/call-to-actions/CallToActionOne';
 import VideoPlayer from '../../components/common/VideoPlayer';
 import Layout from '../../components/layouts/Layout';
 import WorkingProcess from '../../components/services/WorkingProcess';
 import CaseStudyData from '../../data/CaseStudy.json';
-import BannerSix from '../../components/banners/BannerSix';
-import {slugify} from '../../helpers/utilities';
+import { slugify } from '../../helpers/utilities';
 
 export async function getStaticPaths() {
     return {
@@ -76,7 +76,7 @@ const ProjectDetails = ({caseStudy}) => {
                                         />
                                     </Tilt>
                                     <div className="video-button position-to-top">
-                                        <a
+                                        <a legacyBehavior 
                                             className="play__btn video-btn"
                                             href="https://www.youtube.com/watch?v=Pj_geat9hvI"
                                             data-bs-toggle="modal"

@@ -1,6 +1,6 @@
-import Tilt from "react-parallax-tilt";
 import Image from "next/image";
 import Link from "next/link";
+import Tilt from "react-parallax-tilt";
 
 const BannerFour = () => {
     return (
@@ -26,11 +26,11 @@ const BannerFour = () => {
                                      data-aos="aos-fade-in-up"
                                      data-aos-duration="1000"
                                      data-aos-delay="400">
-                                    <Link href="/portfolio">
-                                        <div className="axil-button btn-large btn-solid btn-extra07-color">
+                                    <Link legacyBehavior            href="/portfolio">
+                                        <a legacyBehavior  className="axil-button btn-large btn-solid btn-extra07-color">
                                             <span className="button-text">See Our Projects</span>
                                             <span className="button-icon"/>
-                                        </div>
+                                        </a>
                                     </Link>
                                 </div>
                             </div>
@@ -65,19 +65,19 @@ const BannerFour = () => {
                             <div className="follow-us">
                                 <ul className="social-share social-share-style-2">
                                     <li>
-                                        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+                                        <a legacyBehavior  href="https://www.facebook.com/" target="_blank" rel="noreferrer">
                                             <i className="fab fa-facebook-f"/>
                                             <span>Facebook</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://twitter.com/" target="_blank" rel="noreferrer">
+                                        <a legacyBehavior  href="https://twitter.com/" target="_blank" rel="noreferrer">
                                             <i className="fab fa-twitter"/>
                                             <span>twitter</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+                                        <a legacyBehavior  href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
                                             <i className="fab fa-linkedin-in"/>
                                             <span>Linkedin</span>
                                         </a>

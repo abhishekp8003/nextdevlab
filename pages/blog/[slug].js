@@ -1,15 +1,15 @@
 import fs from 'fs';
 import matter from 'gray-matter';
-import {marked} from 'marked';
-import Image from 'next/image';
+import { marked } from 'marked';
 import Head from 'next/head';
+import Image from 'next/image';
 import path from 'path';
 import BlogSidebar from '../../components/blogs/BlogSidebar';
 import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
 import CallToActionOne from '../../components/call-to-actions/CallToActionOne';
 import Layout from '../../components/layouts/Layout';
 import AuthorData from '../../data/Authors.json';
-import {getCategories, getTags} from '../../helpers/utilities';
+import { getCategories, getTags } from '../../helpers/utilities';
 
 const BlogDetails = ({blogdata, slug, content, allPosts}) => {
     const getAuthorInfo = (id, type) => {
@@ -102,13 +102,13 @@ const BlogDetails = ({blogdata, slug, content, allPosts}) => {
                                             <span className="text">Share on:</span>
                                             <ul className="social-share d-flex">
                                                 <li>
-                                                    <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+                                                    <a legacyBehavior  href="https://www.facebook.com/" target="_blank" rel="noreferrer">
                                                         <i className="fab fa-facebook-f"/>Facebook
                                                     </a>
                                                 </li>
 
                                                 <li>
-                                                    <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+                                                    <a legacyBehavior  href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
                                                         <i className="fab fa-linkedin-in"/>Linkedin
                                                     </a>
                                                 </li>
@@ -127,7 +127,7 @@ const BlogDetails = ({blogdata, slug, content, allPosts}) => {
                                                 </div>
                                                 <div className="info">
                                                     <h5 className="title">
-                                                        <a href="#">
+                                                        <a legacyBehavior  href="#">
                                                             {getAuthorInfo(blogdata.authorId, "name")}
                                                         </a>
                                                     </h5>
@@ -140,7 +140,7 @@ const BlogDetails = ({blogdata, slug, content, allPosts}) => {
                                                             "socialLinks"
                                                         )?.map((social, socialIndex) => (
                                                             <li key={`social-${socialIndex}`}>
-                                                                <a href={social.url} target="_blank" rel="noreferrer">
+                                                                <a legacyBehavior  href={social.url} target="_blank" rel="noreferrer">
                                                                     <i className={`fab fa-${social.type}`}/>
                                                                 </a>
                                                             </li>
@@ -174,7 +174,7 @@ const BlogDetails = ({blogdata, slug, content, allPosts}) => {
                                                                 </div>
                                                                 <div className="coment-date">
                                                                     <p>{comment.commentedAt}</p>
-                                                                    <a className="reply-btn" href="#">
+                                                                    <a legacyBehavior  className="reply-btn" href="#">
                                                                         <i className="fas fa-reply"/>
                                                                     </a>
                                                                 </div>
@@ -205,7 +205,7 @@ const BlogDetails = ({blogdata, slug, content, allPosts}) => {
                                                                     </div>
                                                                     <div className="coment-date">
                                                                         <p>{reply.repliedAt}</p>
-                                                                        <a className="reply-btn" href="#">
+                                                                        <a legacyBehavior  className="reply-btn" href="#">
                                                                             <i className="fas fa-reply"/>
                                                                         </a>
                                                                     </div>

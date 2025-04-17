@@ -1,6 +1,6 @@
+import { motion } from 'framer-motion';
 import Link from 'next/link';
-import {motion} from 'framer-motion';
-import {useEffect, useState} from 'react';
+import { useEffect, useState } from 'react';
 import PortfolioData from '../../data/Portfolio.json';
 import SectionTitle from '../common/SectionTitle';
 import PortfolioCard from './PortfolioCard';
@@ -72,11 +72,11 @@ const PortfolioOne = ({bgColor = "bg-color-lightest"}) => {
                             ))}
                         </motion.div>
                         <div className="view-all-portfolio-button mt--60 text-center">
-                            <Link href="/portfolio">
-                                <div className="axil-button btn-large btn-transparent btn-xxl">
+                            <Link legacyBehavior            href="/portfolio">
+                                <a legacyBehavior  className="axil-button btn-large btn-transparent btn-xxl">
                                     <span className="button-text">Discover More Projects</span>
                                     <span className="button-icon"/>
-                                </div>
+                                </a>
                             </Link>
                         </div>
                     </div>

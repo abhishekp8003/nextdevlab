@@ -34,7 +34,7 @@ At NextDev Labs, we comply with the General Data Protection Regulation (GDPR) to
 
                                         <h3>About NextDev Labs</h3>
                                         <p className="subtitle-2 mb--40">
-                                        NextDev Labs is a web development agency that specializes in delivering digital solutions, including website and application development. For any inquiries regarding our privacy policy, please contact us at  <a
+                                        NextDev Labs is a web development agency that specializes in delivering digital solutions, including website and application development. For any inquiries regarding our privacy policy, please contact us at  <a legacyBehavior 
                                             href="#">info@nextdev.co.in</a>
                                         </p>
 

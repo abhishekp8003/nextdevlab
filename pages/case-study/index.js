@@ -1,15 +1,15 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
-import Tilt from 'react-parallax-tilt';
+import { useState } from 'react';
 import CountUp from 'react-countup';
-import {useState} from 'react';
-import {InView} from 'react-intersection-observer';
+import { InView } from 'react-intersection-observer';
+import Tilt from 'react-parallax-tilt';
 import BannerSeven from '../../components/banners/BannerSeven';
 import CallToActionOne from '../../components/call-to-actions/CallToActionOne';
 import Layout from '../../components/layouts/Layout';
 import CaseStudiesData from '../../data/CaseStudies.json';
-import {slugify} from '../../helpers/utilities';
+import { slugify } from '../../helpers/utilities';
 
 const CaseStudy = () => {
     const [inView, setInView] = useState(false);
@@ -43,8 +43,8 @@ const CaseStudy = () => {
                                     }`}
                                 >
                                     <div className="thumbnail">
-                                        <Link href={`/case-study/${slugify(caseStudy.title)}`}>
-                                            <div>
+                                        <Link legacyBehavior            href={`/case-study/${slugify(caseStudy.title)}`}>
+                                            <a legacyBehavior >
                                                 <Tilt tiltMaxAngleX={9} tiltMaxAngleY={9}>
                                                     <Image
                                                         width={661}
@@ -55,7 +55,7 @@ const CaseStudy = () => {
                                                         priority
                                                     />
                                                 </Tilt>
-                                            </div>
+                                            </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -70,16 +70,16 @@ const CaseStudy = () => {
                                               {caseStudy.subtitle}
                                             </span>
                                             <h2 className="title">
-                                                <Link href={`/case-study/${slugify(caseStudy.title)}`}>
+                                                <Link legacyBehavior            href={`/case-study/${slugify(caseStudy.title)}`}>
                                                     {caseStudy.title}
                                                 </Link>
                                             </h2>
                                             <p className="subtitle-2">{caseStudy.description}</p>
-                                            <Link href={`/case-study/${slugify(caseStudy.title)}`}>
-                                                <div className="axil-button btn-large btn-transparent">
+                                            <Link legacyBehavior            href={`/case-study/${slugify(caseStudy.title)}`}>
+                                                <a legacyBehavior  className="axil-button btn-large btn-transparent">
                                                     <span className="button-text">Read Case Study</span>
                                                     <span className="button-icon"/>
-                                                </div>
+                                                </a>
                                             </Link>
                                         </div>
                                         <div className="axil-counterup-area d-flex flex-wrap separator-line-vertical">

@@ -1,6 +1,6 @@
 import Image from "next/image";
-import SectionTitle from "../common/SectionTitle";
 import Link from "next/link";
+import SectionTitle from "../common/SectionTitle";
 
 const TeamOne = () => {
     return (
@@ -18,10 +18,10 @@ const TeamOne = () => {
                                 />
                             </div>
                             <div className="total-team-button">
-                                <Link href="/team">
-                                    <div>
+                                <Link legacyBehavior            href="/team">
+                                    <a legacyBehavior >
                                         <span>20+</span>
-                                    </div>
+                                    </a>
                                 </Link>
                             </div>
                         </div>
@@ -37,13 +37,13 @@ const TeamOne = () => {
                                     alignment="left"
                                 />
                                 <div className="axil-button-group mt--40">
-                                    <Link href="/team">
-                                        <div className="axil-button btn-large btn-transparent">
+                                    <Link legacyBehavior            href="/team">
+                                        <a legacyBehavior  className="axil-button btn-large btn-transparent">
                                             <span className="button-text">Our Team</span>
                                             <span className="button-icon"></span>
-                                        </div>
+                                        </a>
                                     </Link>
-                                    <a className="axil-button axil-link-button" href="#">
+                                    <a legacyBehavior  className="axil-button axil-link-button" href="#">
                                         Careers
                                     </a>
                                 </div>

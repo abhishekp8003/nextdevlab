@@ -1,6 +1,6 @@
 import SectionTitle from "../common/SectionTitle";
-import ContactFormTwo from "../forms/ContactFormTwo";
 import { SplitText } from "../common/SplitText";
+import ContactFormTwo from "../forms/ContactFormTwo";
 
 const ContactOne = () => {
   return (
@@ -22,7 +22,7 @@ const ContactOne = () => {
                     <SplitText>Mail</SplitText>
                   </h6>
                   <p>
-                    <a href="mailto:info@nextdev.co.in">
+                    <a legacyBehavior  href="mailto:info@nextdev.co.in">
                       <SplitText>info@nextdev.co.in</SplitText>
                     </a>
                   </p>
@@ -44,7 +44,7 @@ const ContactOne = () => {
                     <SplitText>Phone</SplitText>
                   </h6>
                   <p>
-                    <a href="tel:+919726726126">
+                    <a legacyBehavior  href="tel:+919726726126">
                       <SplitText>+91-9726726126</SplitText>
                     </a>
                   </p>

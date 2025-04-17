@@ -121,15 +121,15 @@ const BrandTwo = () => {
                       {brands?.map((brand, index) => {
                         return (
                           <div key={`brand-${index}`}>
-                            <Link href="#">
-                              <div>
+                            <Link legacyBehavior            href="#">
+                              <a legacyBehavior >
                                 <Image
                                   width={brand.image.width}
                                   height={brand.image.width}
                                   src={brand.image.src}
                                   alt="Client Images"
                                 />
-                              </div>
+                              </a>
                             </Link>
                           </div>
                         );

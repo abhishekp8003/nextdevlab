@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
-import {useEffect, useState} from 'react';
+import { useEffect, useState } from 'react';
 import BannerSix from '../components/banners/BannerSix';
 import CallToActionOne from '../components/call-to-actions/CallToActionOne';
 import SectionTitle from '../components/common/SectionTitle';
@@ -9,7 +9,7 @@ import CounterOne from '../components/counters/CounterOne';
 import Layout from '../components/layouts/Layout';
 import ServiceCardOne from '../components/services/ServiceCardOne';
 import ServiceData from '../data/Services.json';
-import {camelCaseToDashed} from '../helpers/utilities';
+import { camelCaseToDashed } from '../helpers/utilities';
 
 const ServiceTwo = () => {
     const [serviceCapabilities, setServiceCapabilities] = useState([]);
@@ -115,7 +115,7 @@ const ServiceTwo = () => {
                                         </div>
                                         <div className="content">
                                             <h4 className="title">
-                                                <Link
+                                                <Link legacyBehavior           
                                                     href={`/services/${camelCaseToDashed(service.category)}/${service.slug}`}>
                                                     {`${index + 1}. ${service.title}`}
                                                 </Link>

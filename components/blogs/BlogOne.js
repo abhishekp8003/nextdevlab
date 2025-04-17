@@ -1,7 +1,7 @@
-import Link from 'next/link';
 import Image from 'next/image';
+import Link from 'next/link';
+import { useState } from "react";
 import SectionTitle from '../common/SectionTitle';
-import {useState} from "react";
 
 const BlogOne = ({posts}) => {
     const [activeBlog, setActiveBlog] = useState(0);
@@ -35,10 +35,10 @@ const BlogOne = ({posts}) => {
                                         <div className="inner">
                                             <span className="category">Lifestyle</span>
                                             <h5 className="title">
-                                                <Link href={`/blog/${post.slug}`}>
-                                                    <div className="text-ellipsis">
+                                                <Link legacyBehavior            href={`/blog/${post.slug}`}>
+                                                    <a legacyBehavior  className="text-ellipsis">
                                                         {post.postdata.title.substring(0, 50)}
-                                                    </div>
+                                                    </a>
                                                 </Link>
                                             </h5>
                                             <p>{post?.postdata?.excerpt?.substring(0, 70)}</p>

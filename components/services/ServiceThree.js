@@ -1,8 +1,8 @@
-import Link from 'next/link';
 import Image from 'next/image';
-import {useEffect, useState} from 'react';
+import Link from 'next/link';
+import { useEffect, useState } from 'react';
 import ServiceData from '../../data/Services.json';
-import {camelCaseToDashed} from '../../helpers/utilities';
+import { camelCaseToDashed } from '../../helpers/utilities';
 import SectionTitle from '../common/SectionTitle';
 
 const ServiceThree = () => {
@@ -62,7 +62,7 @@ const ServiceThree = () => {
                                 </div>
                                 <div className="content">
                                     <h4 className="title">
-                                        <Link
+                                        <Link legacyBehavior           
                                             href={`/services/${camelCaseToDashed(service.category)}/${service.slug}`}
                                         >
                                             {service.title}

@@ -1,9 +1,6 @@
 import Head from "next/head";
 import Breadcrumb from "../components/breadcrumb/Breadcrumb";
-import CallToActionOne from "../components/call-to-actions/CallToActionOne";
-import SectionTitle from "../components/common/SectionTitle";
 import Layout from "../components/layouts/Layout";
-import PricingTable from "../components/pricings/PricingTable";
 import PricingOne from "../components/pricings/PricingOne";
 
 const pricingPlans = [
@@ -66,7 +63,7 @@ const Pricing = () => {
                   {[1, 2, 3].map((num) => (
                     <div className="card" key={num}>
                       <div className="card-header" id={`heading${num}`}>
-                        <a
+                        <a legacyBehavior 
                           href="#"
                           className="btn btn-link d-block text-start collapsed"
                           data-bs-toggle="collapse"

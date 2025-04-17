@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
 
 const getTimeAgo = (dateString) => {
   const now = new Date();
@@ -172,7 +172,7 @@ const GoogleReviews = () => {
   };
 
   return (
-    <div className="reviews-container">
+    <div className="reviews-container container">
       <h2 className="reviews-title">Customer Reviews</h2>
       <div className="reviewGrid">
         <div className="rating-summary">
@@ -189,7 +189,7 @@ const GoogleReviews = () => {
           </div>
           <div className="review-count">
             Based on{" "}
-            <a
+            <a legacyBehavior 
               href="https://www.google.com/search?sca_esv=4f5a3464f54e4b81&rlz=1C1ONGR_enIN1058IN1058&sxsrf=AHTn8zqNsKwfERboJo4PjVIklkTOJ3yiLA:1744268897449&si=APYL9bs7Hg2KMLB-4tSoTdxuOx8BdRvHbByC_AuVpNyh0x2KzWboPxipJmOXguvJBau99YKLDQDCfjUgCOPuppUaGQIR3ZTL77yBsWm_pvA4Y-m97SXxxfpAJL8I1G1eXn1cDVmtNo82&q=nextdev+labs+Reviews&sa=X&ved=2ahUKEwi0y5mA9MyMAxXvk1YBHccjH_0Q0bkNegQILBAE&biw=1707&bih=772&dpr=1.13"
               target="_blank"
               rel="noopener noreferrer"
@@ -431,6 +431,11 @@ const GoogleReviews = () => {
 
           .rating-summary {
             margin-bottom: 30px;
+            width: 100vw;
+          }
+          .review-card {
+            width: 90vw !important;
+            // margin : auto;
           }
         }
 

@@ -18,29 +18,29 @@ const Button = () => {
             <div className="row">
               <div className="col-lg-12">
                 <div className="axil-button-group">
-                  <Link href="#">
-                    <div className="axil-button btn-extra-large btn-transparent">
+                  <Link legacyBehavior            href="#">
+                    <a legacyBehavior  className="axil-button btn-extra-large btn-transparent">
                       <span className="button-text">Outline Extra Large</span>
                       <span className="button-icon" />
-                    </div>
+                    </a>
                   </Link>
-                  <Link href="#">
-                    <div className="axil-button btn-large btn-transparent">
+                  <Link legacyBehavior            href="#">
+                    <a legacyBehavior  className="axil-button btn-large btn-transparent">
                       <span className="button-text">Outline Large</span>
                       <span className="button-icon" />
-                    </div>
+                    </a>
                   </Link>
-                  <Link href="#">
-                    <div className="axil-button btn-transparent">
+                  <Link legacyBehavior            href="#">
+                    <a legacyBehavior  className="axil-button btn-transparent">
                       <span className="button-text">Outline Medium</span>
                       <span className="button-icon" />
-                    </div>
+                    </a>
                   </Link>
-                  <Link href="#">
-                    <div className="axil-button btn-small btn-transparent">
+                  <Link legacyBehavior            href="#">
+                    <a legacyBehavior  className="axil-button btn-small btn-transparent">
                       <span className="button-text">Outline Small</span>
                       <span className="button-icon" />
-                    </div>
+                    </a>
                   </Link>
                 </div>
               </div>
@@ -53,29 +53,29 @@ const Button = () => {
             <div className="row">
               <div className="col-lg-12">
                 <div className="axil-button-group">
-                  <Link href="#">
-                    <div className="axil-button btn-extra-large btn-solid">
+                  <Link legacyBehavior            href="#">
+                    <a legacyBehavior  className="axil-button btn-extra-large btn-solid">
                       <span className="button-text">Outline Extra Large</span>
                       <span className="button-icon" />
-                    </div>
+                    </a>
                   </Link>
-                  <Link href="#">
-                    <div className="axil-button btn-large btn-solid">
+                  <Link legacyBehavior            href="#">
+                    <a legacyBehavior  className="axil-button btn-large btn-solid">
                       <span className="button-text">Outline Large</span>
                       <span className="button-icon" />
-                    </div>
+                    </a>
                   </Link>
-                  <Link href="#">
-                    <div className="axil-button btn-solid">
+                  <Link legacyBehavior            href="#">
+                    <a legacyBehavior  className="axil-button btn-solid">
                       <span className="button-text">Outline Medium</span>
                       <span className="button-icon" />
-                    </div>
+                    </a>
                   </Link>
-                  <Link href="#">
-                    <div className="axil-button btn-small btn-solid">
+                  <Link legacyBehavior            href="#">
+                    <a legacyBehavior  className="axil-button btn-small btn-solid">
                       <span className="button-text">Outline Small</span>
                       <span className="button-icon" />
-                    </div>
+                    </a>
                   </Link>
                 </div>
               </div>

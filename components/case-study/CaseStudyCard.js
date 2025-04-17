@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Tilt from 'react-parallax-tilt';
-import {SplitText} from '../common/SplitText';
-import {slugify} from '../../helpers/utilities';
+import { slugify } from '../../helpers/utilities';
+import { SplitText } from '../common/SplitText';
 
 const CaseStudyCard = ({column, data}) => {
 
@@ -11,8 +11,8 @@ const CaseStudyCard = ({column, data}) => {
             <div className="axil-case-study">
                 <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5}>
                     <div className="thumbnail">
-                        <Link href={`/projects/${slugify(data.title)}`}>
-                            <div>
+                        <Link legacyBehavior            href={`/projects/${slugify(data.title)}`}>
+                            <a legacyBehavior >
                                 <Image
                                     width={data.thumbnail.width}
                                     height={data.thumbnail.height}
@@ -20,7 +20,7 @@ const CaseStudyCard = ({column, data}) => {
                                     src={data.thumbnail.src}
                                     alt="Axil Case Study Images"
                                 />
-                            </div>
+                            </a>
                         </Link>
                     </div>
                 </Tilt>
@@ -34,10 +34,10 @@ const CaseStudyCard = ({column, data}) => {
                           ))}
                         </span>
                         <h4 className="title">
-                            <Link href={`/projects/${slugify(data.title)}`}>
-                                <div>
+                            <Link legacyBehavior            href={`/projects/${slugify(data.title)}`}>
+                                <a legacyBehavior >
                                     <SplitText>{data.title}</SplitText>
-                                </div>
+                                </a>
                             </Link>
                         </h4>
                     </div>
