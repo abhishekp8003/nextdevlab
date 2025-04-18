@@ -41,13 +41,10 @@ const HomeOne = ({posts}) => {
           <GoogleReivews />
           <TestimonialOne />
           <TeamOne />
-
           <PricingOne heading1="Web Development" first={0} second={3}
             heading2= "App Development"
           third ={3} fourth ={6}
           />
-          
-        
           <BrandOne />
           <BlogOne posts={posts.slice(0, 2)} />
           <Faq />

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const ContactButtons = ({ phoneNumber }) => {
@@ -6,42 +7,30 @@ const ContactButtons = ({ phoneNumber }) => {
   return (
     <div style={styles.container}>
       {/* Call Button */}
-      <a legacyBehavior 
+      <a
+        legacyBehavior
         href={`tel:${phoneNumber}`}
-        style={{ ...styles.button, ...styles.call }}
+        style={{  ...styles.call }}
       >
-        📞 Call Now
+        <Image src="/images/share/phone.png" width={50} height={50} />
       </a>
 
       {/* WhatsApp Button */}
-      <a legacyBehavior 
+      <a
+        legacyBehavior
         href={`https://wa.me/${formattedPhone}`}
         target="_blank"
         rel="noopener noreferrer"
-        style={{ ...styles.button, ...styles.whatsapp }}
+        style={{...styles.whatsapp }}
       >
-        💬 WhatsApp
+        <Image src="/images/share/WhatsApp.png" width={60} height={60} />
       </a>
     </div>
   );
 };
 
 const styles = {
-  container: {
-    display: "flex",
-    gap: "15px",
-        marginTop: "20px",
-        // position: "fixed",
-        bottom: "150px",
-        zIndex: "2322323",
-
-        width: "100vw",
-        display: "flex",
-        justifyContent: "space-between",
-        padding: "20px",
-        alignItems : "center",
-       
-  },
+  container: {},
   button: {
     padding: "10px 16px",
     borderRadius: "8px",
@@ -51,10 +40,22 @@ const styles = {
     fontWeight: "500",
   },
   call: {
-    backgroundColor: "#007bff",
+    // backgroundColor: "#007bff",
+    position: "fixed",
+    left: "70px",
+    width: "40px",
+    bottom: "180px",
+    zIndex: "2322323",
+    // width: "30px",
   },
   whatsapp: {
-    backgroundColor: "#25D366",
+    // backgroundColor: "#25D366",
+    width: "40px",
+    position: "fixed",
+    right: "130px",
+    bottom: "180px",
+    // width: "30px",
+    zIndex: "2322323",
   },
 };
 

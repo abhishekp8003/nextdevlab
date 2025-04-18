@@ -13,7 +13,7 @@ const TeamOne = () => {
                                 <Image
                                     width={630}
                                     height={514}
-                                    src="/images/team/team-group.png"
+                                    src="/images/team/teamgroup.png"
                                     alt="Team Images"
                                 />
                             </div>

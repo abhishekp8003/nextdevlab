@@ -83,7 +83,7 @@ const About = () => {
                                             width={801}
                                             height={712}
                                             className="image w-100"
-                                            src="/images/featured/featured-image-02.jpg"
+                                            src="/images/featured/featured-image-022.png"
                                             alt="Featured Images"
                                         />
                                     </div>

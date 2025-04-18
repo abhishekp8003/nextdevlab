@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Abhishek Patil",
-    "image": "/images/team/abhishek.png",
+    "image": "/images/team/Abhishek.png",
     "designation": "CEO",
     "department": ["Management"],
     "socials": [
@@ -15,7 +15,7 @@
   {
     "id": 2,
     "name": "Mayur Patil",
-    "image": "/images/team/mayur.png",
+    "image": "/images/team/Mayur.png",
     "designation": "CFO",
     "department": ["Management", "CFO"],
     "socials": [
@@ -28,7 +28,7 @@
   {
     "id": 3,
     "name": "Nakul Joshi",
-    "image": "/images/team/team-03.jpg",
+    "image": "/images/team/Nakul.png",
     "designation": "Designer",
     "department": [ "Designer"],
     "socials": [
@@ -54,7 +54,7 @@
   {
     "id": 5,
     "name": "Aman Panchal",
-    "image": "/images/team/team-05.jpg",
+    "image": "/images/team/Aman.png",
     "designation": "Full Stack Developer",
     "department": [ "Full stack development"],
     "socials": [
@@ -67,7 +67,7 @@
   {
     "id": 6,
     "name": "Jaymin Rao",
-    "image": "/images/team/jaymeen.png",
+    "image": "/images/team/Jaymin.png",
     "designation": "Full Stack Developer",
     "department": [ "Full stack development"],
     "socials": [

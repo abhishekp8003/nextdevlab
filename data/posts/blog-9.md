@@ -4,7 +4,7 @@ title: " The Importance of Mobile Optimization for Your Business Website"
 excerpt: "As mobile internet usage continues to rise, optimizing your website for mobile devices is no longer just an option—it’s a necessity. With over 50% of web traffic coming from mobile devices, businesses that fail to adapt to this shift risk losing out on a significant portion of potential customers. Mobile optimization isn’t just about design; it’s about creating a seamless, fast, and accessible experience that keeps users engaged and drives conversions."
 authorId: 1
 thumbnail: {
-	large: "/images/blog/Blog 9.png" 
+	large: "/images/blog/Blog9.png" 
 }
 categories: ["Blog"]
 tags: ["design", "beauty", "camera"]

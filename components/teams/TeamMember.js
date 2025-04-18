@@ -10,7 +10,7 @@ const TeamMember = ({team}) => {
                     <div className="thumbnail paralax-image">
                         <Link legacyBehavior            href={`/team/${team.id}`}>
                             <a legacyBehavior >
-                                <Image width={600} height={560} className="w-100" src={team.image} alt="Team Images"/>
+                                <Image width={600} height={300} className="w-100" src={team.image} alt="Team Images"/>
                             </a>
                         </Link>
                     </div>

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "image": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+      "src": "/images/brand/brand01.png",
       "width": 120,
       "height": 120
     }
@@ -10,23 +10,23 @@
   {
     "id": 2,
     "image": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Shopify_logo_2018.svg",
-      "width": 140,
-      "height": 80
+      "src": "/images/brand/brand02.png",
+      "width": 120,
+      "height": 120
     }
   },
   {
     "id": 3,
     "image": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
-      "width": 130,
-      "height": 90
+      "src": "/images/brand/brand03.png",
+      "width": 120,
+      "height": 120
     }
   },
   {
     "id": 4,
     "image": {
-      "src": "https://firebase.google.com/downloads/brand-guidelines/PNG/logo-built_white.png",
+      "src": "/images/brand/brand04.png",
       "width": 120,
       "height": 120
     }
@@ -34,17 +34,17 @@
   {
     "id": 5,
     "image": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg",
-      "width": 140,
-      "height": 80
+      "src": "/images/brand/brand05.png",
+      "width": 120,
+      "height": 120
     }
   },
   {
     "id": 6,
     "image": {
-      "src": "https://www.mongodb.com/assets/images/global/favicon.ico",
+      "src": "/images/brand/brand06.png",
       "width": 120,
-      "height": 80
+      "height": 120
     }
   },
   {

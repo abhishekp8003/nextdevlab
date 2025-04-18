@@ -12,18 +12,17 @@ const PopupComponent = () => {
         style={{
           zIndex: "232222222222222222222222222222",
         }}
+        className='popupcomponent'
       >
         {isOpen && (
           <div className={styles.overlay}>
             <div
               className={`form-group ${styles.modal}`}
-              style={{
-                backgroundColor: "black",
-              }}
+              
             >
               <h2
                 style={{
-                  margin: " 30px auto ",
+                  margin: "15px auto ",
 
                   width: "100%",
                   textAlign: "center",
