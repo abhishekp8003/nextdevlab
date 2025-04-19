@@ -79,40 +79,71 @@ const MobileMenu = () => {
     }, []);
 
     return (
-        <div
-            className="popup-mobile-manu"
-            onClick={(e) => {
-                if (e.target == document.querySelector(".popup-mobile-manu")) {
-                    toggleMobileMenu();
-                }
-            }}
-        >
-            <div className="inner">
-                <div className="mobileheader">
-                    <div className="logo">
-                        <Link legacyBehavior            href="/home-01">
-                            <a legacyBehavior >
-                                <Image
-                                    width={250}
-                                    height={60}
-                                    src="/images/logo/keystoke.svg"
-                                    alt="Logo images"
-                                />
-                            </a>
-                        </Link>
-                    </div>
-                    <button
-                        className="close-menu"
-                        onClick={() => {
-                            toggleMobileMenu();
-                        }}
-                    ></button>
+      <div
+        className="popup-mobile-manu"
+        onClick={(e) => {
+          if (e.target == document.querySelector(".popup-mobile-manu")) {
+            toggleMobileMenu();
+          }
+        }}
+      >
+        <div className="inner">
+          <div className="mobileheader">
+            <div className="logo">
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  
+                }}
+              >
+                <div>
+                  <Image
+                    src={"/images/others/Nextdev Lab icon mark.svg"}
+                    width="90"
+                    height="40"
+                  />
                 </div>
-                <div className="menu-item">
-                    <MainMenu/>
+                <div style={{}}>
+                  <h2
+                    style={{
+                      //    color: fillTextColor,
+                      fontSize: "10px",
+                      position: "relative",
+                      top: "10px",
+                      color: "black",
+                    }}
+                  >
+                    Nextdev Lab
+                  </h2>
+                  <p
+                    style={{
+                      // color: fillTextColor,
+                      // fontSize: "30px",
+                      position: "relative",
+                      fontSize: "10px",
+                      top: "-17px",
+                      color: "black",
+                    }}
+                  >
+                    End to end solution
+                  </p>
                 </div>
+              </div>
             </div>
+            <button
+              className="close-menu"
+              onClick={() => {
+                toggleMobileMenu();
+              }}
+            ></button>
+          </div>
+          <div className="menu-item">
+            <MainMenu />
+          </div>
         </div>
+      </div>
     );
 };
 

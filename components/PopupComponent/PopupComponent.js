@@ -1,47 +1,55 @@
 'use client';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import styles from './PopupComponent.module.css';
-import ContactFormOne from '../forms/ContactFormOne';
 import ContactFormThree from '../forms/ContactFormThree';
 
 const PopupComponent = () => {
-    const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(true);
+  const [theme, setTheme] = useState(null);
 
-    return (
-      <div
-        style={{
-          zIndex: "232222222222222222222222222222",
-        }}
-        className='popupcomponent'
-      >
-        {isOpen && (
-          <div className={styles.overlay}>
-            <div
-              className={`form-group ${styles.modal}`}
-              
+  useEffect(() => {
+    const savedTheme = localStorage.getItem('theme');
+    console.log('the theme', savedTheme);
+    setTheme(savedTheme);
+  }, []);
+
+  return (
+    <div
+      style={{
+        zIndex: 2322222222, // simplified number for readability
+      }}
+      className="popupcomponent"
+    >
+      {isOpen && (
+        <div
+          className={styles.overlay}
+         
+        >
+          <div className={`form-group ${styles.modal}`}
+          
+          style ={{
+            backgroundColor : theme === 'dark' ? "black" : "white"
+          }}
+          
+          >
+            <h2
+              style={{
+                margin: '15px auto',
+                width: '100%',
+                textAlign: 'center',
+              }}
             >
-              <h2
-                style={{
-                  margin: "15px auto ",
-
-                  width: "100%",
-                  textAlign: "center",
-                }}
-              >
-                Contact Us
-              </h2>
-              <ContactFormThree />
-              <button
-                onClick={() => setIsOpen(false)}
-                className={styles.closeBtn}
-              >
-                ✖
-              </button>
-            </div>
+              Contact Us
+            </h2>
+            <ContactFormThree />
+            <button onClick={() => setIsOpen(false)} className={styles.closeBtn}>
+              ✖
+            </button>
           </div>
-        )}
-      </div>
-    );
+        </div>
+      )}
+    </div>
+  );
 };
 
 export default PopupComponent;

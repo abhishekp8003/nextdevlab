@@ -65,7 +65,12 @@ const ServiceDetails = ({ service }) => {
         )}
 
         <WorkingProcess process={service.process} />
+        {asPath !== "/services/online-marketing/social-media-marketing"
+        
+          &&
+          
         <PortfolioTwo />
+        }
         <CallToActionOne />
       </div>
     </Layout>

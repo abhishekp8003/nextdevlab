@@ -25,32 +25,7 @@
     ],
     "introduction": "Mayur Patil, Co-Founder of Next Dev, is a graduate of NIT Nagpur with a strong technical background and a passion for innovation. His expertise in software development, system architecture, and strategic planning plays a pivotal role in driving the company’s growth. With a vision for cutting-edge solutions, Mayur is committed to building scalable and impactful digital products"
   },
-  {
-    "id": 3,
-    "name": "Nakul Joshi",
-    "image": "/images/team/Nakul.png",
-    "designation": "Designer",
-    "department": [ "Designer"],
-    "socials": [
-      { "type": "facebook", "url": "#" },
-      { "type": "linkedin", "url": "#" },
-      { "type": "instagram", "url": "#" }
-    ],
-    "introduction": " Nakul Joshi is a Graphic, UI & UX Designer with 10+ years of experience crafting intuitive and visually compelling designs. Specializing in branding, web & mobile UI/UX, wireframing, and prototyping, he blends creativity with functionality to enhance user experiences. Passionate about innovation and detail, Nakul transforms ideas into impactful digital solutions."  
-  },
-  {
-    "id": 4,
-    "name": "Pushkar Sabe",
-    "image": "/images/team/team-04.jpg",
-    "designation": "backend engineer",
-    "department": [ "backend engineer"],
-    "socials": [
-      { "type": "facebook", "url": "#" },
-      { "type": "linkedin", "url": "#" },
-      { "type": "instagram", "url": "#" }
-    ],
-    "introduction": "Pushkar Sabe is a Backend Engineer with 5+ years of experience in building scalable, secure, and high-performance applications. Skilled in server-side development, databases, APIs, and cloud solutions, he ensures seamless backend functionality and efficiency. Passionate about clean code and optimization, Pushkar thrives on solving complex challenges and driving robust digital solutions"
-  },
+
   {
     "id": 5,
     "name": "Aman Panchal",

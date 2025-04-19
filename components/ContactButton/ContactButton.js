@@ -1,8 +1,19 @@
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const ContactButtons = ({ phoneNumber }) => {
-  const formattedPhone = phoneNumber.replace(/\D/g, ""); // Remove non-digits for WhatsApp link
+  const formattedPhone = phoneNumber.replace(/\D/g, "");
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768); // Example breakpoint for mobile
+    };
+
+    handleResize(); // Check on mount
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <div style={styles.container}>
@@ -10,7 +21,7 @@ const ContactButtons = ({ phoneNumber }) => {
       <a
         legacyBehavior
         href={`tel:${phoneNumber}`}
-        style={{  ...styles.call }}
+        style={isMobile ? styles.callMobile : styles.call}
       >
         <Image src="/images/share/phone.png" width={50} height={50} />
       </a>
@@ -21,7 +32,7 @@ const ContactButtons = ({ phoneNumber }) => {
         href={`https://wa.me/${formattedPhone}`}
         target="_blank"
         rel="noopener noreferrer"
-        style={{...styles.whatsapp }}
+        style={isMobile ? styles.whatsappMobile : styles.whatsapp}
       >
         <Image src="/images/share/WhatsApp.png" width={60} height={60} />
       </a>
@@ -31,31 +42,35 @@ const ContactButtons = ({ phoneNumber }) => {
 
 const styles = {
   container: {},
-  button: {
-    padding: "10px 16px",
-    borderRadius: "8px",
-    fontSize: "16px",
-    color: "#fff",
-    textDecoration: "none",
-    fontWeight: "500",
-  },
   call: {
-    // backgroundColor: "#007bff",
     position: "fixed",
     left: "70px",
-    width: "40px",
     bottom: "180px",
-    zIndex: "2322323",
-    // width: "30px",
+    width: "40px",
+    zIndex: 2322323,
   },
   whatsapp: {
-    // backgroundColor: "#25D366",
-    width: "40px",
     position: "fixed",
     right: "130px",
     bottom: "180px",
-    // width: "30px",
-    zIndex: "2322323",
+    width: "40px",
+    zIndex: 2322323,
+  },
+
+  // Mobile positions
+  callMobile: {
+    position: "fixed",
+    left: "20px",
+    bottom: "100px",
+    width: "40px",
+    zIndex: 2322323,
+  },
+  whatsappMobile: {
+    position: "fixed",
+    right: "40px",
+    bottom: "100px",
+    width: "40px",
+    zIndex: 2322323,
   },
 };
 

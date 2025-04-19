@@ -17,47 +17,47 @@ const About = () => {
         triggerOnce: true,
     });
     const workingProcess = {
-        title: "Our Development Process",
-        description:
-            "At NextDev Labs, we follow a streamlined approach to turn ideas into powerful digital solutions. Our process ensures efficiency, quality, and innovation at every stage.",
-        strategies: [
-            {
-                id: 1,
-                title: "Discover",
-                subtitle: "Understanding Your Vision",
-                description:
-                    "We start by diving deep into your business goals, target audience, and project requirements. Through in-depth research and strategy sessions, we lay the foundation for a successful digital product.",
-                highlightColor: "extra04-color",
-                image: "/images/process/discover.jpg",
-            },
-            {
-                id: 2,
-                title: "Prototype",
-                subtitle: "Crafting User-Centric Designs",
-                description:
-                    "Our team creates wireframes and interactive prototypes to visualize the user journey. We focus on seamless design, intuitive interfaces, and a great user experience before moving to full-scale development.",
-                highlightColor: "extra05-color",
-                image: "/images/process/prototype.jpg",
-            },
-            {
-                id: 3,
-                title: "Test",
-                subtitle: "Ensuring Quality & Performance",
-                description:
-                    "We rigorously test every aspect of the project, from functionality and usability to performance and security. Our QA process ensures that your website or app is bug-free and optimized for success.",
-                highlightColor: "extra06-color",
-                image: "/images/process/test.jpg",
-            },
-            {
-                id: 4,
-                title: "Build",
-                subtitle: "Deploying Scalable Solutions",
-                description:
-                    "With the final product ready, we handle deployment and launch. Our team ensures a smooth transition to production, offering ongoing support, updates, and optimization to keep your digital presence at its best.",
-                highlightColor: "extra07-color",
-                image: "/images/process/build.jpg",
-            },
-        ],
+      title: "Our Development Process",
+      description:
+        "At NextDev Labs, we follow a streamlined approach to turn ideas into powerful digital solutions. Our process ensures efficiency, quality, and innovation at every stage.",
+      strategies: [
+        {
+          id: 1,
+          title: "Discover",
+          subtitle: "Understanding Your Vision",
+          description:
+            "We start by diving deep into your business goals, target audience, and project requirements. Through in-depth research and strategy sessions, we lay the foundation for a successful digital product.",
+          highlightColor: "extra04-color",
+          image: "/images/process/process-01.jpg",
+        },
+        {
+          id: 2,
+          title: "Prototype",
+          subtitle: "Crafting User-Centric Designs",
+          description:
+            "Our team creates wireframes and interactive prototypes to visualize the user journey. We focus on seamless design, intuitive interfaces, and a great user experience before moving to full-scale development.",
+          highlightColor: "extra05-color",
+          image: "/images/process/process-02.jpg",
+        },
+        {
+          id: 3,
+          title: "Test",
+          subtitle: "Ensuring Quality & Performance",
+          description:
+            "We rigorously test every aspect of the project, from functionality and usability to performance and security. Our QA process ensures that your website or app is bug-free and optimized for success.",
+          highlightColor: "extra06-color",
+          image: "/images/process/process-03.jpg",
+        },
+        {
+          id: 4,
+          title: "Build",
+          subtitle: "Deploying Scalable Solutions",
+          description:
+            "With the final product ready, we handle deployment and launch. Our team ensures a smooth transition to production, offering ongoing support, updates, and optimization to keep your digital presence at its best.",
+          highlightColor: "extra07-color",
+          image: "/images/process/process-04.jpg",
+        },
+      ],
     };
     
 
