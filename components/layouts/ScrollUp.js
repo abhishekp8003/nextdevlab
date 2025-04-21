@@ -27,6 +27,9 @@ const ScrollUp = () => {
       href="#top"
       onClick={scrollUp}
       className={visible ? "visible" : ""}
+      style={{
+        bottom: '150px'
+      }}
     >
       <span className="text">top</span>
     </a>

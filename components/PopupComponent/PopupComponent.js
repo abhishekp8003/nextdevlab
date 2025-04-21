@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import styles from './PopupComponent.module.css';
 import ContactFormThree from '../forms/ContactFormThree';
+import Logo from '../common/Logo';
 
 const PopupComponent = () => {
   const [isOpen, setIsOpen] = useState(true);
@@ -9,7 +10,7 @@ const PopupComponent = () => {
 
   useEffect(() => {
     const savedTheme = localStorage.getItem('theme');
-    console.log('the theme', savedTheme);
+    
     setTheme(savedTheme);
   }, []);
 
@@ -32,6 +33,7 @@ const PopupComponent = () => {
           }}
           
           >
+            <Logo/>
             <h2
               style={{
                 margin: '15px auto',
@@ -42,7 +44,11 @@ const PopupComponent = () => {
               Contact Us
             </h2>
             <ContactFormThree />
-            <button onClick={() => setIsOpen(false)} className={styles.closeBtn}>
+            <button onClick={() => setIsOpen(false)} className={styles.closeBtn}
+            
+              
+              
+              >
               ✖
             </button>
           </div>

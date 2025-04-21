@@ -19,7 +19,7 @@
   width: 500px;
   position: relative;
   animation: fadeIn 0.3s ease-out;
-  height : 90vh;
+
  
 }
 
@@ -47,7 +47,7 @@
   position: absolute;
   top: 20px;
   right: 20px;
-  color  :gray;
+color  :gray;
 }
 
 .popupcomponent {

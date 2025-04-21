@@ -34,68 +34,92 @@ const SliderOne = () => {
                     <Slider {...settings}>
                         {SliderTwoData.map((item, index) => {
                             return (
-                                <div
-                                    className="row d-flex flex-wrap axil-featured row--0"
-                                    key={`slider-item-${index}`}
-                                >
-                                    <div className="col-lg-6 col-xl-6 col-md-12 col-12">
-                                        <div className="thumbnail">
-                                            <Image
-                                                width={661}
-                                                height={668}
-                                                className="image w-100"
-                                                src={item.image}
-                                                alt="Featured Images"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-6 col-xl-5 col-md-12 col-12 offset-xl-1 mt_md--40 mt_sm--40">
-                                        <div className="inner">
-                                            <div className="section-title text-start">
-                                                <span className="sub-title extra04-color">
-                                                  {item.subtitle}
-                                                </span>
-                                                <h2 className="title">
-                                                    <Link legacyBehavior            href={`/case-study/${slugify(CaseStudyData[0].title)}`}>
-                                                        <a legacyBehavior >{item.title}</a>
-                                                    </Link>
-                                                </h2>
-                                                <p className="subtitle-2">{item.description}</p>
-                                                <Link legacyBehavior            href={`/case-study/${slugify(CaseStudyData[0].title)}`}>
-                                                    <a legacyBehavior  className="axil-button btn-large btn-transparent">
-                                                        <span className="button-text">{item.buttonText}</span>
-                                                        <span className="button-icon"/>
-                                                    </a>
-                                                </Link>
-                                            </div>
-                                            <div
-                                                className="axil-counterup-area d-flex flex-wrap separator-line-vertical">
-                                                {item.counter?.map((counter, counterIndex) => {
-                                                    return (
-                                                        <div
-                                                            className="single-counterup counterup-style-1"
-                                                            key={`counter-item-${counterIndex}`}
-                                                        >
-                                                            <h3
-                                                                className={`count ${
-                                                                    item.counter.length - 1 === counterIndex
-                                                                        ? "counter-k"
-                                                                        : ""
-                                                                }`}
-                                                            >
-                                                                <CountUp
-                                                                    start={0}
-                                                                    end={inView ? counter.amount : 0}
-                                                                />
-                                                            </h3>
-                                                            <p>{counter.title}</p>
-                                                        </div>
-                                                    );
-                                                })}
-                                            </div>
-                                        </div>
-                                    </div>
+                              <div
+                                className="row d-flex flex-wrap axil-featured row--0"
+                                key={`slider-item-${index}`}
+                              >
+                                <div className="col-lg-6 col-xl-6 col-md-12 col-12">
+                                  <div className="thumbnail">
+                                    <img
+                                      width={661}
+                                      height={668}
+                                      className="image w-100"
+                                      src={item.image}
+                                      alt="Featured Images"
+                                      style={{
+                                        maxWidth: "661px",
+                                      }}
+                                    />
+                                  </div>
                                 </div>
+                                <div className="col-lg-6 col-xl-5 col-md-12 col-12 offset-xl-1 mt_md--40 mt_sm--40">
+                                  <div className="inner">
+                                    <div className="section-title text-start">
+                                      <span className="sub-title extra04-color">
+                                        {item.subtitle}
+                                      </span>
+                                      <h2 className="title">
+                                        <Link
+                                          legacyBehavior
+                                          href={`/case-study/${slugify(
+                                            CaseStudyData[0].title
+                                          )}`}
+                                        >
+                                          <a legacyBehavior>{item.title}</a>
+                                        </Link>
+                                      </h2>
+                                      <p className="subtitle-2">
+                                        {item.description}
+                                      </p>
+                                      <Link
+                                        legacyBehavior
+                                        href={`/case-study/${slugify(
+                                          CaseStudyData[0].title
+                                        )}`}
+                                      >
+                                        <a
+                                          legacyBehavior
+                                          className="axil-button btn-large btn-transparent"
+                                        >
+                                          <span className="button-text">
+                                            {item.buttonText}
+                                          </span>
+                                          <span className="button-icon" />
+                                        </a>
+                                      </Link>
+                                    </div>
+                                    <div className="axil-counterup-area d-flex flex-wrap separator-line-vertical">
+                                      {item.counter?.map(
+                                        (counter, counterIndex) => {
+                                          return (
+                                            <div
+                                              className="single-counterup counterup-style-1"
+                                              key={`counter-item-${counterIndex}`}
+                                            >
+                                              <h3
+                                                className={`count ${
+                                                  item.counter.length - 1 ===
+                                                  counterIndex
+                                                    ? "counter-k"
+                                                    : ""
+                                                }`}
+                                              >
+                                                <CountUp
+                                                  start={0}
+                                                  end={
+                                                    inView ? counter.amount : 0
+                                                  }
+                                                />
+                                              </h3>
+                                              <p>{counter.title}</p>
+                                            </div>
+                                          );
+                                        }
+                                      )}
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
                             );
                         })}
                     </Slider>

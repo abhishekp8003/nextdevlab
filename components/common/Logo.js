@@ -18,29 +18,31 @@ const Logo = ({variant = 'one', fillTextColor = '#00004B'}) => {
         />
       </div>
       <div
-        style={{
-          // border: "1px solid green",
-        }}
+        style={
+          {
+            // border: "1px solid green",
+          }
+        }
       >
         <h2
           style={{
-            // color: fillTextColor,
-            fontSize: "30px",
+            color: " #702fff",
+            fontSize: "20px",
             position: "relative",
             top: "10px",
           }}
         >
-          Nextdev Lab
+          NextDev Labs
         </h2>
         <p
           style={{
-            // color: fillTextColor,
+            color: " #702fff",
             // fontSize: "30px",
             position: "relative",
             top: "-17px",
           }}
         >
-          End to end solution
+          End to end solutions
         </p>
       </div>
     </div>

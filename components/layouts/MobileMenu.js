@@ -109,25 +109,25 @@ const MobileMenu = () => {
                   <h2
                     style={{
                       //    color: fillTextColor,
-                      fontSize: "10px",
+                      fontSize: "12px",
                       position: "relative",
                       top: "10px",
                       color: "black",
                     }}
                   >
-                    Nextdev Lab
+                    NextDev Labs
                   </h2>
                   <p
                     style={{
-                      // color: fillTextColor,
-                      // fontSize: "30px",
+                      color:' #702fff',
+                      fontSize: "10px",
                       position: "relative",
                       fontSize: "10px",
                       top: "-17px",
                       color: "black",
                     }}
                   >
-                    End to end solution
+                    End to end solutions
                   </p>
                 </div>
               </div>

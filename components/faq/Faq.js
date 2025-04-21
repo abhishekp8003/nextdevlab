@@ -148,7 +148,7 @@ const Faq = () => {
         // description="In vel varius turpis, non dictum sem. Aenean in efficitur ipsum, in egestas ipsum. Mauris in mi ac tellus."
         color="extra04-color"
         alignment="center"
-      />
+      /> 
      
 
       <div

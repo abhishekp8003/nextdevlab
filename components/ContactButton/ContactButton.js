@@ -34,7 +34,12 @@ const ContactButtons = ({ phoneNumber }) => {
         rel="noopener noreferrer"
         style={isMobile ? styles.whatsappMobile : styles.whatsapp}
       >
-        <Image src="/images/share/WhatsApp.png" width={60} height={60} />
+        <Image src="/images/share/WhatsApp.png" width={60} height={60}
+        
+          style={{
+          borderRadius: "50%",
+        }}
+        />
       </a>
     </div>
   );
@@ -45,14 +50,14 @@ const styles = {
   call: {
     position: "fixed",
     left: "70px",
-    bottom: "180px",
+    bottom: "60px",
     width: "40px",
     zIndex: 2322323,
   },
   whatsapp: {
     position: "fixed",
-    right: "130px",
-    bottom: "180px",
+    right: "120px",
+    bottom: "60px",
     width: "40px",
     zIndex: 2322323,
   },
@@ -61,14 +66,14 @@ const styles = {
   callMobile: {
     position: "fixed",
     left: "20px",
-    bottom: "100px",
+    bottom: "70px",
     width: "40px",
     zIndex: 2322323,
   },
   whatsappMobile: {
     position: "fixed",
     right: "40px",
-    bottom: "100px",
+    bottom: "70px",
     width: "40px",
     zIndex: 2322323,
   },
