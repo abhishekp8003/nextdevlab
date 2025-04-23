@@ -13,45 +13,55 @@ const PortfolioCard = ({data, index, activeIndex, changeActive}) => {
     };
 
     return (
-        <motion.div
-            variants={item}
-            className={`portfolio portfolio_style--1 axil-control ${
-                activeIndex === index ? "active" : ""
-            }`}
-            onMouseEnter={() => changeActive(index)}
-        >
-            <div className="inner">
-                <Tilt tiltMaxAngleX={9} tiltMaxAngleY={9}>
-                    <div className="thumb">
-                        <Link legacyBehavior            href={`/portfolio/${slugify(data.title)}`}>
-                            <a legacyBehavior >
-                                <img
-                                    // width={400}
-                                    // height={380}
-                                    src={data.image}
-                                    alt={`${data.title} portfolio image`}
-                                />
-                            </a>
-                        </Link>
-                    </div>
-                </Tilt>
-
-                <div className="port-overlay-info">
-                    <div className="hover-action">
-                        <h4 className="title">
-                            <Link legacyBehavior            href={`/portfolio/${slugify(data.title)}`}>
-                                <a legacyBehavior >{data.title}</a>
-                            </Link>
-                        </h4>
-                        <span className="category">
-              {data.categories?.map((category, index) => {
-                  return category;
-              })}
-            </span>
-                    </div>
-                </div>
+      <motion.div
+        variants={item}
+        className={`portfolio portfolio_style--1 axil-control ${
+          activeIndex === index ? "active" : ""
+        }`}
+        onMouseEnter={() => changeActive(index)}
+      >
+        <div className="inner">
+          <Tilt tiltMaxAngleX={9} tiltMaxAngleY={9}>
+            <div className="thumb">
+              <Link
+                legacyBehavior
+                href={data?.link ? `/portfolio/${slugify(data.title)}` : "#"}
+              >
+                <a legacyBehavior>
+                  <img
+                    // width={400}
+                    // height={380}
+                    src={data.image}
+                    alt={`${data.title} portfolio image`}
+                  />
+                </a>
+              </Link>
             </div>
-        </motion.div>
+          </Tilt>
+
+          <div className="port-overlay-info">
+            <div className="hover-action">
+              <h4 className="title">
+                {
+                  <Link
+                    legacyBehavior
+                    href={
+                      data?.link ? `/portfolio/${slugify(data.title)}` : "#"
+                    }
+                  >
+                    <a legacyBehavior>{data.title}</a>
+                  </Link>
+                }
+              </h4>
+              <span className="category">
+                {data.categories?.map((category, index) => {
+                  return category;
+                })}
+              </span>
+            </div>
+          </div>
+        </div>
+      </motion.div>
     );
 };
 

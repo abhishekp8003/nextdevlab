@@ -19,8 +19,7 @@
         {
           "id": 1,
           "title": "Discover",
-          "subtitle": "our four-step process",
-          "description": "At NextDev Labs, we begin with an in-depth discovery phase. We research your industry, target audience, and business goals to lay the foundation for a high-performing website. This step ensures we align our design strategy with your brand identity and user needs.",
+          "subtitle": "Every successful website starts with a deep understanding of your business. In this phase, we gather information about your goals, target audience, competitors, and design preferences. This discovery helps us define the website’s structure, functionality, and visual direction to ensure it aligns with your brand identity.",
           "highlightColor": "extra04-color",
           "image": "/images/process/process-01.jpg"
         },
@@ -28,7 +27,7 @@
           "id": 2,
           "title": "Prototype",
           "subtitle": "our four-step process",
-          "description": "Our team creates wireframes and interactive prototypes to visualize your website’s structure. At NextDev Labs, we ensure a user-centric design that enhances the customer journey, making navigation intuitive and engaging.",
+          "description": "With a clear plan in place, we create wireframes and layout mockups to visualize the website’s structure and user journey. This step helps you preview the design, placement of elements, and navigation flow before we proceed to development—ensuring clarity and alignment on expectations.",
           "highlightColor": "extra05-color",
           "image": "/images/process/process-02.jpg"
         },
@@ -36,7 +35,7 @@
           "id": 3,
           "title": "Test",
           "subtitle": "our four-step process",
-          "description": "We conduct rigorous testing at every stage to guarantee a seamless experience across all devices and browsers. NextDev Labs prioritizes performance, usability, and security to ensure your website meets the highest standards.",
+          "description": "Once the site is developed, we run thorough quality checks across different devices and browsers. From loading speed to responsiveness and functionality, we test every detail to ensure a seamless user experience and a bug-free launch.",
           "highlightColor": "extra06-color",
           "image": "/images/process/process-03.jpg"
         },
@@ -44,7 +43,7 @@
           "id": 4,
           "title": "Build",
           "subtitle": "our four-step process",
-          "description": "With the design finalized, we bring your website to life using the latest technologies and best practices. At NextDev Labs, we focus on fast-loading, mobile-responsive, and SEO-friendly websites to maximize your online presence.",
+          "description": "With design and testing approved, we finalize the build and deploy the site live. We integrate essential tools, optimize performance, and ensure the backend is easy to manage. The end result is a professional, responsive, and high-performing website ready to represent your brand online.",
           "highlightColor": "extra07-color",
           "image": "/images/process/process-04.jpg"
         }
@@ -72,7 +71,7 @@
         "id": 1,
         "title": "Discover",
         "subtitle": "our four-step process",
-        "description": "We start by understanding your business goals, target audience, and technical requirements. At NextDev Labs, our discovery phase ensures that the foundation of your application is aligned with your vision and market needs.",
+        "description": "We begin by understanding your app's purpose, user base, and business goals. This phase includes gathering feature requirements, identifying platform preferences (iOS, Android, or both), and defining the user journey. The goal is to lay a strategic foundation that aligns with both your vision and market demand.",
         "highlightColor": "extra04-color",
         "image": "/images/process/process-01.jpg"
       },
@@ -80,15 +79,14 @@
         "id": 2,
         "title": "Prototype",
         "subtitle": "our four-step process",
-        "description": "Our team creates interactive prototypes and wireframes to visualize the application’s flow and functionality. At NextDev Labs, we ensure a user-centric design approach that enhances engagement and usability.",
+        "description": "We convert your ideas into interactive wireframes and UI mockups that demonstrate how the app will look and function. This helps you visualize the user interface, navigate the workflow, and suggest refinements before any coding begins—ensuring a user-focused, intuitive design.",
         "highlightColor": "extra05-color",
         "image": "/images/process/process-02.jpg"
       },
       {
         "id": 3,
         "title": "Test",
-        "subtitle": "our four-step process",
-        "description": "We rigorously test the application across various devices and environments to ensure performance, security, and usability. NextDev Labs follows an iterative testing approach to deliver a bug-free and optimized solution.",
+        "subtitle": "Once development begins, we conduct multiple rounds of testing—both internally and through real-user feedback. We check for bugs, performance issues, and usability flaws to ensure the app is fast, responsive, and reliable across all target devices.",
         "highlightColor": "extra06-color",
         "image": "/images/process/process-03.jpg"
       },
@@ -96,7 +94,7 @@
         "id": 4,
         "title": "Build",
         "subtitle": "our four-step process",
-        "description": "Once the testing phase is complete, our developers bring the application to life using the latest technologies. At NextDev Labs, we focus on building scalable, secure, and high-performing applications tailored to your business needs.",
+        "description": "After successful testing, we launch the final build of the application. This includes integrating APIs, backend systems, analytics, and deploying to app stores. Post-launch, we continue to monitor performance and offer updates to keep the app running smoothly and securely.",
         "highlightColor": "extra07-color",
         "image": "/images/process/process-04.jpg"
       }
@@ -124,7 +122,7 @@
         "id": 1,
         "title": "Discover",
         "subtitle": "our four-step process",
-        "description": "We begin by analyzing your brand, target audience, and market trends. At NextDev Labs, our discovery phase helps us craft a customized marketing strategy that aligns with your business objectives, whether it's SEO, paid advertising, or branding initiatives.",
+        "description": "Our marketing journey starts with understanding your business, audience, industry trends, and competitors. We analyze your brand’s current position to define objectives, messaging, and the best platforms to reach your target audience effectively.",
         "highlightColor": "extra04-color",
         "image": "/images/process/process-01.jpg"
       },
@@ -132,15 +130,14 @@
         "id": 2,
         "title": "Prototype",
         "subtitle": "our four-step process",
-        "description": "We develop a structured marketing framework that includes Meta (Facebook & Instagram) campaigns, Google Ads, and strategic brand positioning. NextDev Labs ensures every campaign is optimized for reach, engagement, and conversions.",
+        "description": "We create a campaign strategy and content plan tailored to your goals—whether it's brand awareness, lead generation, or sales. This may include ad creatives, landing pages, social media content, and messaging guides designed to resonate with your audience.",
         "highlightColor": "extra05-color",
         "image": "/images/process/process-02.jpg"
       },
       {
         "id": 3,
         "title": "Test",
-        "subtitle": "our four-step process",
-        "description": "We run A/B tests, analyze performance metrics, and optimize ad campaigns in real-time. At NextDev Labs, we continuously refine Meta campaigns, Google Ads, and branding elements to ensure the best ROI for your business.",
+        "subtitle": "Before launching full-scale campaigns, we run pilot ads or A/B tests to identify what performs best. We analyze engagement, click-throughs, and conversion data to refine the approach and ensure we invest in what truly works.",
         "highlightColor": "extra06-color",
         "image": "/images/process/process-03.jpg"
       },
@@ -148,7 +145,7 @@
         "id": 4,
         "title": "Build",
         "subtitle": "our four-step process",
-        "description": "Once optimized, we execute full-scale marketing campaigns across Meta platforms, Google Ads, and branding channels. NextDev Labs focuses on long-term brand building and sustained digital growth, ensuring that your business reaches the right audience effectively.",
+        "description": "We launch optimized campaigns across selected platforms—Meta, Google, email, or SEO. Regular monitoring, data analysis, and adjustments ensure your marketing continues to perform, scale, and deliver measurable results aligned with your business goals.",
         "highlightColor": "extra07-color",
         "image": "/images/process/process-04.jpg"
       }

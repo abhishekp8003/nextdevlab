@@ -95,7 +95,6 @@ const MobileMenu = () => {
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
-                  
                 }}
               >
                 <div>
@@ -106,29 +105,48 @@ const MobileMenu = () => {
                   />
                 </div>
                 <div style={{}}>
-                  <h2
-                    style={{
-                      //    color: fillTextColor,
-                      fontSize: "12px",
-                      position: "relative",
-                      top: "10px",
-                      color: "black",
-                    }}
+                  <div
+                    style={
+                      {
+                        // border: "1px solid green",
+                      }
+                    }
                   >
-                    NextDev Labs
-                  </h2>
-                  <p
-                    style={{
-                      color:' #702fff',
-                      fontSize: "10px",
-                      position: "relative",
-                      fontSize: "10px",
-                      top: "-17px",
-                      color: "black",
-                    }}
-                  >
-                    End to end solutions
-                  </p>
+                    <text
+                      id="Keystroke-Startup-la"
+                      fontFamily="DMSans-Bold, DM Sans"
+                      fontSize="20"
+                      fontWeight="bold"
+                     
+                    >
+                      <tspan
+                        x="75"
+                        y="24"
+                        style={{
+                          fontWeight: "bold",
+                        }}
+                      >
+                        NextDev
+                      </tspan>
+                      <tspan
+                        x="175.14"
+                        y="24.5001221"
+                        fontFamily="DMSans-Regular, DM Sans"
+                        fontWeight="normal"
+                      />
+                      <tspan
+                        x="76.16"
+                        y="49.5001221"
+                        fontFamily="DMSans-Regular, DM Sans"
+                        fontSize="18"
+                        fontWeight="normal"
+                      >
+                        <br />
+                        Labs{" "}
+                        {/* {variant === "two" ? "Small agency studio" : "Startup template"} */}
+                      </tspan>
+                    </text>
+                  </div>
                 </div>
               </div>
             </div>

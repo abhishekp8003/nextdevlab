@@ -1,52 +1,58 @@
+"use client"; // Ensure this is a client-side component if using localStorage
+
+import { useEffect, useState } from "react";
 import Image from "next/image";
 
+const Logo = ({ variant = "one", fillTextColor = "#00004B" }) => {
+  const [isDark, setIsDark] = useState(false);
 
-const Logo = ({variant = 'one', fillTextColor = '#00004B'}) => {
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setIsDark(localStorage.getItem("theme") === "dark");
+    }
+  }, []);
+
   return (
     <div
       style={{
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
+        color: isDark ? "white" : "black",
       }}
     >
       <div>
         <Image
-          src={"/images/others/Nextdev Lab icon mark.svg"}
-          width="100"
-          height="50"
+          src="/images/others/Nextdev Lab icon mark.svg"
+          width={100}
+          height={50}
+          alt="NextDev Logo"
         />
       </div>
-      <div
-        style={
-          {
-            // border: "1px solid green",
-          }
-        }
-      >
-        <h2
+      <div style={{ marginLeft: 10 }}>
+        <div
           style={{
-            color: " #702fff",
+            fontFamily: "DM Sans, sans-serif",
             fontSize: "20px",
-            position: "relative",
-            top: "10px",
+            fontWeight: "bold",
+            color: fillTextColor,
           }}
         >
-          NextDev Labs
-        </h2>
-        <p
+          NextDev
+        </div>
+        <div
           style={{
-            color: " #702fff",
-            // fontSize: "30px",
-            position: "relative",
-            top: "-17px",
+            fontFamily: "DM Sans, sans-serif",
+            fontSize: "18px",
+            fontWeight: "normal",
+            marginTop: "4px",
           }}
         >
-          End to end solutions
-        </p>
+          Labs
+        </div>
       </div>
     </div>
   );
-}
+};
 
 export default Logo;

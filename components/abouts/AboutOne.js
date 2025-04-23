@@ -1,4 +1,5 @@
 import ContactFormOne from "../forms/ContactFormOne";
+import ContactFormThree from "../forms/ContactFormThree";
 
 const AboutOne = () => {
   return (
@@ -23,25 +24,29 @@ const AboutOne = () => {
                 >
                   We do design, code <br /> & develop.
                 </h2>
-                                    <p
-                      className="subtitle-2 mb--50 mb_lg--20 mb_md--20 mb_sm--15"
-                      data-aos="aos-fade-in-up"
-                      data-aos-duration="1000"
-                      data-aos-delay="400"
-                    >
-                      At NextDev Labs, we are passionate about crafting cutting-edge web solutions that drive innovation and business growth. 
-                      Specializing in website development, app development, and marketing solutions, we transform ideas into high-performance digital experiences.
-                    </p>
-                    <p
-                      className="subtitle-2"
-                      data-aos="aos-fade-in-up"
-                      data-aos-duration="1000"
-                      data-aos-delay="500"
-                    >
-                      Our team of experts blends creativity with technology to deliver scalable, user-friendly, and SEO-optimized solutions. 
-                      Whether you are  a startup or an established enterprise, we empower your brand with digital excellence.
-                    </p>
-
+                <p
+                  className="subtitle-2 mb--50 mb_lg--20 mb_md--20 mb_sm--15"
+                  data-aos="aos-fade-in-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="400"
+                >
+                  At NextDev Labs, we are passionate about crafting cutting-edge
+                  web solutions that drive innovation and business growth.
+                  Specializing in website development, app development, and
+                  marketing solutions, we transform ideas into high-performance
+                  digital experiences.
+                </p>
+                <p
+                  className="subtitle-2"
+                  data-aos="aos-fade-in-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="500"
+                >
+                  Our team of experts blends creativity with technology to
+                  deliver scalable, user-friendly, and SEO-optimized solutions.
+                  Whether you are a startup or an established enterprise, we
+                  empower your brand with digital excellence.
+                </p>
               </div>
             </div>
           </div>
@@ -49,13 +54,15 @@ const AboutOne = () => {
             <div className="contact-form-wrapper">
               <div className="axil-contact-form contact-form-style-1">
                 <h3 className="title">Get a free NextDev Labs quote now</h3>
-                <ContactFormOne/>
+                {/* <ContactFormOne/> */}
+                <ContactFormThree />
                 <div className="callto-action-wrapper text-center">
                   <span className="text">Or call us now</span>
                   <span>
                     <i className="fal fa-phone-alt"></i>{" "}
-                    <a legacyBehavior  href="tel:+919767826126">+91 97678 26126</a>
-
+                    <a legacyBehavior href="tel:+919767826126">
+                      +91 97678 26126
+                    </a>
                   </span>
                 </div>
               </div>

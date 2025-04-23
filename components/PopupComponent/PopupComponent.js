@@ -22,33 +22,29 @@ const PopupComponent = () => {
       className="popupcomponent"
     >
       {isOpen && (
-        <div
-          className={styles.overlay}
-         
-        >
-          <div className={`form-group ${styles.modal}`}
-          
-          style ={{
-            backgroundColor : theme === 'dark' ? "black" : "white"
-          }}
-          
+        <div className={styles.overlay}>
+          <div
+            className={`form-group ${styles.modal}`}
+            style={{
+              backgroundColor: theme === "dark" ? "black" : "white",
+            }}
           >
-            <Logo/>
+            <Logo />
             <h2
               style={{
-                margin: '15px auto',
-                width: '100%',
-                textAlign: 'center',
+                margin: "15px auto",
+                width: "100%",
+                textAlign: "center",
               }}
             >
               Contact Us
             </h2>
+            {/* <ContactFormThree /> */}
             <ContactFormThree />
-            <button onClick={() => setIsOpen(false)} className={styles.closeBtn}
-            
-              
-              
-              >
+            <button
+              onClick={() => setIsOpen(false)}
+              className={styles.closeBtn}
+            >
               ✖
             </button>
           </div>

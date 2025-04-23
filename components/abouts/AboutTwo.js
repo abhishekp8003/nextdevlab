@@ -1,4 +1,5 @@
 import ContactFormOne from "../forms/ContactFormOne";
+import ContactFormThree from "../forms/ContactFormThree";
 
 const AboutTwo = () => {
   return (
@@ -9,7 +10,7 @@ const AboutTwo = () => {
             <div className="contact-form-wrapper">
               <div className="axil-contact-form contact-form-style-1">
                 <h3 className="title">Get a free NextDev Labs quote now</h3>
-                <ContactFormOne/>
+                 <ContactFormThree/>
                 <div className="callto-action-wrapper text-center">
                   <span className="text">Or call us now</span>
                   <span>

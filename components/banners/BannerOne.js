@@ -23,8 +23,12 @@ const BannerOne = () => {
                     data-aos-duration="1000"
                     data-aos-delay="200"
                   >
-                    Create live segments and target the right people for
-                    <br /> messages based on their behaviors.
+                    From sleek designs to powerful functionality
+                    <br /> we craft digital experiences that drive results.
+                    <br />
+                    Whether you are a startup or an established brand, we bring
+                    your vision to life with pixel-perfect websites and scalable
+                    apps.
                   </p>
                   <Link legacyBehavior href="/portfolio">
                     <a

@@ -39,15 +39,27 @@ const SliderOne = () => {
                                 key={`slider-item-${index}`}
                               >
                                 <div className="col-lg-6 col-xl-6 col-md-12 col-12">
-                                  <div className="thumbnail">
+                                  <div
+                                    className="thumbnail"
+                                    style={
+                                      {
+                                        // border: '1px solid green',
+                                        height: "100%",
+                                        display: 'flex',
+                                        justifyContent: 'center',
+                                        alignItems : "center"
+                                      }
+                                    }
+                                  >
                                     <img
                                       width={661}
                                       height={668}
-                                      className="image w-100"
+                                      // className="image w-100"
                                       src={item.image}
                                       alt="Featured Images"
                                       style={{
                                         maxWidth: "661px",
+                                        height: "auto",
                                       }}
                                     />
                                   </div>
@@ -71,7 +83,7 @@ const SliderOne = () => {
                                       <p className="subtitle-2">
                                         {item.description}
                                       </p>
-                                      <Link
+                                      {/* <Link
                                         legacyBehavior
                                         href={`/case-study/${slugify(
                                           CaseStudyData[0].title
@@ -86,7 +98,7 @@ const SliderOne = () => {
                                           </span>
                                           <span className="button-icon" />
                                         </a>
-                                      </Link>
+                                      </Link> */}
                                     </div>
                                     <div className="axil-counterup-area d-flex flex-wrap separator-line-vertical">
                                       {item.counter?.map(

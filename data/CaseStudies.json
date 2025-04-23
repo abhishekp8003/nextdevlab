@@ -4,7 +4,7 @@
     "title": "SV Tours",
     "subtitle": "featured case study",
     "description": "A premium travel agency. SV Tours needed a visually stunning and high-performing website to streamline bookings and showcase their unique travel experiences. We developed an intuitive platform with a seamless booking engine, dynamic package displays, and an interactive itinerary planner to enhance customer engagement and boost conversions.",
-    "image": "/images/featured/featured-image-01.jpg",
+    "image": "/images/case-study/sv1.png",
     "counter": [
       {
         "title": "ROI increase",
@@ -17,21 +17,21 @@
     ],
     "videoUrl": "https://www.youtube.com/watch?v=Pj_geat9hvI",
     "projectBreif1": {
-      "image": "/images/featured/featured-brief-01.jpg",
+      "image": "/images/case-study/sv2.png",
       "description": [
         "SV Tours aimed to enhance its online presence and provide customers with an effortless booking experience. They required a website that was not only visually appealing but also robust in functionality, integrating real-time availability and seamless transactions.",
         "We crafted a bespoke travel booking platform featuring an elegant UI, real-time package updates, and an itinerary planner that allows users to customize their trips with ease."
       ]
     },
     "projectBreif2": {
-      "image": "",
+      "image": "/images/case-study/sv3.png",
       "description": [
         "SV Tours wanted a competitive edge in the travel industry, necessitating a platform with seamless navigation, quick loading speeds, and secure payment gateways.",
         "To meet these needs, we implemented a scalable architecture, ensured mobile optimization, and integrated secure payment solutions to provide users with a frictionless experience."
       ]
     },
     "solution": {
-      "image": "",
+      "image": "/images/case-study/sv4.png",
       "description": [
         "We designed and developed a visually immersive website that reflects SV Tours' brand essence. The platform offers a smooth user journey from browsing destinations to booking and checkout.",
         "Key features include dynamic travel packages, a multi-step booking process, AI-powered itinerary suggestions, and integration with third-party travel APIs for real-time updates."

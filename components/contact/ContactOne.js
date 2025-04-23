@@ -1,5 +1,6 @@
 import SectionTitle from "../common/SectionTitle";
 import { SplitText } from "../common/SplitText";
+import ContactFormThree from "../forms/ContactFormThree";
 import ContactFormTwo from "../forms/ContactFormTwo";
 
 const ContactOne = () => {
@@ -22,7 +23,7 @@ const ContactOne = () => {
                     <SplitText>Mail</SplitText>
                   </h6>
                   <p>
-                    <a legacyBehavior  href="mailto:info@nextdev.co.in">
+                    <a legacyBehavior href="mailto:info@nextdev.co.in">
                       <SplitText>info@nextdev.co.in</SplitText>
                     </a>
                   </p>
@@ -34,7 +35,9 @@ const ContactOne = () => {
                   </h6>
                   <p>
                     <SplitText>
-                      {"763, Juni bhajiali, Raviwar Peth,  <br/> Pune, Maharashtra 411002"}
+                      {
+                        "763, Juni bhajiali, Raviwar Peth,  <br/> Pune, Maharashtra 411002"
+                      }
                     </SplitText>
                   </p>
                 </div>
@@ -44,7 +47,7 @@ const ContactOne = () => {
                     <SplitText>Phone</SplitText>
                   </h6>
                   <p>
-                    <a legacyBehavior  href="tel:+919726726126">
+                    <a legacyBehavior href="tel:+919726726126">
                       <SplitText>+91-9726726126</SplitText>
                     </a>
                   </p>
@@ -55,7 +58,8 @@ const ContactOne = () => {
           <div className="col-lg-7 col-xl-7 offset-xl-1 col-md-12 col-12 mt_md--40 mt_sm--30">
             <div className="axil-contact-form contact-form-style-2">
               <div className="inner">
-                <ContactFormTwo/>
+                {/* <ContactFormTwo/> */}
+                <ContactFormThree />
               </div>
             </div>
           </div>

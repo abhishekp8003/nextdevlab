@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/images/experience.png",
+    "image": "/images/featured/sv.png",
     "subtitle": "featured case study",
     "title": "SV Tours' Digital Transformation and Meta Marketing Success",
     "description": "SV Tours, based in Bengaluru, Karnataka, is a diversified travel agency specializing in tours and travel services across India. They offer a range of packages, including spiritual journeys to destinations like Shirdi, Kashi, and Tirupati. Despite their comprehensive offerings, SV Tours faced challenges in reaching a broader audience and generating consistent leads...",
@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "image": "/images/featured/featured-image-03.jpg",
+    "image": "/images/featured/agro.png",
     "subtitle": "featured case study",
     "title": "Comprehensive Inventory Management Solution for Shreyas Ropvatika",
     "description": "Shreyas Ropvatika, operating under the brand name AgroPro, is a maharastra-based enterprise specializing in agricultural products and services. They cater to a diverse clientele, including individual farmers and large agricultural businesses, offering a wide range of products and solutions...",
@@ -37,7 +37,7 @@
   },
   {
     "id": 3,
-    "image": "/images/featured/featured-image-04.jpg",
+    "image": "/images/featured/sg.png",
     "subtitle": "featured case study",
     "title": "Sagarsanskar Global Store's E-commerce Success through Strategic Marketing",
     "description": "Sagarsanskar Global Store, operating under the domain sagarsanskarglobalkart.in, is an Indian e-commerce platform specializing in apparel, including premium shirts and traditional wear. The company aims to provide high-quality fashion products to customers across India, focusing on both retail and wholesale markets...",

@@ -61,7 +61,7 @@ const ServiceDetails = ({ service }) => {
         <AboutTwo />
 
         {asPath === "/services/online-marketing/social-media-marketing" && (
-          <PricingOne heading1="Social Media" first={0} second={3} />
+          <PricingOne heading1="Social Media" first={6} second={9} />
         )}
 
         <WorkingProcess process={service.process} />

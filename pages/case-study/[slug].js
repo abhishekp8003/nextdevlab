@@ -209,13 +209,13 @@ const CaseStudyDetails = ({caseStudy}) => {
                                     </div>
                                     <div className="thumbnail mt--60">
                                         <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5}>
-                                            <Image
+                                            {/* <Image
                                                 width={910}
                                                 height={500}
                                                 className="w-100 paralax-image"
                                                 src="/images/featured/featured-b1.jpg"
                                                 alt="Featured Images"
-                                            />
+                                            /> */}
                                         </Tilt>
                                     </div>
                                 </div>

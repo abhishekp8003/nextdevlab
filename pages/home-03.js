@@ -6,6 +6,7 @@ import CaseStudyTwo from '../components/case-study/CaseStudyTwo';
 import ContactOne from '../components/contact/ContactOne';
 import Layout from '../components/layouts/Layout';
 import TestimonialTwo from '../components/testimonials/TestimonialTwo';
+import ContactFormThree from '../components/forms/ContactFormThree';
 
 const HomeThree = () => {
     const layoutSettings = {
@@ -20,25 +21,27 @@ const HomeThree = () => {
     };
 
     return (
-        <Layout layoutSettings={layoutSettings}>
-            <Head>
-                <title>Home 03 || keystroke Creative Agency Bootstrap5 Template</title>
-            </Head>
+      <Layout layoutSettings={layoutSettings}>
+        <Head>
+          <title>
+            Home 03 || keystroke Creative Agency Bootstrap5 Template
+          </title>
+        </Head>
 
-            <main className="page-wrapper">
-                <BannerThree/>
+        <main className="page-wrapper">
+          <BannerThree />
 
-                <CaseStudyOne/>
+          <CaseStudyOne />
 
-                <CaseStudyTwo/>
+          <CaseStudyTwo />
 
-                <BrandOne bgColor="bg-color-lightest"/>
+          <BrandOne bgColor="bg-color-lightest" />
 
-                <TestimonialTwo/>
-
-                <ContactOne/>
-            </main>
-        </Layout>
+          <TestimonialTwo />
+          <ContactFormThree />
+          {/* <ContactOne/> */}
+        </main>
+      </Layout>
     );
 };
 

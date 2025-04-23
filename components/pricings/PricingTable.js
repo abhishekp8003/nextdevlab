@@ -1,4 +1,6 @@
+
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const PricingTable = ({ column, pricingTableClass, buttonClass, data }) => {
   const [priceFilterValue, setPriceFilterValue] = useState("monthly");
@@ -15,7 +17,7 @@ const PricingTable = ({ column, pricingTableClass, buttonClass, data }) => {
           style={{
             // border: "1px solid green",
             height: "100%",
-            height: "1000px",
+            height: "1100px",
           }}
         >
           <div className="pricing-header">
@@ -41,14 +43,22 @@ const PricingTable = ({ column, pricingTableClass, buttonClass, data }) => {
               </div>
             </div>
             <div className="pricing-get-button">
-              <a legacyBehavior 
+              
+              
+
+              <a
                 className={`axil-bu
                 tton btn-large ${buttonClass}`}
-                href="#"
               >
                 <span className="button-text">Get Started Today</span>
                 <span className="button-icon"></span>
               </a>
+
+
+
+
+
+
             </div>
             <span className="subtitle">{data.subtitleTwo}</span>
           </div>

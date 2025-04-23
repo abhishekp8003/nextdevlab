@@ -103,7 +103,7 @@
     "subtitle": "Tailored for high-growth companies and enterprise needs",
     "currency": "$",
     "price": {
-      "monthly": 24999,
+      "monthly": 799,
       "yearly": 249999
     },
     "subtitleTwo": "100% money-back guarantee",
@@ -115,5 +115,61 @@
       "Dedicated account manager",
       "24/7 enterprise-grade support with SLA"
     ]
+  },
+  {
+    "id": 7,
+    "title": "Free Package",
+    "subtitle": "Try it out — no commitment required",
+    "currency": "$",
+    "price": {
+      "monthly": 799,
+      "yearly": 249999
+    },
+    "subtitleTwo": "Free ad campaign setup",
+    "features": [
+      "Choose Google Ads or Meta Ads",
+      "Campaign strategy consultation",
+      "Ad creatives included (basic)",
+      "Performance preview dashboard"
+    ]
   }
+  ,
+  {
+    "id": 8,
+    "title": "Standard Package",
+    "subtitle": "For small businesses ready to grow",
+    "currency": "$",
+    "price": {
+      "monthly": 1699,
+      "yearly": 249999
+    },
+    "subtitleTwo": "Ongoing ad campaign management",
+    "features": [
+      "Google Ads + Meta Ads integration",
+      "Audience targeting & keyword optimization",
+      "A/B testing of creatives",
+      "Weekly performance reports",
+      "Email support"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Business Package",
+    "subtitle": "Advanced strategy for maximum reach and ROI",
+    "currency": "$",
+    "price": {
+      "monthly": 2999,
+      "yearly": 249999
+    },
+    "subtitleTwo": "Full-funnel ad strategy (Google + Meta)",
+    "features": [
+      "Custom audience segmentation",
+      "High-converting creative design",
+      "Retargeting & conversion tracking",
+      "Dedicated account strategist",
+      "Real-time analytics dashboard",
+      "Priority support"
+    ]
+  }
+
 ]
