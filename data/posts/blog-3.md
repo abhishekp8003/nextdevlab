@@ -8,18 +8,18 @@ thumbnail: {
 }
 categories: ["Information technology"]
 tags: ["graphic design", "film production", "culinary"]
-publishedAt: "Mar 05 2019"
+publishedAt: "Mar 05 2024"
 readingTime: "9 min to read"
 comments: [
 	{
 		title: "Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say.",
 		authorId: 2,
-		commentedAt: "February 14, 2019",
+		commentedAt: "March 14, 2024",
 		replies: [
 			{
 				title: "Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say.",
 				authorId: 1,
-				repliedAt: "February 14, 2019",
+				repliedAt: "March 14, 2024",
 			}
 		]
 	}

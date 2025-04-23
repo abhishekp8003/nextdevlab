@@ -8,18 +8,18 @@ thumbnail: {
 }
 categories: ["Agency news"]
 tags: ["design", "development"]
-publishedAt: "Dec 02 2021"
+publishedAt: "Dec 02 2024"
 readingTime: "9 min to read"
 comments: [
 	{
 		title: "Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say.",
 		authorId: 2,
-		commentedAt: "February 14, 2019",
+		commentedAt: "February 14, 2025",
 		replies: [
 			{
 				title: "Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say.",
 				authorId: 1,
-				repliedAt: "February 14, 2019",
+				repliedAt: "February 14, 2025",
 			}
 		]
 	}

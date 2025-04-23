@@ -15,10 +15,10 @@ const TeamOne = () => {
                     // height={514}
                     src="/images/team/teamgroup.png"
                     alt="Team Images"
-                                    style={{
-                                        aspectRatio: "640 / 514",
-                        maxWidth : "630px"
-                     }}
+                    style={{
+                      aspectRatio: "640 / 514",
+                      maxWidth: "630px",
+                    }}
                   />
                 </div>
                 <div className="total-team-button">
@@ -53,7 +53,7 @@ const TeamOne = () => {
                     <a
                       legacyBehavior
                       className="axil-button axil-link-button"
-                      href="#"
+                      href="/career"
                     >
                       Careers
                     </a>

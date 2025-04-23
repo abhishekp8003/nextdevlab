@@ -5,7 +5,7 @@ import Alert from "./Alert";
 import Input from "./Input";
 import axios from "axios";
 
-const ContactFormThree = () => {
+const ContactFormThree = ({ smallSize =false }) => {
   const [showAlert, setShowAlert] = useState(false);
   const [isMessageSent, setIsMessageSent] = useState(false);
   const form = useRef();
@@ -14,8 +14,8 @@ const ContactFormThree = () => {
     name: "",
     email: "",
     message: "",
-    phone : ""
-  })
+    phone: "",
+  });
 
   const sendEmail = async (e) => {
     e.preventDefault();
@@ -34,13 +34,12 @@ const ContactFormThree = () => {
           setTimeout(() => setShowAlert(false), 4000);
         },
         (error) => {
-          console.log(error,'ther');
+          console.log(error, "ther");
           setIsMessageSent(false);
           setShowAlert(true);
         }
       );
   };
-
 
   return (
     <form ref={form} onSubmit={sendEmail}>
@@ -67,6 +66,7 @@ const ContactFormThree = () => {
         isClear={isMessageSent}
       />
       <Input
+        smallSize ={smallSize}
         formData={formData}
         setFormData={setFormData}
         name="message"

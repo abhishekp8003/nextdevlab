@@ -8,18 +8,18 @@ thumbnail: {
 }
 categories: ["Blog"]
 tags: ["design", "beauty", "camera"]
-publishedAt: "Mar 05 2021"
+publishedAt: "Apr 05 2024"
 readingTime: "9 min to read"
 comments: [
 	{
 		title: "Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say.",
 		authorId: 2,
-		commentedAt: "February 14, 2019",
+		commentedAt: "May 14, 2024",
 		replies: [
 			{
 				title: "Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say.",
 				authorId: 1,
-				repliedAt: "February 14, 2019",
+				repliedAt: "May 14, 2024",
 			}
 		]
 	}

@@ -36,26 +36,31 @@ const Logo = ({ variant = "one", fillTextColor = "#00004B" }) => {
           alt="NextDev Logo"
         />
       </div>
-      <div style={{ marginLeft: 10 }}>
-        <div
+      <div style={{ marginLeft: '2px' }}>
+        <h1
           style={{
             fontFamily: "DM Sans, sans-serif",
-            fontSize: "20px",
+            fontSize: "26px",
             fontWeight: "bold",
+           
+            position : 'relative',
+            top : "34px"
           }}
         >
           NextDev
-        </div>
-        <div
+        </h1>
+        <h1
           style={{
             fontFamily: "DM Sans, sans-serif",
-            fontSize: "18px",
+            fontSize: "22px",
             fontWeight: "normal",
-            marginTop: "4px",
+            marginTop: "0px",
+            position : 'relative',
+            top : "-20px"
           }}
         >
           Labs
-        </div>
+        </h1>
       </div>
     </div>
   );

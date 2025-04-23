@@ -1977,13 +1977,13 @@
       "height": "24"
     },
     "iconColorClass": "gradient-color-05",
-    "title": "Exceed clients’ and colleagues’ expectations",
-    "description": "Ut id orci ultricies, gravida arcu ac, elementum eros. Curabitur tortor ipsum, imperdiet eget odio ac, faucibus ultricies nisl. Maecenas scelerisque dignissim elit.",
+    "title": "Exceed Expectations",
+    "description": "We aim to go beyond the expected—delivering excellence not only to our clients but also fostering collaboration and trust within our team.",
     "category": "Our values",
     "slug": "our-values-1",
     "process": {
-      "title": "Our execution process",
-      "description": "Our comprehensive design strategy ensures a perfectly crafted design for your business.",
+      "title": "Exceed Expectations",
+      "description": "We aim to go beyond the expected—delivering excellence not only to our clients but also fostering collaboration and trust within our team.",
       "strategies": [
         {
           "id": 1,
@@ -2029,13 +2029,13 @@
       "height": "24"
     },
     "iconColorClass": "gradient-color-05",
-    "title": "Take ownership and question the status quo in a constructive manner",
-    "description": "Ut id orci ultricies, gravida arcu ac, elementum eros. Curabitur tortor ipsum, imperdiet eget odio ac, faucibus ultricies nisl. Maecenas scelerisque dignissim elit.",
+    "title": "Own It & Challenge the Norm",
+    "description": "We take full ownership of our work and aren't afraid to question the status quo. Constructive challenges are how innovation is born.",
     "category": "Our values",
     "slug": "our-values-2",
     "process": {
-      "title": "Our execution process",
-      "description": "Our comprehensive design strategy ensures a perfectly crafted design for your business.",
+      "title": "Own It & Challenge the Norm",
+      "description": "We take full ownership of our work and aren't afraid to question the status quo. Constructive challenges are how innovation is born.",
       "strategies": [
         {
           "id": 1,
@@ -2081,169 +2081,13 @@
       "height": "24"
     },
     "iconColorClass": "gradient-color-05",
-    "title": "Be brave, curious and experiment – learn from all successes and failures",
-    "description": "Ut id orci ultricies, gravida arcu ac, elementum eros. Curabitur tortor ipsum, imperdiet eget odio ac, faucibus ultricies nisl. Maecenas scelerisque dignissim elit.",
+    "title": "Be Brave & Curious",
+    "description": "Innovation demands curiosity. We encourage experimentation, learning from bot.",
     "category": "Our values",
     "slug": "our-values-3",
     "process": {
-      "title": "Our execution process",
-      "description": "Our comprehensive design strategy ensures a perfectly crafted design for your business.",
-      "strategies": [
-        {
-          "id": 1,
-          "title": "Discover",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra04-color",
-          "image": "/images/process/process-01.jpg"
-        },
-        {
-          "id": 2,
-          "title": "Prototype",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra05-color",
-          "image": "/images/process/process-02.jpg"
-        },
-        {
-          "id": 3,
-          "title": "Test",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra06-color",
-          "image": "/images/process/process-03.jpg"
-        },
-        {
-          "id": 4,
-          "title": "Build",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra07-color",
-          "image": "/images/process/process-04.jpg"
-        }
-      ]
-    }
-  },
-  {
-    "id": 40,
-    "imageLayer": "/images/icons/layer.svg",
-    "imageIcon": {
-      "src": "/images/icons/icon-02.svg",
-      "width": "41",
-      "height": "24"
-    },
-    "iconColorClass": "gradient-color-05",
-    "title": "Act in a way that makes all of us proud",
-    "description": "Ut id orci ultricies, gravida arcu ac, elementum eros. Curabitur tortor ipsum, imperdiet eget odio ac, faucibus ultricies nisl. Maecenas scelerisque dignissim elit.",
-    "category": "Our values",
-    "slug": "our-values-4",
-    "process": {
-      "title": "Our execution process",
-      "description": "Our comprehensive design strategy ensures a perfectly crafted design for your business.",
-      "strategies": [
-        {
-          "id": 1,
-          "title": "Discover",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra04-color",
-          "image": "/images/process/process-01.jpg"
-        },
-        {
-          "id": 2,
-          "title": "Prototype",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra05-color",
-          "image": "/images/process/process-02.jpg"
-        },
-        {
-          "id": 3,
-          "title": "Test",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra06-color",
-          "image": "/images/process/process-03.jpg"
-        },
-        {
-          "id": 4,
-          "title": "Build",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra07-color",
-          "image": "/images/process/process-04.jpg"
-        }
-      ]
-    }
-  },
-  {
-    "id": 41,
-    "imageLayer": "/images/icons/layer.svg",
-    "imageIcon": {
-      "src": "/images/icons/icon-02.svg",
-      "width": "41",
-      "height": "24"
-    },
-    "iconColorClass": "gradient-color-05",
-    "title": "Build an inclusive, transparent and socially responsible culture",
-    "description": "Ut id orci ultricies, gravida arcu ac, elementum eros. Curabitur tortor ipsum, imperdiet eget odio ac, faucibus ultricies nisl. Maecenas scelerisque dignissim elit.",
-    "category": "Our values",
-    "slug": "our-values-5",
-    "process": {
-      "title": "Our execution process",
-      "description": "Our comprehensive design strategy ensures a perfectly crafted design for your business.",
-      "strategies": [
-        {
-          "id": 1,
-          "title": "Discover",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra04-color",
-          "image": "/images/process/process-01.jpg"
-        },
-        {
-          "id": 2,
-          "title": "Prototype",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra05-color",
-          "image": "/images/process/process-02.jpg"
-        },
-        {
-          "id": 3,
-          "title": "Test",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra06-color",
-          "image": "/images/process/process-03.jpg"
-        },
-        {
-          "id": 4,
-          "title": "Build",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra07-color",
-          "image": "/images/process/process-04.jpg"
-        }
-      ]
-    }
-  },
-  {
-    "id": 42,
-    "imageLayer": "/images/icons/layer.svg",
-    "imageIcon": {
-      "src": "/images/icons/icon-02.svg",
-      "width": "41",
-      "height": "24"
-    },
-    "iconColorClass": "gradient-color-05",
-    "title": "Exceed clients’ and colleagues’ expectations",
-    "description": "Ut id orci ultricies, gravida arcu ac, elementum eros. Curabitur tortor ipsum, imperdiet eget odio ac, faucibus ultricies nisl. Maecenas scelerisque dignissim elit.",
-    "category": "Our values",
-    "slug": "our-values-6",
-    "process": {
-      "title": "Our execution process",
-      "description": "Our comprehensive design strategy ensures a perfectly crafted design for your business.",
+      "title": "Be Brave & Curious",
+      "description": "Innovation demands curiosity. We encourage experimentation, learning from bot.",
       "strategies": [
         {
           "id": 1,

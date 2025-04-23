@@ -6,7 +6,8 @@ const Input = ({
   label,
   isClear = false,
   formData,
-  setFormData, 
+  setFormData,
+  smallSize =true,
 }) => {
   const [isFocused, setIsFocused] = useState(false);
   const inputElement = useRef(null);
@@ -43,6 +44,7 @@ const Input = ({
           onChange={onChange}
           onFocus={onFocus}
           onBlur={onBlur}
+
         />
       ) : (
         <textarea
@@ -52,6 +54,7 @@ const Input = ({
           onChange={onChange}
           onFocus={onFocus}
           onBlur={onBlur}
+          style={smallSize ? { minHeight: "15px" } : undefined}
         />
       )}
       <label>{label}</label>

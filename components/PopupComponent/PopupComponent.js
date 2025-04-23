@@ -40,7 +40,10 @@ const PopupComponent = () => {
               Contact Us
             </h2>
             {/* <ContactFormThree /> */}
-            <ContactFormThree />
+            <ContactFormThree
+            
+            smallSize ={true}
+            />
             <button
               onClick={() => setIsOpen(false)}
               className={styles.closeBtn}

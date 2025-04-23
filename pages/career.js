@@ -72,7 +72,6 @@ const Career = () => {
 
           <section
             style={{
-             
               margin: "22px 0",
             }}
           >
@@ -200,7 +199,7 @@ const Career = () => {
             </h2>
             <p>
               Send your resume and portfolio to{" "}
-              <strong>apply@nextdevlabs.com</strong>
+              <strong>career@nextdev.co.in </strong>
             </p>
             <button
               style={{

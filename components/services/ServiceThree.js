@@ -30,52 +30,55 @@ const ServiceThree = () => {
     }, []);
 
     return (
-        <div className="axil-service-area ax-section-gap bg-color-lightest">
-            <div className="container">
-                <div className="row">
-                <div className="col-lg-12">
-                        <SectionTitle
-                            title="Why Partner with NextDev Labs?"
-                            subtitle="Our Core Values"
-                            description="We combine innovation, strategy, and cutting-edge technology to build digital solutions that drive success. With a client-first approach, we ensure quality, efficiency, and long-term growth."
-                            color="primary-color"
-                            alignment="center"
-                        />
-                        </div>
-
-                </div>
-                <div className="row">
-                    {servicesOurValues?.map((service, index) => (
-                        <div className="col-lg-4 col-md-6 col-12 mt--50 mt_md--40 mt_sm--30" key={`service-${index}`}>
-                            <div
-                                className={`axil-service-style--3 ${serviceColor(index)}`}
-                            >
-                                <div className="icon">
-                                    <Image
-                                        width={50}
-                                        height={49}
-                                        src={service.imageLayer}
-                                        alt="Icon Images"
-                                        layout="fixed"
-                                    />
-                                    <div className="text">{index + 1}</div>
-                                </div>
-                                <div className="content">
-                                    <h4 className="title">
-                                        <Link legacyBehavior           
-                                            href={`/services/${camelCaseToDashed(service.category)}/${service.slug}`}
-                                        >
-                                            {service.title}
-                                        </Link>
-                                    </h4>
-                                    <p>{service.description}</p>
-                                </div>
-                            </div>
-                        </div>
-                    ))}
-                </div>
+      <div className="axil-service-area ax-section-gap bg-color-lightest">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <SectionTitle
+                title="Why Partner with NextDev Labs?"
+                subtitle="Our Core Values"
+                description="At NextDev Labs, we don't just build digital solutions—we craft experiences that empower businesses to thrive in a fast-evolving world. By blending innovation, strategic thinking, and cutting-edge technology, we help our partners achieve scalable growth, operational efficiency, and long-term success. Our client-first mindset ensures that every solution we deliver is tailored, impactful, and built to exceed expectations."
+                color="primary-color"
+                alignment="center"
+              />
             </div>
+          </div>
+          <div className="row">
+            {servicesOurValues?.map((service, index) => (
+              <div
+                className="col-lg-4 col-md-6 col-12 mt--50 mt_md--40 mt_sm--30"
+                key={`service-${index}`}
+              >
+                <div className={`axil-service-style--3 ${serviceColor(index)}`}>
+                  <div className="icon">
+                    <Image
+                      width={50}
+                      height={49}
+                      src={service.imageLayer}
+                      alt="Icon Images"
+                      layout="fixed"
+                    />
+                    <div className="text">{index + 1}</div>
+                  </div>
+                  <div className="content">
+                    <h4 className="title">
+                      <Link
+                        legacyBehavior
+                        href={`/services/${camelCaseToDashed(
+                          service.category
+                        )}/${service.slug}`}
+                      >
+                        {service.title}
+                      </Link>
+                    </h4>
+                    <p>{service.description}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
+      </div>
     );
 };
 
