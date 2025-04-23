@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-
+import SectionTitle from "../common/SectionTitle";
+import './googlereview.css'
 const getTimeAgo = (dateString) => {
   const now = new Date();
   const date = new Date(dateString);
@@ -173,8 +174,20 @@ const GoogleReviews = () => {
 
   return (
     <div className="reviews-container container">
-      <h2 className="reviews-title">Customer Reviews</h2>
-      <div className="reviewGrid">
+      <SectionTitle
+        title="Google reviews"
+        subtitle=""
+        description=""
+        color="extra08-color"
+        alignment="center"
+      />
+
+      <div className="reviewGrid"
+      
+        style={{
+        marginTop : "80px"
+      }}
+      >
         <div className="rating-summary">
           <div className="rating-title">Excellent</div>
           <div className="stars-container">
@@ -208,9 +221,7 @@ const GoogleReviews = () => {
         <div className="reviews-slider">
           <Slider {...settings}>
             {reviews.map((review, index) => (
-              <div
-               
-              >
+              <div>
                 <div className="review-card">
                   <div className="review-header">
                     <img
@@ -347,6 +358,7 @@ const GoogleReviews = () => {
           display: flex;
           flex-direction: column;
           justify-content: space-between;
+          max-width: 390px;
         }
 
         .review-header {
@@ -452,6 +464,7 @@ const GoogleReviews = () => {
             margin-bottom: 30px;
           }
         }
+        
       `}</style>
     </div>
   );

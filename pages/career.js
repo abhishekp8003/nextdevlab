@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import Head from "next/head";
 import Breadcrumb from "../components/breadcrumb/Breadcrumb";
@@ -7,29 +7,33 @@ import SectionTitle from "../components/common/SectionTitle";
 import Layout from "../components/layouts/Layout";
 import { useEffect, useState } from "react";
 
-
-
 const Career = () => {
   const [columns, setColumns] = useState("1fr");
+  const [isDark, setIsDark] = useState(false);
 
+  useEffect(() => {
+    const updateColumns = () => {
+      if (window.innerWidth >= 1024) {
+        setColumns("repeat(3, 1fr)");
+      } else if (window.innerWidth >= 640) {
+        setColumns("repeat(2, 1fr)");
+      } else {
+        setColumns("1fr");
+      }
+    };
 
+    updateColumns();
+    window.addEventListener("resize", updateColumns);
+    return () => window.removeEventListener("resize", updateColumns);
+  }, []);
 
-useEffect(() => {
-  const updateColumns = () => {
-    if (window.innerWidth >= 1024) {
-      setColumns("repeat(3, 1fr)");
-    } else if (window.innerWidth >= 640) {
-      setColumns("repeat(2, 1fr)");
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setIsDark(localStorage.getItem("theme") === "dark");
     } else {
-      setColumns("1fr");
+      setIsDark(true);
     }
-  };
-
-  updateColumns();
-  window.addEventListener("resize", updateColumns);
-  return () => window.removeEventListener("resize", updateColumns);
-}, []);
-
+  }, []);
 
   return (
     <Layout>
@@ -55,9 +59,6 @@ useEffect(() => {
               alignment="center"
             />
           </div>
-          {/* <p className="text-center text-lg mb-10">
-           
-          </p> */}
 
           <section className=" p-6 rounded-lg shadow-md mb-10">
             <h4 className="text-2xl font-semibold mb-4">Where We Work</h4>
@@ -70,32 +71,20 @@ useEffect(() => {
           </section>
 
           <section
-            // className="grid md:grid-cols-2 lg:grid-cols-3 gap-6"
             style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(2, 1fr)",
-              margin: "62px 0",
+             
+              margin: "22px 0",
             }}
           >
-            {[
-              "Tech Giants & Startups",
-              "Oil & Gas Industry",
-              "Automobile & Manufacturing",
-              "Pharmaceutical & Healthcare",
-              "IT Services & SaaS Companies",
-              "Telecommunication & 5G Innovations",
-              "Banking & Finance Sector",
-              "Retail & eCommerce",
-              "Real Estate & Smart Infrastructure",
-              "Education & eLearning",
-              "Aerospace & Defense",
-              "Supply Chain & Logistics",
-              "Hospitality & Travel",
-            ].map((industry, index) => (
-              <div key={index} className=" p-1 rounded-lg shadow-md">
-                <h5 className="text-xl font-medium">{industry}</h5>
-              </div>
-            ))}
+            Working at NextDev Labs means being part of a mission-driven team
+            that thrives on innovation and impact. You will engage with
+            cutting-edge technologies while solving real-world problems for
+            clients across a wide range of industries. Every project offers
+            fresh challenges, keeping your work exciting and meaningful. Our
+            global presence ensures you're constantly learning and collaborating
+            with diverse minds, while the solutions you build help shape the
+            future of digital transformation. Here, your skills do not just
+            grow—they make a difference.
           </section>
 
           <section
@@ -118,7 +107,7 @@ useEffect(() => {
               ].map((benefit, index) => (
                 <div
                   key={index}
-                  className="bg-white shadow-md p-4 rounded-xl border border-gray-200 hover:shadow-lg transition"
+                  className=" shadow-md p-4 rounded-xl border border-gray-200 hover:shadow-lg transition"
                 >
                   {benefit}
                 </div>
@@ -167,10 +156,25 @@ useEffect(() => {
                 ].map((job, index) => (
                   <div
                     key={index}
-                    className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 border border-gray-100"
+                    className="rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 border border-gray-100"
                     style={{
                       padding: "14px",
                       borderRadius: "4px",
+                      transform: "translateY(0)",
+                      transition: "all 0.3s ease",
+                      cursor: "pointer",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.transform = "translateY(-5px)";
+                      e.currentTarget.style.boxShadow =
+                        "0 10px 20px rgba(0,0,0,0.1)";
+                      e.currentTarget.style.borderColor = "#3b82f6";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.transform = "translateY(0)";
+                      e.currentTarget.style.boxShadow =
+                        "0 4px 6px rgba(0,0,0,0.1)";
+                      e.currentTarget.style.borderColor = "#e5e7eb";
                     }}
                   >
                     <div className="p-6">
@@ -199,13 +203,12 @@ useEffect(() => {
               <strong>apply@nextdevlabs.com</strong>
             </p>
             <button
-              // className="mt-4 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700"
-              onClick={() =>
-                (window.location.href = "mailto:apply@nextdevlabs.com")
-              }
               style={{
                 border: "none",
               }}
+              onClick={() =>
+                (window.location.href = "mailto:apply@nextdevlabs.com")
+              }
             >
               <a
                 legacyBehavior

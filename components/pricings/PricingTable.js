@@ -53,12 +53,6 @@ const PricingTable = ({ column, pricingTableClass, buttonClass, data }) => {
                 <span className="button-text">Get Started Today</span>
                 <span className="button-icon"></span>
               </a>
-
-
-
-
-
-
             </div>
             <span className="subtitle">{data.subtitleTwo}</span>
           </div>

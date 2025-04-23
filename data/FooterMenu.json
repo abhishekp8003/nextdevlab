@@ -1,8 +1,8 @@
 {
   "social": [
-    {"type":  "facebook", "icon": "fa-facebook-f", "url":  "https://www.facebook.com/"},
-    {"type":  "linkedin", "icon": "fa-linkedin-in", "url":  "https://www.linkedin.com/"},
-    {"type":  "instagram", "icon": "fa-instagram", "url":  "https://www.instagram.com/"}
+    {"type":  "facebook", "icon": "fa-facebook-f", "url":  "https://www.facebook.com/profile.php?id=61565608701323&mibextid=ZbWKwL"},
+    {"type":  "linkedin", "icon": "fa-linkedin-in", "url":  "https://www.linkedin.com/company/nextdev-labs/"},
+    {"type":  "instagram", "icon": "fa-instagram", "url":  "https://www.instagram.com/nextdev_labs?igsh=NzBpMG91dXJvMHU="}
   ],
   "services": [
     {"title":  "Website Development", "url":  "/services/design/website-design"},
@@ -11,12 +11,11 @@
   ],
   "resources": [
     {"title":  "Blog", "url":  "/blog"},
-    {"title":  "Case Studies", "url":  "/case-study"},
+  
     {"title":  "Portfolio", "url":  "/portfolio"}
   ],
   "support": [
     {"title":  "Contact", "url":  "/contact"},
-    {"title":  "Privacy Policy", "url":  "/privacy-policy"},
-    {"title":  "Sitemap", "url":  "#"}
+    {"title":  "Privacy Policy", "url":  "/privacy-policy"}
   ]
 }

@@ -140,11 +140,11 @@
   },
  {
     "id": 9,
-    "image": "/images/portfolio/Parformnce.png",
+    "image": "/images/portfolio/Performance.png",
     "categories": ["Marketing"],
     "categoryIds": [3],
     "link" : true,
-      "title": "Performnce",
+      "title": "Performance",
       "description": "Shreyasropvatika is an e-commerce platform specializing in premium handcrafted products. The brand required a modern, user-friendly website to showcase and sell their products effectively. <br/><br/> The goal was to create a seamless shopping experience while enhancing brand presence online.",
       "delivered": "NextDev Labs developed a responsive, high-performance e-commerce website with an optimized UI/UX design. The platform includes secure payment integration, smooth navigation, and mobile-first responsiveness.",
       "strategy": "We focused on a customer-centric approach by implementing an intuitive layout, SEO-driven product pages, and a streamlined checkout process to boost conversions.",
@@ -157,7 +157,7 @@
   {
     "id": 9,
     "image": "/images/portfolio/Platform.png",
-    "categories": [" Marketing"],
+    "categories": ["Marketing"],
     "categoryIds": [3],
       "link" : false,
       "title": "Platform",

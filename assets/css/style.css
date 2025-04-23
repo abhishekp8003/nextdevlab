@@ -21135,4 +21135,7 @@ body.active-dark-mode .portfolio-slider .thumbnail img.dark-image {
 }
 
 
-
+.slick-list {
+  padding-bottom: 30px !important;
+  border : 1px solid red!important;
+}

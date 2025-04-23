@@ -1,4 +1,4 @@
-"use client"; // Ensure this is a client-side component if using localStorage
+"use client";
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
@@ -6,11 +6,18 @@ import Image from "next/image";
 const Logo = ({ variant = "one", fillTextColor = "#00004B" }) => {
   const [isDark, setIsDark] = useState(false);
 
+
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      setIsDark(localStorage.getItem("theme") === "dark");
-    }
-  }, []);
+
+    const updateTheme = () => {
+      const theme = localStorage.getItem("theme");
+      setIsDark(theme === "dark");
+    };
+
+    updateTheme();
+
+   
+  });
 
   return (
     <div
@@ -18,7 +25,7 @@ const Logo = ({ variant = "one", fillTextColor = "#00004B" }) => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        color: isDark ? "white" : "black",
+        
       }}
     >
       <div>
@@ -35,7 +42,6 @@ const Logo = ({ variant = "one", fillTextColor = "#00004B" }) => {
             fontFamily: "DM Sans, sans-serif",
             fontSize: "20px",
             fontWeight: "bold",
-            color: fillTextColor,
           }}
         >
           NextDev
