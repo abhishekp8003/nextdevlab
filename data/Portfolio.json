@@ -5,7 +5,7 @@
     "image": "/images/portfolio/AgroPro.gif",
     "categories": ["Web Application"],
     "categoryIds": [1],
-    "link" : false,
+    "link" : true,
       "title": "Shreyasropvatika",
       "description": "Shreyasropvatika is an e-commerce platform specializing in premium handcrafted products. The brand required a modern, user-friendly website to showcase and sell their products effectively. <br/><br/> The goal was to create a seamless shopping experience while enhancing brand presence online.",
       "delivered": "NextDev Labs developed a responsive, high-performance e-commerce website with an optimized UI/UX design. The platform includes secure payment integration, smooth navigation, and mobile-first responsiveness.",

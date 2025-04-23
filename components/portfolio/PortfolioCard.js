@@ -25,7 +25,7 @@ const PortfolioCard = ({data, index, activeIndex, changeActive}) => {
             <div className="thumb">
               <Link
                 legacyBehavior
-                href={data?.link ? `/portfolio/${slugify(data.title)}` : "#"}
+                href={data?.link ? `/portfolio/${slugify(data.title)}` : ""}
               >
                 <a legacyBehavior>
                   <img
