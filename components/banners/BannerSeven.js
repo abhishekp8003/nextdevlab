@@ -22,7 +22,7 @@ const BannerSeven = (
                     <div className="col-lg-6 order-1 order-lg-2">
                         <div className="thumbnail text-start text-lg-end">
                             <div className="image-group text-end">
-                                <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5}>
+                                {/* <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5}> */}
                                     <Image
                                         width={370}
                                         height={466}
@@ -30,8 +30,8 @@ const BannerSeven = (
                                         src={thumbnailImageOne}
                                         alt="Slider images"
                                     />
-                                </Tilt>
-                                <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5} className="banner-paralax-image-2">
+                                {/* </Tilt> */}
+                                {/* <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5} className="banner-paralax-image-2"> */}
                                     <Image
                                         width={519}
                                         height={395}
@@ -39,7 +39,7 @@ const BannerSeven = (
                                         src={thumbnailImageTwo}
                                         alt="Slider images"
                                     />
-                                </Tilt>
+                                {/* </Tilt> */}
                             </div>
                             <div className="shape-group">
                                 <div className="shape shape-1">

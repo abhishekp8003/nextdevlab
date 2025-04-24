@@ -4,31 +4,41 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 
 const Logo = ({ variant = "one", fillTextColor = "#00004B" }) => {
-  const [isDark, setIsDark] = useState(false);
+  const [mobileScreen, setMobileScreen] = useState(false);
+  const handleChngeScreenWidth = () => {
+    const innerWidth = window.innerWidth;
+    if (innerWidth > 718) {
+      setMobileScreen(false)
+    } else {
+      setMobileScreen(true);
+    }
+    
+  }
 
 
   useEffect(() => {
+    handleChngeScreenWidth(); 
 
-    const updateTheme = () => {
-      const theme = localStorage.getItem("theme");
-      setIsDark(theme === "dark");
+    window.addEventListener("resize", handleChngeScreenWidth);
+    return () => {
+      window.removeEventListener("resize", handleChngeScreenWidth);
     };
+  }, []);
 
-    updateTheme();
 
-   
-  });
-
+ 
   return (
     <div
       style={{
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
+        height: '60px',
+        position: 'relative'
         
       }}
     >
-      <div>
+      <div  >
         <Image
           src="/images/others/Nextdev Lab icon mark.svg"
           width={100}
@@ -56,7 +66,7 @@ const Logo = ({ variant = "one", fillTextColor = "#00004B" }) => {
             fontWeight: "normal",
             marginTop: "0px",
             position : 'relative',
-            top : "-20px"
+            top : mobileScreen? "-8px" : "-20px"
           }}
         >
           Labs

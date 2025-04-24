@@ -79,9 +79,12 @@ const About = () => {
                             <div className="col-lg-6 col-xl-6 col-md-12 col-12">
                                 <div className="thumb-inner">
                                     <div className="thumbnail">
-                                        <Image
-                                            width={801}
-                                            height={712}
+                                        <img
+
+style={{
+    
+    width: '300px'
+                                            }}
                                             className="image w-100"
                                             src="/images/featured/featured-image-022.png"
                                             alt="Featured Images"

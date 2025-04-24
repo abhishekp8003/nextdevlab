@@ -12,7 +12,7 @@ publishedAt: "Aug 27 2024"
 readingTime: "9 min to read"
 comments: [
 	{
-		title: "Email is a crucial channel in any marketing mix, and never has this been truer than for today’s entrepreneur. Curious what to say.",
+		title: "Email remains one of the most personal and direct ways to connect with your audience—especially when done right. Curious to hear how you're leveraging it at your end.",
 		authorId: 2,
 		commentedAt: "February 14, 2025",
 		replies: [

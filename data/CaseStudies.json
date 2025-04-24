@@ -78,40 +78,37 @@
 },
 {
   "id": 2,
-  "title": "SagarSanskar Global Kart",
+  "title": "Shreyas Ropvatika",
   "subtitle": "featured case study",
-  "description": "SagarSanskar Global Kart, an innovative e-commerce platform, sought a seamless, high-performance website to showcase and sell their diverse range of products. We developed a user-friendly marketplace with a robust backend, secure payment gateways, and a smooth shopping experience.",
-  "image": "/images/featured/featured-image-03.jpg",
+  "description": "Shreyas Ropvatika, operating under the brand name AgroPro, is a maharastra-based enterprise specializing in agricultural products and services. They cater to a diverse clientele, including individual farmers and large agricultural businesses, offering a wide range of products and solutions...",
+  "image": "/images/case-study/ag1.png",
   "counter": [
     {
       "title": "ROI increase",
-      "amount": 35
+      "amount": 50
     },
     {
       "title": "Monthly website visits",
-      "amount": 90
+      "amount": 60
     }
   ],
   "videoUrl": "https://www.youtube.com/watch?v=Pj_geat9hvI",
   "projectBreif1": {
-    "image": "/images/featured/featured-brief-02.jpg",
+    "image": "/images/case-study/ag2.png",
     "description": [
-      "SagarSanskar Global Kart aimed to build a scalable e-commerce platform that enhances user engagement and simplifies online shopping.",
-      "We designed an intuitive and responsive website featuring product filtering, real-time inventory updates, and a seamless checkout process to drive higher conversions."
+      "AgroPro not only supplies essential inputs but also offers practical, data-backed farming techniques to increase efficiency and profitability. Their on-ground support ensures that farmers receive timely advice, reducing risk and boosting harvest outcomes. AgroPro is more than just a supplier—it's a growth partner dedicated to transforming agriculture through trust, technology, and tailored solutions."
     ]
   },
   "projectBreif2": {
-    "image": "",
+    "image": "/images/case-study/ag4.png",
     "description": [
-      "To ensure smooth operations, we implemented a secure and scalable backend supporting high traffic volumes and multiple payment methods.",
-      "Our solution integrated an advanced product management system, enabling sellers to list, update, and manage inventory efficiently."
+      "By integrating expert guidance with high-quality agricultural inputs, AgroPro helps farmers improve crop yields, reduce costs, and adopt eco-friendly farming practices. Whether it's a small landholder or a large-scale enterprise, AgroPro stands as a reliable partner in achieving long-term agricultural success."
     ]
   },
   "solution": {
-    "image": "",
+   "image": "/images/case-study/ag3.png",
     "description": [
-      "We developed a feature-rich platform for SagarSanskar Global Kart, ensuring an optimal shopping experience through personalized recommendations and fast-loading pages.",
-      "Key features include an AI-powered search engine, automated order tracking, multi-vendor management, and a user-friendly admin dashboard."
+      "Operating under the name AgroPro, Shreyas Ropvatika delivers end-to-end agricultural solutions designed to meet the evolving needs of the farming community in Maharashtra and beyond. Their product lineup includes certified seeds, organic and chemical fertilizers, irrigation systems, and personalized consultancy services."
     ]
   },
   "process": {
@@ -155,157 +152,82 @@
 },
 {
   "id": 3,
-  "title": "LearnGuru360",
+  "title": "SagarSanskar Global Kart",
   "subtitle": "featured case study",
-  "description": "LearnGuru360 is a cutting-edge Learning Management System (LMS) designed to provide an interactive and seamless online education experience. The client required a scalable platform to facilitate online courses, manage student progress, and integrate assessments. We developed a robust LMS with an intuitive interface, real-time analytics, and multi-device compatibility to enhance user engagement.",
-  "image": "/images/featured/featured-image-04.jpg",
+  "description": "SagarSanskar Global Kart, an innovative e-commerce platform, sought a seamless, high-performance website to showcase and sell their diverse range of products. We developed a user-friendly marketplace with a robust backend, secure payment gateways, and a smooth shopping experience.",
+  "image": "/images/case-study/sg1.png",
   "counter": [
     {
       "title": "ROI increase",
-      "amount": 15
+      "amount": 35
     },
     {
       "title": "Monthly website visits",
-      "amount": 60
+      "amount": 90
     }
   ],
   "videoUrl": "https://www.youtube.com/watch?v=Pj_geat9hvI",
   "projectBreif1": {
-    "image": "/images/featured/featured-brief-03.jpg",
+    "image": "/images/case-study/sg2.png",
     "description": [
-      "LearnGuru360 was conceptualized to bridge the gap between educators and learners through an all-in-one online learning platform. Our team conducted extensive research to understand the client’s needs, ensuring a dynamic solution that supports video lectures, quizzes, and real-time feedback.",
-      "The platform allows instructors to create and manage courses effortlessly, track student performance, and provide personalized learning paths."
+      "SagarSanskar Global Kart aimed to build a scalable e-commerce platform that enhances user engagement and simplifies online shopping.",
+      "We designed an intuitive and responsive website featuring product filtering, real-time inventory updates, and a seamless checkout process to drive higher conversions."
     ]
   },
   "projectBreif2": {
-    "image": "",
+    "image": "/images/case-study/sg3.png",
     "description": [
-      "To enhance accessibility, we designed a responsive LMS that works seamlessly on desktops, tablets, and mobile devices. Features such as progress tracking, discussion forums, and certification issuance were integrated to provide a comprehensive learning experience.",
-      "Security measures, including role-based access control and encrypted data storage, were implemented to ensure a safe and secure learning environment."
+      "To ensure smooth operations, we implemented a secure and scalable backend supporting high traffic volumes and multiple payment methods.",
+      "Our solution integrated an advanced product management system, enabling sellers to list, update, and manage inventory efficiently."
     ]
   },
   "solution": {
-    "image": "",
+    "image": "/images/case-study/sg4.png",
     "description": [
-      "Our team built a fully functional LMS with an easy-to-use content management system, enabling educators to upload and organize course materials efficiently.",
-      "With automated assessments, progress reports, and AI-driven recommendations, LearnGuru360 delivers an unparalleled learning experience for students and teachers alike."
+      "We developed a feature-rich platform for SagarSanskar Global Kart, ensuring an optimal shopping experience through personalized recommendations and fast-loading pages.",
+      "Key features include an AI-powered search engine, automated order tracking, multi-vendor management, and a user-friendly admin dashboard."
     ]
   },
   "process": {
     "title": "Our design process",
-    "description": "Our comprehensive design strategy ensures a perfectly crafted learning platform for educators and students.",
+    "description": "Our structured approach ensured a seamless and high-performing e-commerce solution for SagarSanskar Global Kart.",
     "strategies": [
       {
         "id": 1,
         "title": "Discover",
-        "subtitle": "our four step process",
-        "description": "We analyzed market trends, competitor platforms, and educator requirements to conceptualize an intuitive and scalable LMS.",
+        "subtitle": "our four-step process",
+        "description": "We analyzed the e-commerce landscape, identified customer pain points, and devised a strategic plan to create a seamless online shopping experience.",
         "highlightColor": "extra04-color",
         "image": "/images/process/process-01.jpg"
       },
       {
         "id": 2,
         "title": "Prototype",
-        "subtitle": "our four step process",
-        "description": "Wireframes and prototypes were developed to refine the platform’s UI/UX, ensuring a seamless user experience for students and instructors.",
+        "subtitle": "our four-step process",
+        "description": "Wireframes and prototypes were designed to refine the platform’s user journey, ensuring a smooth and intuitive interface.",
         "highlightColor": "extra05-color",
         "image": "/images/process/process-02.jpg"
       },
       {
         "id": 3,
         "title": "Test",
-        "subtitle": "our four step process",
-        "description": "The LMS underwent rigorous testing for performance, security, and usability, ensuring a reliable and efficient platform for online education.",
+        "subtitle": "our four-step process",
+        "description": "We conducted extensive testing, including performance optimization and security audits, to ensure a stable and secure shopping experience.",
         "highlightColor": "extra06-color",
         "image": "/images/process/process-03.jpg"
       },
       {
         "id": 4,
         "title": "Build",
-        "subtitle": "our four step process",
-        "description": "We deployed the platform with a robust backend, cloud storage, and seamless integrations, allowing educators to launch courses effortlessly.",
-        "highlightColor": "extra07-color",
-        "image": "/images/process/process-04.jpg"
-      }
-    ]
-  }
-},
-{
-  "id": 4,
-  "title": "BusinessXstream",
-  "subtitle": "featured case study",
-  "description": "BusinessXstream is an advanced franchise listing platform that simplifies the process of finding and managing franchise opportunities. The client required a scalable, user-friendly solution to connect franchisors with potential franchisees. We developed a comprehensive platform with advanced search filters, real-time analytics, and seamless communication tools to enhance the franchise discovery experience.",
-  "image": "/images/featured/featured-image-05.jpg",
-  "counter": [
-    {
-      "title": "ROI increase",
-      "amount": 15
-    },
-    {
-      "title": "Monthly website visits",
-      "amount": 60
-    }
-  ],
-  "videoUrl": "https://www.youtube.com/watch?v=Pj_geat9hvI",
-  "projectBreif1": {
-    "image": "/images/featured/featured-brief-04.jpg",
-    "description": [
-      "BusinessXstream was designed to bridge the gap between franchisors and franchisees by providing an intuitive and data-driven listing platform. Our team conducted in-depth market research to understand industry needs and implemented features like interactive listings, lead management, and franchise performance tracking.",
-      "The platform enables franchisors to showcase their business opportunities effectively while allowing franchise seekers to filter and compare opportunities based on industry, location, and investment range."
-    ]
-  },
-  "projectBreif2": {
-    "image": "",
-    "description": [
-      "To improve user engagement, we designed an easy-to-navigate platform with an AI-powered recommendation engine that suggests relevant franchise opportunities. We also incorporated secure messaging tools to facilitate direct communication between franchisors and potential franchisees.",
-      "Advanced data security, role-based access control, and cloud-based hosting ensure a seamless and secure browsing experience for all users."
-    ]
-  },
-  "solution": {
-    "image": "",
-    "description": [
-      "Our team developed a feature-rich platform that streamlines franchise discovery and management. With real-time analytics, automated lead generation, and integration with third-party CRM systems, BusinessXstream offers an end-to-end solution for franchise businesses.",
-      "The platform supports multi-device accessibility, ensuring a smooth user experience across desktops, tablets, and mobile devices."
-    ]
-  },
-  "process": {
-    "title": "Our design process",
-    "description": "Our comprehensive design strategy ensures an optimized platform for franchise listing and management.",
-    "strategies": [
-      {
-        "id": 1,
-        "title": "Discover",
-        "subtitle": "our four step process",
-        "description": "We analyzed the franchise industry landscape, identified user needs, and defined the core functionalities for a high-performing listing platform.",
-        "highlightColor": "extra04-color",
-        "image": "/images/process/process-01.jpg"
-      },
-      {
-        "id": 2,
-        "title": "Prototype",
-        "subtitle": "our four step process",
-        "description": "We developed interactive wireframes and prototypes to refine the platform's UI/UX, ensuring an intuitive and engaging user experience.",
-        "highlightColor": "extra05-color",
-        "image": "/images/process/process-02.jpg"
-      },
-      {
-        "id": 3,
-        "title": "Test",
-        "subtitle": "our four step process",
-        "description": "The platform underwent extensive testing for performance, security, and usability to ensure a smooth and reliable user experience.",
-        "highlightColor": "extra06-color",
-        "image": "/images/process/process-03.jpg"
-      },
-      {
-        "id": 4,
-        "title": "Build",
-        "subtitle": "our four step process",
-        "description": "We deployed a robust, cloud-based platform with seamless integrations and automated lead tracking, providing a complete solution for franchise businesses.",
+        "subtitle": "our four-step process",
+        "description": "We launched the final version of the e-commerce platform, featuring a robust infrastructure, advanced analytics, and seamless third-party integrations.",
         "highlightColor": "extra07-color",
         "image": "/images/process/process-04.jpg"
       }
     ]
   }
 }
+
+
 
 ]

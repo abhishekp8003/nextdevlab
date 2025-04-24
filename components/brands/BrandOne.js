@@ -16,6 +16,34 @@ const BrandOne = ({
     setBrands(brandArray);
   }, []);
 
+
+   const [mobileScreen, setMobileScreen] = useState(false);
+   const handleChngeScreenWidth = () => {
+     const innerWidth = window.innerWidth;
+     if (innerWidth > 718) {
+       setMobileScreen(false);
+     } else {
+       setMobileScreen(true);
+     }
+   };
+
+   useEffect(() => {
+     handleChngeScreenWidth();
+
+     window.addEventListener("resize", handleChngeScreenWidth);
+     return () => {
+       window.removeEventListener("resize", handleChngeScreenWidth);
+     };
+   }, []);
+
+
+
+
+
+
+
+
+
   return (
     <div className={`axil-brand-area ax-section-gap ${bgColor}`}>
       <div className="container">
@@ -34,14 +62,13 @@ const BrandOne = ({
               <ul className="brand-list liststyle d-flex flex-wrap justify-content-center">
                 {brands?.map((brand, index) => (
                   <li key={`brand-${index}`}>
-                    <Link legacyBehavior            href="#">
-                      <a legacyBehavior >
+                    <Link legacyBehavior href="#">
+                      <a legacyBehavior>
                         <img
                           style={{
-                            width: brand.image.width,
-                            height: brand.image.height,
+                            width: mobileScreen ? "80px" : "112px",
+                            height: mobileScreen ? "80px" : "112px",
                           }}
-                          
                           src={brand.image.src}
                           alt="Brand Logo Images"
                         />
