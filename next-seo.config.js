@@ -11,7 +11,7 @@ const SEO = {
     locale: "en_US",
     url: "https://yourwebsite.com/",
     title:
-      "NextDev Labs: End-to-End Solutions for Web Apps, Marketing & Successy",
+      "NextDev Labs: End-to-End Solutions",
     description:
       "💡 Unlock growth with NextDev Labs! Premium web & app development, branding, and SEO strategies to dominate the digital world.",
     site_name: "NextDev Labs",

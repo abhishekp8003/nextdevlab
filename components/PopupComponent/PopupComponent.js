@@ -5,14 +5,29 @@ import ContactFormThree from '../forms/ContactFormThree';
 import Logo from '../common/Logo';
 
 const PopupComponent = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   const [theme, setTheme] = useState(null);
+  const hndleTime = () => {
+    setIsOpen(true)
+    
+  }
+  
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem('theme');
     
+    const savedTheme = localStorage.getItem('theme');
     setTheme(savedTheme);
+
+    setTimeout(() => {
+      hndleTime();
+    },5000)
+
+
+
+
+
   }, []);
+
 
   return (
     <div

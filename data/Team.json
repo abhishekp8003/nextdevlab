@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Abhishek Patil",
-    "image": "/images/team/Abhishek.png",
+    "image": "/images/team/Abhishek1.png",
     "designation": "CEO",
     "department": ["Management"],
     "socials": [
@@ -15,7 +15,7 @@
   {
     "id": 2,
     "name": "Mayur Patil",
-    "image": "/images/team/Mayur.png",
+    "image": "/images/team/Mayur1.png",
     "designation": "CFO",
     "department": ["Management", "CFO"],
     "socials": [
@@ -27,7 +27,7 @@
   },
 
   {
-    "id": 5,
+    "id": 3,
     "name": "Aman Panchal",
     "image": "/images/team/Aman.png",
     "designation": "Full Stack Developer",
@@ -40,7 +40,7 @@
     "introduction": "Aman Pachal is a Full-Stack Engineer with expertise in both frontend and backend development. Skilled in modern frameworks, databases, and cloud technologies, he builds seamless, scalable, and high-performance applications. With a passion for innovation and clean code, Aman delivers robust digital solutions that enhance user experiences"
   },
   {
-    "id": 6,
+    "id": 4,
     "name": "Jaymin Rao",
     "image": "/images/team/Jaymin.png",
     "designation": "Full Stack Developer",
