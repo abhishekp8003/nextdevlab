@@ -24,32 +24,5 @@
       { "type": "instagram", "url": "#" }
     ],
     "introduction": "Mayur Patil, Co-Founder of Next Dev, is a graduate of NIT Nagpur with a strong technical background and a passion for innovation. His expertise in software development, system architecture, and strategic planning plays a pivotal role in driving the company’s growth. With a vision for cutting-edge solutions, Mayur is committed to building scalable and impactful digital products"
-  },
-
-  {
-    "id": 3,
-    "name": "Aman Panchal",
-    "image": "/images/team/Aman.png",
-    "designation": "Full Stack Developer",
-    "department": [ "Full stack development"],
-    "socials": [
-      { "type": "facebook", "url": "#" },
-      { "type": "linkedin", "url": "#" },
-      { "type": "instagram", "url": "#" }
-    ],
-    "introduction": "Aman Pachal is a Full-Stack Engineer with expertise in both frontend and backend development. Skilled in modern frameworks, databases, and cloud technologies, he builds seamless, scalable, and high-performance applications. With a passion for innovation and clean code, Aman delivers robust digital solutions that enhance user experiences"
-  },
-  {
-    "id": 4,
-    "name": "Jaymin Rao",
-    "image": "/images/team/Jaymin.png",
-    "designation": "Full Stack Developer",
-    "department": [ "Full stack development"],
-    "socials": [
-      { "type": "facebook", "url": "#" },
-      { "type": "linkedin", "url": "#" },
-      { "type": "instagram", "url": "#" }
-    ],
-    "introduction": "Jaymin Rao is a Full-Stack Engineer skilled in frontend and backend development, creating scalable and high-performance applications. With expertise in modern frameworks, databases, and cloud technologies, he builds seamless digital experiences. Passionate about clean code and innovation, Jaymin thrives on solving complex technical challenges"
   }
 ]
