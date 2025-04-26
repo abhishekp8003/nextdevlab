@@ -4,9 +4,9 @@ import BrandData from '../../data/Brands.json';
 import SectionTitle from '../common/SectionTitle';
 
 const BrandOne = ({
-  title = "We’ve built solutions for...",
+  title = "We've Built Cutting-Edge Solutions Using...",
   subtitle = "top clients",
-  description = "We have successfully delivered innovative solutions for leading clients across various industries.",
+  description = "We have successfully delivered innovative and scalable technology solutions to leading clients across multiple industries.",
   bgColor = "bg-color-white"
 }) => {
   const [brands, setBrands] = useState([]);

@@ -2,7 +2,7 @@
   "social": [
     {"type":  "facebook", "icon": "fa-facebook-f", "url":  "https://www.facebook.com/profile.php?id=61565608701323&mibextid=ZbWKwL"},
     {"type":  "linkedin", "icon": "fa-linkedin-in", "url":  "https://www.linkedin.com/company/nextdev-labs/"},
-    {"type":  "instagram", "icon": "fa-instagram", "url":  "https://www.instagram.com/nextdev_labs?igsh=NzBpMG91dXJvMHU="}
+    {"type":  "instagram", "icon": "fa-instagram", "url":  "https://www.instagram.com/nextdevlabs/"}
   ],
   "services": [
     {"title":  "Website Development", "url":  "/services/design/website-design"},

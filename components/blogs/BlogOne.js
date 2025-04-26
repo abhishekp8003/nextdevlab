@@ -11,56 +11,62 @@ const BlogOne = ({posts}) => {
     };
 
     return (
-        <div className="axil-blog-area ax-section-gap bg-color-lightest">
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-12">
-                        <SectionTitle
-                            title="Latest stories"
-                            subtitle="what's going on"
-                            description="In vel varius turpis, non dictum sem. Aenean in efficitur ipsum, in egestas ipsum. Mauris in mi ac tellus."
-                            color="extra04-color"
-                            alignment="center"
-                        />
-                    </div>
-                </div>
-                <div className="row blog-list-wrapper mt--20">
-                    {posts?.map((post, index) => (
-                        <div className="col-lg-6 col-md-6 col-12"
-                             key={`blog-post-${index}`}>
-                            <div className={`axil-blog axil-control mt--40 ${activeBlog === index ? "active" : ""}`}
-                                 onMouseEnter={() => changeActive(index)}>
-                                <div className="content">
-                                    <div className="content-wrap paralax-image">
-                                        <div className="inner">
-                                            <span className="category">Lifestyle</span>
-                                            <h5 className="title">
-                                                <Link legacyBehavior            href={`/blog/${post.slug}`}>
-                                                    <a legacyBehavior  className="text-ellipsis">
-                                                        {post.postdata.title.substring(0, 50)}
-                                                    </a>
-                                                </Link>
-                                            </h5>
-                                            <p>{post?.postdata?.excerpt?.substring(0, 70)}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="thumbnail">
-                                    <div className="image">
-                                        <Image
-                                            width={410}
-                                            height={452}
-                                            src={post.postdata.thumbnail.large}
-                                            alt="Blog images"
-                                        />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    ))}
-                </div>
+      <div className="axil-blog-area ax-section-gap bg-color-lightest">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <SectionTitle
+                title="Latest stories"
+                subtitle="what's going on"
+                description="Discover insights, trends, and success stories shaping the future of business and technology. Dive into our latest blogs for ideas, inspiration, and expert tips to help you grow smarter and faster."
+                color="extra04-color"
+                alignment="center"
+              />
             </div>
+          </div>
+          <div className="row blog-list-wrapper mt--20">
+            {posts?.map((post, index) => (
+              <div
+                className="col-lg-6 col-md-6 col-12"
+                key={`blog-post-${index}`}
+              >
+                <div
+                  className={`axil-blog axil-control mt--40 ${
+                    activeBlog === index ? "active" : ""
+                  }`}
+                  onMouseEnter={() => changeActive(index)}
+                >
+                  <div className="content">
+                    <div className="content-wrap paralax-image">
+                      <div className="inner">
+                        <span className="category">Lifestyle</span>
+                        <h5 className="title">
+                          <Link legacyBehavior href={`/blog/${post.slug}`}>
+                            <a legacyBehavior className="text-ellipsis">
+                              {post.postdata.title.substring(0, 50)}
+                            </a>
+                          </Link>
+                        </h5>
+                        <p>{post?.postdata?.excerpt?.substring(0, 70)}</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="thumbnail">
+                    <div className="image">
+                      <Image
+                        width={410}
+                        height={452}
+                        src={post.postdata.thumbnail.large}
+                        alt="Blog images"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
+      </div>
     );
 };
 
