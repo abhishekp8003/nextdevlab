@@ -7,24 +7,16 @@ const Document = () => {
     <Html lang="en">
       <Head>
         {/* Favicon */}
-        <link            
-          rel="icon"
-          type="image/x-icon"
-          href={`${
-            process.env.NODE_ENV === "production"
-              ? process.env.NEXT_PUBLIC_BASEPATH ?? ""
-              : ""
-          }/favicon.ico`}
-        />
+        <link rel="icon" type="image/x-icon" href="/favicon.svg" />
 
         {/* Fonts Optimization */}
-        <link             rel="preconnect" href="https://fonts.googleapis.com" />
-        <link            
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
           crossOrigin="true"
         />
-        <link            
+        <link
           href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
           rel="stylesheet"
         />
