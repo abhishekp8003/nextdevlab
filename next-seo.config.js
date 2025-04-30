@@ -15,7 +15,7 @@ const SEO = {
     site_name: "NextDev Labs",
     images: [
       {
-        url: "https://nextdev.co.in/og-image.jpg", // Replace with actual OG image URL
+        url: "https://nextdev.co.in/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "NextDev Labs - Web & SEO Experts",
@@ -24,7 +24,7 @@ const SEO = {
   },
 
   twitter: {
-    handle: "@nextdevlabs", // Replace if needed
+    handle: "@nextdevlabs",
     site: "@nextdevlabs",
     cardType: "summary_large_image",
     title: "NextDev Labs - Web & SEO Experts 🚀",
@@ -81,7 +81,7 @@ const SEO = {
   ],
 
   additionalLinkTags: [
-    { rel: "icon", href: "https://nextdev.co.in/favicon.ico" },
+    { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" },
     {
       rel: "apple-touch-icon",
       href: "https://nextdev.co.in/apple-icon.png",
@@ -129,36 +129,9 @@ const SEO = {
         areaServed: "IN",
         availableLanguage: ["English", "Hindi"],
       },
-      // sameAs: [
-      //   "https://www.facebook.com/nextdevlabs",
-      //   "https://twitter.com/nextdevlabs",
-      //   "https://www.linkedin.com/company/nextdevlabs/",
-      // ],
     },
-    // {
-    //   "@context": "https://schema.org",
-    //   "@type": "LocalBusiness",
-    //   name: "NextDev Labs",
-    //   address: {
-    //     "@type": "PostalAddress",
-    //     streetAddress: "123 Startup Street",
-    //     addressLocality: "New Delhi",
-    //     addressRegion: "DL",
-    //     postalCode: "110001",
-    //     addressCountry: "IN",
-    //   },
-    //   telephone: "+91 97678 26126",
-    //   url: "https://nextdev.co.in",
-    //   image: "https://nextdev.co.in/logo.png",
-    //   // priceRange: "$$",
-
-    // },
   ],
 };
 
 export default SEO;
 
-  ],
-};
-
-export default SEO;
