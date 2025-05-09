@@ -15,7 +15,7 @@ const SEO = {
     site_name: "NextDev Labs",
     images: [
       {
-        url: "https://nextdev.co.in/og-image.jpg", // Replace with actual OG image URL
+        url: "https://firebasestorage.googleapis.com/v0/b/imageuploader-7809e.appspot.com/o/Monogram%20colour.svg?alt=media&token=3446b4a6-29b5-457e-908c-d9371470e622", // Replace with actual OG image URL
         width: 1200,
         height: 630,
         alt: "NextDev Labs - Web & SEO Experts",
@@ -81,10 +81,10 @@ const SEO = {
   ],
 
   additionalLinkTags: [
-    { rel: "icon", href: "https://nextdev.co.in/favicon.ico" },
+    { rel: "icon", href: "https://firebasestorage.googleapis.com/v0/b/imageuploader-7809e.appspot.com/o/Monogram%20colour.svg?alt=media&token=3446b4a6-29b5-457e-908c-d9371470e622" },
     {
       rel: "apple-touch-icon",
-      href: "https://nextdev.co.in/apple-icon.png",
+      href: "https://firebasestorage.googleapis.com/v0/b/imageuploader-7809e.appspot.com/o/Monogram%20colour.svg?alt=media&token=3446b4a6-29b5-457e-908c-d9371470e622",
       sizes: "180x180",
     },
     { rel: "manifest", href: "/site.webmanifest" },
@@ -157,4 +157,5 @@ const SEO = {
 };
 
 export default SEO;
+
 
