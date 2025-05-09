@@ -13,7 +13,7 @@ const TeamOne = () => {
                   <img
                     // width={630}
                     // height={514}
-                    src="/images/team/teamgroup.png"
+                    src="https://firebasestorage.googleapis.com/v0/b/imageuploader-7809e.appspot.com/o/Screenshot%202025-05-09%20122451.png?alt=media&token=4382123e-d1fa-40e8-85c2-07c65fbb3713"
                     alt="Team Images"
                     style={{
                       aspectRatio: "640 / 514",
