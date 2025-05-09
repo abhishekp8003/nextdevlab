@@ -15,7 +15,7 @@ const SEO = {
     site_name: "NextDev Labs",
     images: [
       {
-        url: "https://nextdev.co.in/og-image.jpg",
+        url: "https://nextdev.co.in/og-image.jpg", // Replace with actual OG image URL
         width: 1200,
         height: 630,
         alt: "NextDev Labs - Web & SEO Experts",
@@ -24,7 +24,7 @@ const SEO = {
   },
 
   twitter: {
-    handle: "@nextdevlabs",
+    handle: "@nextdevlabs", // Replace if needed
     site: "@nextdevlabs",
     cardType: "summary_large_image",
     title: "NextDev Labs - Web & SEO Experts 🚀",
@@ -81,7 +81,7 @@ const SEO = {
   ],
 
   additionalLinkTags: [
-    { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" },
+    { rel: "icon", href: "https://nextdev.co.in/favicon.ico" },
     {
       rel: "apple-touch-icon",
       href: "https://nextdev.co.in/apple-icon.png",
@@ -121,7 +121,7 @@ const SEO = {
       "@type": "Organization",
       name: "NextDev Labs",
       url: "https://nextdev.co.in",
-      logo: "https://nextdev.co.in/logo.png",
+      logo: "https://firebasestorage.googleapis.com/v0/b/imageuploader-7809e.appspot.com/o/Monogram%20colour.svg?alt=media&token=3446b4a6-29b5-457e-908c-d9371470e622",
       contactPoint: {
         "@type": "ContactPoint",
         telephone: "+91 97678 26126",
@@ -129,7 +129,30 @@ const SEO = {
         areaServed: "IN",
         availableLanguage: ["English", "Hindi"],
       },
+      // sameAs: [
+      //   "https://www.facebook.com/nextdevlabs",
+      //   "https://twitter.com/nextdevlabs",
+      //   "https://www.linkedin.com/company/nextdevlabs/",
+      // ],
     },
+    // {
+    //   "@context": "https://schema.org",
+    //   "@type": "LocalBusiness",
+    //   name: "NextDev Labs",
+    //   address: {
+    //     "@type": "PostalAddress",
+    //     streetAddress: "123 Startup Street",
+    //     addressLocality: "New Delhi",
+    //     addressRegion: "DL",
+    //     postalCode: "110001",
+    //     addressCountry: "IN",
+    //   },
+    //   telephone: "+91 97678 26126",
+    //   url: "https://nextdev.co.in",
+    //   image: "https://nextdev.co.in/logo.png",
+    //   // priceRange: "$$",
+
+    // },
   ],
 };
 
