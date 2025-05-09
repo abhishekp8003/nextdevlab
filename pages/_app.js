@@ -41,7 +41,7 @@ const structuredData = [
     "@type": "Organization",
     name: "NextDev Labs",
     url: "https://nextdev.co.in",
-    logo: "https://nextdev.co.in/logo.png",
+    logo: "https://firebasestorage.googleapis.com/v0/b/imageuploader-7809e.appspot.com/o/Monogram%20colour.svg?alt=media&token=3446b4a6-29b5-457e-908c-d9371470e622",
     contactPoint: {
       "@type": "ContactPoint",
       telephone: "+91 97678 26126",
@@ -101,4 +101,5 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
+
 
