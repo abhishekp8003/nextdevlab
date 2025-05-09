@@ -41,7 +41,8 @@ const structuredData = [
     "@type": "Organization",
     name: "NextDev Labs",
     url: "https://nextdev.co.in",
-    logo: "https://firebasestorage.googleapis.com/v0/b/imageuploader-7809e.appspot.com/o/Monogram%20colour.svg?alt=media&token=3446b4a6-29b5-457e-908c-d9371470e622",
+    logo:
+      "https://firebasestorage.googleapis.com/v0/b/imageuploader-7809e.appspot.com/o/Monogram%20colour.svg?alt=media&token=3446b4a6-29b5-457e-908c-d9371470e622",
     contactPoint: {
       "@type": "ContactPoint",
       telephone: "+91 97678 26126",
@@ -83,6 +84,37 @@ function MyApp({ Component, pageProps }) {
         }}
       />
 
+      {/* Meta Pixel Code */}
+      <Script
+        id="meta-pixel"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '693205900126260');
+            fbq('track', 'PageView');
+          `,
+        }}
+      />
+
+      {/* Noscript fallback for Meta Pixel */}
+      <noscript>
+        <img
+          height="1"
+          width="1"
+          style={{ display: "none" }}
+          src="https://www.facebook.com/tr?id=693205900126260&ev=PageView&noscript=1"
+          alt=""
+        />
+      </noscript>
+
       {/* Structured Data for SEO */}
       <Script
         id="structured-data"
@@ -101,5 +133,4 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
-
 
