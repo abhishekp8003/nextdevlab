@@ -40,7 +40,7 @@ const Logo = ({ variant = "one", fillTextColor = "#00004B" }) => {
     >
       <div  >
         <Image
-          src="/images/others/Nextdev Lab icon mark.svg"
+          src="https://firebasestorage.googleapis.com/v0/b/imageuploader-7809e.appspot.com/o/Monogram%20colour.svg?alt=media&token=3446b4a6-29b5-457e-908c-d9371470e622"
           width={100}
           height={50}
           alt="NextDev Logo"
