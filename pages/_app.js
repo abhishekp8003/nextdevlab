@@ -64,10 +64,10 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      {/* Google Analytics */}
+      {/* Google Analytics (G-5H9E90P23H) */}
       <Script
         strategy="afterInteractive"
-        src="https://www.googletagmanager.com/gtag/js?id=QR1JTGFsRLWCKRzn7LHLNw"
+        src="https://www.googletagmanager.com/gtag/js?id=G-5H9E90P23H"
       />
       <Script
         id="google-analytics"
@@ -77,7 +77,7 @@ function MyApp({ Component, pageProps }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'QR1JTGFsRLWCKRzn7LHLNw', {
+            gtag('config', 'G-5H9E90P23H', {
               page_path: window.location.pathname,
             });
           `,
@@ -133,4 +133,5 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
+
 
