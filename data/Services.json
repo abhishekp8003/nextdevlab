@@ -758,7 +758,7 @@
           "id": 1,
           "title": "Discover",
           "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "description": "Our marketing journey starts with understanding your business, audience, industry trends, and competitors. We analyze your brand’s current position to define objectives, messaging, and the best platforms to reach your target audience effectively.",
           "highlightColor": "extra04-color",
           "image": "/images/process/process-01.jpg"
         },
@@ -766,7 +766,7 @@
           "id": 2,
           "title": "Prototype",
           "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "description": "We create a campaign strategy and content plan tailored to your goals—whether it's brand awareness, lead generation, or sales. This may include ad creatives, landing pages, social media content, and messaging guides designed to resonate with your audience.",
           "highlightColor": "extra05-color",
           "image": "/images/process/process-02.jpg"
         },
@@ -774,7 +774,7 @@
           "id": 3,
           "title": "Test",
           "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "description": "Before launching full-scale campaigns, we run pilot ads or A/B tests to identify what performs best. We analyze engagement, click-throughs, and conversion data to refine the approach and ensure we invest in what truly works.",
           "highlightColor": "extra06-color",
           "image": "/images/process/process-03.jpg"
         },
@@ -782,7 +782,7 @@
           "id": 4,
           "title": "Build",
           "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
+          "description": "We launch optimized campaigns across selected platforms—Meta, Google, email, or SEO. Regular monitoring, data analysis, and adjustments ensure your marketing continues to perform, scale, and deliver measurable results aligned with your business goals.",
           "highlightColor": "extra07-color",
           "image": "/images/process/process-04.jpg"
         }
