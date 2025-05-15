@@ -67,8 +67,9 @@ function MyApp({ Component, pageProps }) {
       {/* Google Analytics (G-5H9E90P23H) */}
       <Script
         strategy="afterInteractive"
-        src="https://www.googletagmanager.com/gtag/js?id=G-5H9E90P23H"
+        src="https://www.googletagmanager.com/gtag/js?id=G-78K104ZM6S"
       />
+          
       <Script
         id="google-analytics"
         strategy="afterInteractive"
@@ -77,7 +78,7 @@ function MyApp({ Component, pageProps }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-5H9E90P23H', {
+            gtag('config', 'G-78K104ZM6S', {
               page_path: window.location.pathname,
             });
           `,
