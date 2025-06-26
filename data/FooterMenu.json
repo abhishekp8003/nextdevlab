@@ -2,7 +2,8 @@
   "social": [
     {"type":  "facebook", "icon": "fa-facebook-f", "url":  "https://www.facebook.com/profile.php?id=61565608701323&mibextid=ZbWKwL"},
     {"type":  "linkedin", "icon": "fa-linkedin-in", "url":  "https://www.linkedin.com/company/nextdev-labs/"},
-    {"type":  "instagram", "icon": "fa-instagram", "url":  "https://www.instagram.com/nextdevlabs/"}
+    {"type":  "instagram", "icon": "fa-instagram", "url":  "https://www.instagram.com/nextdevlabs/"},
+    {"type":  "twitter", "icon": "fa-twitter", "url":  "https://x.com/abhishekpa5934/"}
   ],
   "services": [
     {"title":  "Website Development", "url":  "/services/design/website-design"},
