@@ -30,6 +30,17 @@ const BannerOne = () => {
                     your vision to life with pixel-perfect websites and scalable
                     apps.
                   </p>
+                  <div className='flex'
+                  
+                  style ={{
+                    gap : "2px",
+                    display :"flex"
+                  }}
+                  >
+                    
+                <div>
+
+               
                   <Link legacyBehavior href="/portfolio">
                     <a
                       legacyBehavior
@@ -42,6 +53,35 @@ const BannerOne = () => {
                       <span className="button-icon" />
                     </a>
                   </Link>
+ </div>
+                  <div 
+                  
+                  style ={{
+                    marginLeft : "20px"
+                  }}
+                  >
+
+                 
+
+                  <Link legacyBehavior href="/portfolio"
+                  
+                  style ={{
+                 
+                  }}
+                  >
+                    <a
+                      legacyBehavior
+                      className="axil-button btn-large btn-transparent"
+                      data-aos="aos-fade-in-up"
+                      data-aos-duration="1000"
+                      data-aos-delay="400"
+                    >
+                      <span className="button-text">Book a meet</span>
+                      <span className="button-icon" />
+                    </a>
+                  </Link>
+                   </div>
+                    </div>
                 </div>
               </div>
               <div className="col-lg-5 col-12 order-1 order-lg-2">
