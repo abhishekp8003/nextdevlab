@@ -52,3 +52,64 @@ const BannerOne = () => {
                                             className="axil-button btn-large btn-transparent"
                                             data-aos="aos-fade-in-up"
                                             data-aos-duration="1000"
+                                            data-aos-delay="400"
+                                        >
+                                            <span className="button-text">Book a meet</span>
+                                            <span className="button-icon" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-5 col-12 order-1 order-lg-2">
+                            <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
+                                <div className="topskew-thumbnail-group text-start text-lg-end">
+                                    <div className="thumbnail paralax-image">
+                                        <div className="light-image">
+                                            <Image
+                                                width={500}
+                                                height={630}
+                                                src="/images/others/abc.jpg"
+                                                alt="Keystoke Images"
+                                            />
+                                        </div>
+                                        <div className="dark-image" style={{ border: "1px solid red" }}>
+                                            <Image
+                                                width={500}
+                                                height={630}
+                                                src="/images/others/keystoke-image-6.png"
+                                                alt="Keystoke Images"
+                                            />
+                                        </div>
+                                    </div>
+                                    <div className="image-group">
+                                        <Image
+                                            width={294}
+                                            height={326}
+                                            className="paralax-image"
+                                            src="/images/others/keystoke-image-4.svg"
+                                            alt="Keystoke Images"
+                                        />
+                                    </div>
+                                    <div className="shape-group">
+                                        <div className="shape shape-1 paralax--1">
+                                            <i className="icon icon-shape-05" />
+                                        </div>
+                                        <div className="shape shape-2 customOne">
+                                            <i className="icon icon-shape-06" />
+                                        </div>
+                                        <div className="shape shape-3 paralax--3">
+                                            <i className="icon icon-shape-04" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </Tilt>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default BannerOne;
