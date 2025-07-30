@@ -149,8 +149,8 @@ const Footer = ({footerSetting = {}}) => {
 
                                 <p>
                                   <span>T.</span>
-                                  <a legacyBehavior href="tel:+919726726126">
-                                    +91-97678 26126
+                                  <a legacyBehavior href="tel:+9190283 48003">
+                                    +91-90283 48003
                                   </a>
                                 </p>
                                 <p>

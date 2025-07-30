@@ -47,8 +47,8 @@ const ContactOne = () => {
                     <SplitText>Phone</SplitText>
                   </h6>
                   <p>
-                    <a legacyBehavior href="tel:+919726726126">
-                      <SplitText>+91-9726726126</SplitText>
+                    <a legacyBehavior href="tel:+9190283 48003">
+                      <SplitText>+91-90283 48003</SplitText>
                     </a>
                   </p>
                 </div>
