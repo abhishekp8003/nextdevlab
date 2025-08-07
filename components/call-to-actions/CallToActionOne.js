@@ -24,7 +24,7 @@ const CallToActionOne = () => {
                                     </span>
                                     <span>
                                       <i className="fal fa-phone-alt"/>
-                                      <a legacyBehavior  href="tel:91-90283 48003">+91-9028348003</a>
+                                      <a legacyBehavior  href="tel:91-9511838696">+91-9511838696 </a>
                                     </span>
                                 </div>
                             </div>
