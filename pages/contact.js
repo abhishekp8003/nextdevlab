@@ -64,8 +64,8 @@ const Contact = () => {
                                                 <p>Our customer care service is open from 10:00 AM to 6:00 PM, all week.
                                                 </p>
                                                 <p>
-                                                    <a legacyBehavior  className="axil-link" href="tel:+91-90283 48003">
-                                                        +91-90283 48003
+                                                    <a legacyBehavior  className="axil-link" href="tel:+91-9511838696 ">
+                                                        +91-9511838696 
                                                     </a>
                                                 </p>
                                             </div>
