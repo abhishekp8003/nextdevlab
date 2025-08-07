@@ -64,10 +64,10 @@ const SideNav = ({toggleSidenav}) => {
                         <a
                           legacyBehavior
                           className="tel"
-                          href="tel:+919767826126"
+                          href="tel:+919511838696 "
                         >
                           <i className="fas fa-phone" />
-                          +91 9767826126
+                          +91 9511838696 
                         </a>
                       </p>
                       <p>
