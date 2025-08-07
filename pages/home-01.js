@@ -32,7 +32,7 @@ const HomeOne = ({posts}) => {
         <main className="page-wrapper">
           <BannerOne />
           <PopupComponent />
-          <ContactButtons phoneNumber={"+919767826126"} />
+          <ContactButtons phoneNumber={"+919511838696 "} />
           <ServiceOne />
           <SliderOne />
           <AboutOne />
