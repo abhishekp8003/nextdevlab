@@ -45,8 +45,8 @@ const BannerFive = () => {
                 <span className="text">Or call us now</span>
                 <span>
                   <i className="fal fa-phone-alt" />{" "}
-                  <a legacyBehavior href="tel:+919767826126">
-                    +91 97678 26126
+                  <a legacyBehavior href="tel:+919511838696">
+                    +919511838696 
                   </a>
                 </span>
               </div>
