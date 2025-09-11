@@ -24,5 +24,18 @@
       { "type": "instagram", "url": "#" }
     ],
     "introduction": "Aman, Sr. Software Engineer at Next Dev, brings a strong technical background and a passion for innovation. His expertise in software development, system architecture, and strategic planning plays a pivotal role in driving the company’s growth. With a vision for cutting-edge solutions, Aman is committed to building scalable and impactful digital products."
+  },
+    {
+    "id": 3,
+    "name": "Somya",
+    "image": "/images/team/soumya.png",
+    "designation": "Designer",
+    "department": ["Management"],
+    "socials": [
+      { "type": "facebook", "url": "#" },
+      { "type": "linkedin", "url": "#" },
+      { "type": "instagram", "url": "#" }
+    ],
+    "introduction": "Aman, Sr. Software Engineer at Next Dev, brings a strong technical background and a passion for innovation. His expertise in software development, system architecture, and strategic planning plays a pivotal role in driving the company’s growth. With a vision for cutting-edge solutions, Aman is committed to building scalable and impactful digital products."
   }
 ]
