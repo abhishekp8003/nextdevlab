@@ -28,15 +28,6 @@
     },
     "amount": 60,
     "title": "Specialist"
-  },
-  {
-    "id": 4,
-    "icon": {
-      "width": "28",
-      "height": "36",
-      "src": "/images/counterup/shape-04.png"
-    },
-    "amount": 10,
-    "title": "Years of operation"
   }
+
 ]
