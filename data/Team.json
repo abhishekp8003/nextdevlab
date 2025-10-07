@@ -12,19 +12,6 @@
     ],
     "introduction": "Abhishek Patil Founder of NextDev Labs, driving innovation and excellence in technology. With 10+ years of experience, including a successful tenure at Cognizant, he brings deep technical expertise and a strategic vision for digital transformation. Passionate about building cutting-edge solutions, Abhishek leads with a forward-thinking approach, empowering businesses to scale and succeed in the digital era"
   },
-  {
-    "id": 2,
-    "name": "Aman Panchal",
-    "image": "/images/team/image.png",
-    "designation": "Sr. Software Engineer",
-    "department": ["Management"],
-    "socials": [
-      { "type": "facebook", "url": "#" },
-      { "type": "linkedin", "url": "#" },
-      { "type": "instagram", "url": "#" }
-    ],
-    "introduction": "Aman, Sr. Software Engineer at Next Dev, brings a strong technical background and a passion for innovation. His expertise in software development, system architecture, and strategic planning plays a pivotal role in driving the company’s growth. With a vision for cutting-edge solutions, Aman is committed to building scalable and impactful digital products."
-  },
     {
     "id": 3,
     "name": "Somya",
