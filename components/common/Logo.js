@@ -34,7 +34,7 @@ const Logo = ({ variant = "one", fillTextColor = "#00004B" }) => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: '60px',
+        height: '61px',
         position: 'relative'
         
       }}
