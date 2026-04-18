@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import logo from "../../public/nextlab.svg"
 
 const Logo = ({ variant = "one", fillTextColor = "#00004B" }) => {
   const [mobileScreen, setMobileScreen] = useState(false);
@@ -40,7 +41,7 @@ const Logo = ({ variant = "one", fillTextColor = "#00004B" }) => {
     >
       <div  >
         <Image
-          src="https://firebasestorage.googleapis.com/v0/b/imageuploader-7809e.appspot.com/o/Monogram%20colour.svg?alt=media&token=3446b4a6-29b5-457e-908c-d9371470e622"
+          src={logo}
           width={100}
           height={50}
           alt="NextDev Logo"
